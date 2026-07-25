@@ -1,1 +1,8 @@
 Entries:
+- author: paleEferit
+  changes:
+  - message: CI/CD permission limit + map publishing [purple]
+    type: Tweak
+  id: 8906
+  time: '2026-07-25T19:00:00.0000000+00:00'
+  url: https://github.com/paleEferit/mental-frontier-14/pull/1
