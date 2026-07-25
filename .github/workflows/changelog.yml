@@ -6,7 +6,7 @@ on:
 
 env:
   GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
-  CHANGELOG_DIR: Resources/Changelog/Frontier.yml # Frontier: Changelog.yml<Frontier.yml
+  CHANGELOG_DIR: Resources/Changelog/MentalFrontier.yml # MentalFrontier: Changelog.yml<Frontier.yml
   PR_NUMBER: ${{ github.event.number }}
 
 jobs:
@@ -15,6 +15,7 @@ jobs:
     if: github.event.pull_request.merged == true
     permissions:
       contents: write
+    timeout-minutes: 15
     steps:
       - name: Checkout Master
         uses: actions/checkout@v3
@@ -36,7 +37,7 @@ jobs:
       - name: Install Dependencies
         run: |
           cd "Tools/_NF/changelog"
-          npm install --frozen-lockfile
+          npm ci
         shell: bash
 
       - name: Generate Changelog
