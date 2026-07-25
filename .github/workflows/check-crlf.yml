@@ -9,6 +9,9 @@ jobs:
     name: CRLF Check
     if: github.event.pull_request.draft == false
     runs-on: ubuntu-latest
+
+    timeout-minutes: 5
+
     steps:
     - uses: actions/checkout@v4.2.2
     - name: Check for CRLF

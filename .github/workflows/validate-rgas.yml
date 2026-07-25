@@ -11,6 +11,7 @@ jobs:
     name: YAML RGA schema validator
     if: github.actor != 'PJBot' && github.event.pull_request.draft == false && github.actor != 'FrontierATC' # Frontier
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
     - uses: actions/checkout@v4.2.2
     - name: Setup Submodule

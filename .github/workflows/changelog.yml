@@ -15,6 +15,7 @@ jobs:
     if: github.event.pull_request.merged == true
     permissions:
       contents: write
+    timeout-minutes: 15
     steps:
       - name: Checkout Master
         uses: actions/checkout@v3
