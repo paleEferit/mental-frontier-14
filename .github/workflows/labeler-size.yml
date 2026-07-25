@@ -1,5 +1,10 @@
 name: "Labels: Size"
 on: pull_request_target
+
+permissions:
+  pull-requests: write
+  contents: read
+
 jobs:
   size-label:
     permissions: 
