@@ -10,7 +10,7 @@ on:
 jobs:
   build:
     name: YAML Linter
-    if: github.actor != 'PJBot' && github.event.pull_request.draft == false && github.actor != 'FrontierATC' # Frontier
+    if: github.actor != 'PJBot' && github.event.pull_request.draft == false && github.actor != vars.CHANGELOG_USER # MentalFrontier
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:

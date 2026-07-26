@@ -10,7 +10,7 @@ on:
 
 jobs:
   build:
-    if: github.event.pull_request.draft == false && github.actor != 'FrontierATC'
+    if: github.event.pull_request.draft == false && github.actor != vars.CHANGELOG_USER
     strategy:
       matrix:
         os: [ubuntu-latest]

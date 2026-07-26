@@ -17,6 +17,7 @@ $ignore = @{
     "UristMcContributor" = $true # this was an account used to demonstrate how to create a valid PR, and is in actuality Willhelm53, who is already credited.
     "FrontierATC" = $true # Frontier
     "whatstone" = $true # Frontier: duped
+    "mental-changelogger" = $true # MentalFrontier
 }
 
 $add = @("RamZ")
