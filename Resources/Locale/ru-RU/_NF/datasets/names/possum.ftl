@@ -1,0 +1,11 @@
+names-possum-dataset-1 = Самородок
+names-possum-dataset-2 = Оладушек
+names-possum-dataset-3 = Банжо
+names-possum-dataset-4 = Лепесток
+names-possum-dataset-5 = Цветок
+names-possum-dataset-6 = Уголёк
+names-possum-dataset-7 = Кусака
+names-possum-dataset-8 = Стабастьян
+names-possum-dataset-9 = Нибблс
+names-possum-dataset-10 = Привереда
+names-possum-dataset-11 = Фран

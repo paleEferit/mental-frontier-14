@@ -1,0 +1,12 @@
+mail-metrics-program-name = Почтостат
+mail-metrics-header = Прибыль от доставки почты
+mail-metrics-opened = Доходы (открыто)
+mail-metrics-expired = Расходы (срок доставки)
+mail-metrics-damaged = Расходы (повреждение)
+mail-metrics-tampered = Расходы (перехват)
+mail-metrics-unopened = Не открыто
+mail-metrics-count-header = Посылки
+mail-metrics-money-header = Космокредиты
+mail-metrics-total = Всего
+mail-metrics-progress = {$opened} из {$total} почтовых отправлений открыто!
+mail-metrics-progress-percent = Успешность: {$successRate}%

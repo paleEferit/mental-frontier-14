@@ -1,0 +1,8 @@
+borg-id-chip-owner-name-job-title-text = чип доступа ({$jobSuffix})
+borg-id-chip-owner-full-name-job-title-text = чип доступа "{$fullName}" ({$jobSuffix})
+syndicate-borg-id-chip-owner-name-job-title-text = зловещий чип доступа ({$jobSuffix})
+syndicate-borg-id-chip-owner-full-name-job-title-text = зловещий чип доступа "{$fullName}" ({$jobSuffix})
+pirate-borg-id-chip-owner-name-job-title-text = поддельный чип доступа ({$jobSuffix})
+pirate-borg-id-chip-owner-full-name-job-title-text = поддельный чип доступа "{$fullName}" ({$jobSuffix})
+xenoborg-id-chip-owner-name-job-title-text = смнаптический чип доступа ({$jobSuffix})
+xenoborg-id-chip-owner-full-name-job-title-text = интеграционный чип доступа "{$fullName}" ({$jobSuffix})
