@@ -11,3 +11,17 @@
     - !type:NoWindowsInTile
   objectType: Structure
   placementMode: SnapgridCenter
+
+- type: construction
+  id: PlasmaWindowUpperHalfTilt
+  name: construction-recipe-plasma-window-upper-half-tilt
+  graph: WindowUpperHalfTilt
+  startNode: start
+  targetNode: plasmaWindowUpperHalfTilt
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter

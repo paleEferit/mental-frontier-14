@@ -1,17 +1,17 @@
 - type: constructionGraph
-  id: WindowLowerHalfTilt
+  id: WindowUpperHalfTilt
   start: start
   graph:
     - node: start
       edges:
-        - to: plasmaWindowLowerHalfTilt
+        - to: plasmaWindowUpperHalfTilt
           steps:
             - material: PlasmaGlass
               amount: 2
               doAfter: 2
 
-    - node: plasmaWindowLowerHalfTilt
-      entity: PlasmaWindowLowerHalfTilt
+    - node: plasmaWindowUpperHalfTilt
+      entity: PlasmaWindowUpperHalfTilt
       edges:
         - to: start
           completed:
