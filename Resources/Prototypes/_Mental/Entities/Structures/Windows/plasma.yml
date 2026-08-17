@@ -1,7 +1,7 @@
 - type: entity
   parent: PlasmaWindow
-  id: PlasmaWindowLowerHalfTilt
-  suffix: diagonal
+  id: PlasmaWindowLowerHalfTiltLeft
+  suffix: tilted
   placement:
     mode: SnapgridCenter
     snap:
@@ -9,7 +9,7 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _Mental/Structures/Windows/plasma_lower_half_tilt.rsi # Mental
+    sprite: _Mental/Structures/Windows/plasma_lower_half_tilt_left.rsi # Mental
     state: state0
   - type: Tag
     tags:
@@ -20,7 +20,7 @@
     key: walls # Frontier: windows<walls
     base: state
   - type: Icon
-    sprite: _Mental/Structures/Windows/plasma_lower_half_tilt.rsi # Mental
+    sprite: _Mental/Structures/Windows/plasma_lower_half_tilt_left.rsi # Mental
     state: state0
   - type: Fixtures
     fixtures:
@@ -43,15 +43,15 @@
     - East
   - type: DamageVisuals
     damageOverlay:
-      sprite: _Mental/Structures/Windows/cracks_lower_half_tilt.rsi
+      sprite: _Mental/Structures/Windows/cracks_lower_half_tilt_left.rsi
   - type: Construction
-    graph: WindowLowerHalfTilt
-    node: plasmaWindowLowerHalfTilt
+    graph: WindowLowerHalfTiltLeft
+    node: plasmaWindowLowerHalfTiltLeft
 
 - type: entity
   parent: PlasmaWindow
-  id: PlasmaWindowUpperHalfTilt
-  suffix: diagonal
+  id: PlasmaWindowUpperHalfTiltLeft
+  suffix: tilted
   placement:
     mode: SnapgridCenter
     snap:
@@ -59,7 +59,7 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _Mental/Structures/Windows/plasma_upper_half_tilt.rsi # Mental
+    sprite: _Mental/Structures/Windows/plasma_upper_half_tilt_left.rsi # Mental
     state: state0
   - type: Tag
     tags:
@@ -70,7 +70,7 @@
     key: walls # Frontier: windows<walls
     base: state
   - type: Icon
-    sprite: _Mental/Structures/Windows/plasma_upper_half_tilt.rsi # Mental
+    sprite: _Mental/Structures/Windows/plasma_upper_half_tilt_left.rsi # Mental
     state: state0
   - type: Fixtures
     fixtures:
@@ -91,7 +91,7 @@
     - East
   - type: DamageVisuals
     damageOverlay:
-      sprite: _Mental/Structures/Windows/cracks_upper_half_tilt.rsi
+      sprite: _Mental/Structures/Windows/cracks_upper_half_tilt_left.rsi
   - type: Construction
-    graph: WindowUpperHalfTilt
-    node: plasmaWindowUpperHalfTilt
+    graph: WindowUpperHalfTiltLeft
+    node: plasmaWindowUpperHalfTiltLeft

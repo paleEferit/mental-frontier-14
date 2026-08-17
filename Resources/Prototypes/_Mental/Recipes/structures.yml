@@ -1,9 +1,9 @@
 - type: construction
-  id: PlasmaWindowLowerHalfTilt
-  name: construction-recipe-plasma-window-lower-half-tilt
-  graph: WindowLowerHalfTilt
+  id: PlasmaWindowLowerHalfTiltLeft
+  name: construction-recipe-plasma-window-lower-half-tilt-left
+  graph: WindowLowerHalfTiltLeft
   startNode: start
-  targetNode: plasmaWindowLowerHalfTilt
+  targetNode: plasmaWindowLowerHalfTiltLeft
   category: construction-category-structures
   canBuildInImpassable: true
   conditions:
@@ -13,11 +13,11 @@
   placementMode: SnapgridCenter
 
 - type: construction
-  id: PlasmaWindowUpperHalfTilt
-  name: construction-recipe-plasma-window-upper-half-tilt
-  graph: WindowUpperHalfTilt
+  id: PlasmaWindowUpperHalfTiltLeft
+  name: construction-recipe-plasma-window-upper-half-tilt-left
+  graph: WindowUpperHalfTiltLeft
   startNode: start
-  targetNode: plasmaWindowUpperHalfTilt
+  targetNode: plasmaWindowUpperHalfTiltLeft
   category: construction-category-structures
   canBuildInImpassable: true
   conditions:

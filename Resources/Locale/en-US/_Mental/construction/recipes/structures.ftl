@@ -1,2 +1,2 @@
-construction-recipe-plasma-window-lower-half-tilt = plasma window (lower half-tilt)
-construction-recipe-plasma-window-upper-half-tilt = plasma window (upper half-tilt)
+construction-recipe-plasma-window-lower-half-tilt-left = plasma window (lower half-tilt-left)
+construction-recipe-plasma-window-upper-half-tilt-left = plasma window (upper half-tilt-left)
