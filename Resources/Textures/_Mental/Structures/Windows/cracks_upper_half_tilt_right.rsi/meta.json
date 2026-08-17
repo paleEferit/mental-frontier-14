@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "size": {
+    "x": 32,
+    "y": 32
+  },
+  "license": "CC-BY-SA-3.0",
+  "copyright": "Made by paleEferit (github)",
+  "states": [
+    {"name": "DamageOverlay_5", "directions": 1},
+    {"name": "DamageOverlay_10", "directions": 1},
+    {"name": "DamageOverlay_20", "directions": 1}
+  ]
+}

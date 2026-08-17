@@ -25,3 +25,31 @@
     - !type:NoWindowsInTile
   objectType: Structure
   placementMode: SnapgridCenter
+
+- type: construction
+  id: PlasmaWindowLowerHalfTiltRight
+  name: construction-recipe-plasma-window-lower-half-tilt-right
+  graph: WindowLowerHalfTiltRight
+  startNode: start
+  targetNode: plasmaWindowLowerHalfTiltRight
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: PlasmaWindowUpperHalfTiltRight
+  name: construction-recipe-plasma-window-upper-half-tilt-right
+  graph: WindowUpperHalfTiltRight
+  startNode: start
+  targetNode: plasmaWindowUpperHalfTiltRight
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
