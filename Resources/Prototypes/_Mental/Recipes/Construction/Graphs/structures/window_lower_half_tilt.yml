@@ -1,0 +1,30 @@
+- type: constructionGraph
+  id: WindowLowerHalfTilt
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: plasmaWindowLowerHalfTilt
+          steps:
+            - material: PlasmaGlass
+              amount: 2
+              doAfter: 2
+
+    - node: plasmaWindowLowerHalfTilt
+      entity: PlasmaWindowLowerHalfTilt
+      edges:
+        - to: start
+          completed:
+            - !type:GivePrototype
+              prototype: SheetPGlass1
+              amount: 2
+            - !type:DeleteEntity {}
+          steps:
+            - tool: Screwing
+              doAfter: 2
+            - tool: Prying
+              doAfter: 3
+            - tool: Screwing
+              doAfter: 2
+            - tool: Anchoring
+              doAfter: 3

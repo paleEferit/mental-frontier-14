@@ -1,0 +1,13 @@
+- type: construction
+  id: PlasmaWindowLowerHalfTilt
+  name: construction-recipe-plasma-window-lower-half-tilt
+  graph: WindowLowerHalfTilt
+  startNode: start
+  targetNode: plasmaWindowLowerHalfTilt
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter

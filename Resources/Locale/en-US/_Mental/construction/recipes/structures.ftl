@@ -1,0 +1,1 @@
+construction-recipe-plasma-window-lower-half-tilt = plasma window (lower half-tilt)
