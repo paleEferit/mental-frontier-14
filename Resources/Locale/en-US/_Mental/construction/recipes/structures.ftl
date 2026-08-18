@@ -3,3 +3,4 @@ construction-recipe-plasma-window-upper-half-tilt-left = plasma window (upper ha
 construction-recipe-plasma-window-lower-half-tilt-right = plasma window (lower half-tilt-right)
 construction-recipe-plasma-window-upper-half-tilt-right = plasma window (upper half-tilt-right)
 construction-recipe-plasma-window-wedge = plasma window (wedge)
+construction-recipe-plasma-window-half = plasma window (half)

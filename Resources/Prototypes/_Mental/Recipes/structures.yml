@@ -67,3 +67,17 @@
     - !type:NoWindowsInTile
   objectType: Structure
   placementMode: SnapgridCenter
+
+- type: construction
+  id: PlasmaWindowHalf
+  name: construction-recipe-plasma-window-half
+  graph: WindowHalf
+  startNode: start
+  targetNode: plasmaWindowHalf
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
