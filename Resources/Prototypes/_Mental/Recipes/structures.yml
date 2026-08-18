@@ -53,3 +53,17 @@
     - !type:NoWindowsInTile
   objectType: Structure
   placementMode: SnapgridCenter
+
+- type: construction
+  id: PlasmaWindowWedge
+  name: construction-recipe-plasma-window-wedge
+  graph: WindowWedge
+  startNode: start
+  targetNode: plasmaWindowWedge
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter

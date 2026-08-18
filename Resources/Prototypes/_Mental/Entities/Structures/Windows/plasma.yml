@@ -193,3 +193,51 @@
   - type: Construction
     graph: WindowUpperHalfTiltRight
     node: plasmaWindowUpperHalfTiltRight
+
+- type: entity
+  parent: PlasmaWindow
+  id: PlasmaWindowWedge
+  suffix: wedge
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/plasma_wedge.rsi # Mental
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls # Frontier: windows<walls
+    base: state
+  - type: Icon
+    sprite: _Mental/Structures/Windows/plasma_wedge.rsi # Mental
+    state: state0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "0.5,-0.5"
+            - "-0.5,-0.5"
+            - "0,0"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+  - type: DamageVisuals
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_wedge.rsi
+  - type: Construction
+    graph: WindowWedge
+    node: plasmaWindowWedge
