@@ -1,0 +1,225 @@
+# this file is subject to getting its shit moved to other files at a later date#
+
+# arachnids
+marking-SpiderMirror = Отражение
+marking-SpiderMirror-spidermirror = Отражение
+marking-SpiderGlowEyes = Светящиеся Глаза
+marking-SpiderGlowEyes-spidergloweyes = Светящиеся Глаза
+marking-SpiderEyesMulti = Разноцветные Глаза
+marking-SpiderEyesMulti-spidereyesmulti1 = Верх
+marking-SpiderEyesMulti-spidereyesmulti2 = Верх Середины
+marking-SpiderEyesMulti-spidereyesmulti3 = Низ Середины
+marking-SpiderEyesMulti-spidereyesmulti4 = Низ
+
+# diona
+marking-DionaLivingNymph = Живые Нимфы
+marking-DionaLivingNymph-dionalivingnymph = Живые Нимфы
+marking-DionaMossChest = Покрытие из Мха
+marking-DionaMossChest-dionamosschest = Покрытие из Мха
+marking-DionaMoonBloom = Цветок Дионы (Лунное Цветение)
+marking-DionaMoonBloom-dionamoonbloom = Лунное Цветение
+marking-DionaBigFirefly = Большие Светлячки
+marking-DionaBigFirefly-dionabigfirefly = Большие Светлячки
+marking-DionaFirefly = Светлячки
+marking-DionaFirefly-dionafirefly = Светлячки
+marking-DionaPollenDust = Облако Пыльцы
+marking-DionaPollenDust-dionapollendust = Облако Пыльцы
+
+# dwarves
+marking-DwarfBearCheeks = Блестящие Щёки
+marking-DwarfBearCheeks-dwarfbearcheeks = Блестящие Щёки
+marking-DwarfHeadGlow = Горящая Звезда
+marking-DwarfHeadGlow-dwarfheadglow = Горящая Звезда
+marking-DwarfConstellationHead = Созвездие на Голове
+marking-DwarfConstellationHead-dwarfconstellationhead = Созвездие на Голове
+marking-DwarfConstellationChest = Созвездие на Груди
+marking-DwarfConstellationChest-dwarfconstellationchest = Созвездие на Груди
+marking-DwarfConstellationLArm = Созвездие на Руке (Левой)
+marking-DwarfConstellationLArm-dwarfconstellationlarm = Созвездие на Руке (Левой)
+marking-DwarfConstellationRArm = Созвездие на Руке (Правой)
+marking-DwarfConstellationRArm-dwarfconstellationrarm = Созвездие на Руке (Правой)
+marking-DwarfConstellationLHand = Созведние на Кисти (Левой)
+marking-DwarfConstellationLHand-dwarfconstellationlhand = Созведние на Кисти (Левой)
+marking-DwarfConstellationRHand = Созведние на Кисти (Правой)
+marking-DwarfConstellationRHand-dwarfconstellationrhand = Созведние на Кисти (Правой)
+marking-DwarfConstellationLLeg = Созвездие на Ноге (Левой)
+marking-DwarfConstellationLLeg-dwarfconstellationlleg = Созвездие на Ноге (Левой)
+marking-DwarfConstellationRLeg = Созвездие на Ноге (Правой)
+marking-DwarfConstellationRLeg-dwarfconstellationrleg = Созвездие на Ноге (Правой)
+marking-DwarfConstellationLFoot = Созведние на Ступне (Левой)
+marking-DwarfConstellationLFoot-dwarfconstellationlfoot = Созведние на Ступне (Левой)
+marking-DwarfConstellationRFoot = Созведние на Ступне (Правой)
+marking-DwarfConstellationRFoot-dwarfconstellationrfoot = Созведние на Ступне (Правой)
+marking-DwarfChestHair = Волосы на Груди
+marking-DwarfChestHair-dwarfchesthair = Волосы на Груди
+marking-DwarfArmHair = Волосы на Руках
+marking-DwarfArmHair-dwarfarmhair = Волосы на Руках
+marking-DwarfLegHair = Волосы на Ногах
+marking-DwarfLegHair-dwarfleghair = Волосы на Ногах
+marking-DwarfTattooShootingStar = Татуировка Падающей Звезды
+marking-DwarfTattooShootingStar-dwarftattooshootingstar = Татуировка Падающей Звезды
+marking-DwarfMarkBear = Метка Медведя
+marking-DwarfMarkBear-dwarfmarkbear = Метка Медведя
+marking-DwarfMarkKangarooLHand = Метка Кенгуру (Левая)
+marking-DwarfMarkKangarooLHand-dwarfmarkkangaroolhand = Метка Кенгуру (Левая)
+marking-DwarfMarkKangarooRHand = Метка Кенгуру (Правая)
+marking-DwarfMarkKangarooRHand-dwarfmarkkangaroo = Метка Кенгуру (Правая)
+marking-DwarfMarkCobra = Метка Кобры
+marking-DwarfMarkCobra-dwarfmarkcobra = Метка Кобры
+marking-DwarfMarkSpider = Метка Паука
+marking-DwarfMarkSpider-dwafmarkspider = Метка Паука
+
+# humans
+marking-VitiligoHeadL = Пигментное Пятно (Левый Глаз)
+marking-VitiligoHeadR = Пигментное Пятно (Правый Глаз)
+marking-VitiligoHeadJaw = Пигментное Пятно (Челюсть)
+marking-VitiligoHandR = Пигментное Пятно (Правая Кисть)
+marking-VitiligoArmR = Пигментное Пятно (Правая Рука)
+marking-VitiligoLegR = Пигментное Пятно (Правая Нога)
+marking-VitiligoHandL = Пигментное Пятно (Левая Кисть)
+marking-VitiligoArmL = Пигментное Пятно (Левая Рука)
+marking-VitiligoLegL = Пигментное Пятно (Левая Нога)
+marking-VitiligoChestF = Пигментное Пятно (Грудь)
+marking-VitiligoChestSpots = Пигментные Пятна
+
+# moths
+marking-MothTrueButterfly = Крылья (Радужные)
+marking-MothTrueButterfly-mothtruebutterfly1 = Полосы
+marking-MothTrueButterfly-mothtruebutterfly2 = Точки
+marking-MothTrueButterfly-mothtruebutterfly3 = Крылья
+marking-MothGlowAntenna = Антенны (Светящиеся)
+marking-MothGlowAntenna-mothglowantenna = Антенны (Светящиеся)
+marking-MothFireflyOverlay = Фильтр Светлячка
+marking-MothFireflyOverlay-mothfirefly1 = Фильтр Светлячка
+marking-MothFirefly = Крылья (Светлячок)
+marking-MothFirefly-mothfirefly2 = Крылья Светлячка
+marking-MothBee = Крылья (Шмель)
+# Frontier: stripes < Stripes
+marking-MothBee-bee1 = Внешние Полосы
+marking-MothBee-bee2 = Крылья
+# Frontier: stripe < Stripe
+marking-MothBee-bee3 = Внутрення Полоса
+marking-MothBeetleTail = Жучиные Крылья (Майский жук)
+marking-MothBeetleTail-beetle1 = Контур
+marking-MothBeetleTail-beetle2 = Крылья
+marking-MothBeetleTail-beetle3 = Блеск
+marking-MothBeetleHorn1 = Жучиный Рог (С Шипами)
+marking-MothBeetleHorn1-mothbeetlehorn1 = Жучиный Рог (С Шипами)
+marking-MothBeetleHorn2 = Жучиный Рог (Гладкий)
+marking-MothBeetleHorn2-mothbeetlehorn2 = Жучиный Рог (Гладкий)
+marking-MothBiggerEyes = Большие Глаза
+marking-MothBiggerEyes-mothbiggereyes = Большие Глаза
+marking-MothSnoth = Крылья (Снот)
+marking-MothSnoth-snoth1 = Крылья
+marking-MothSnoth-snoth2 = Панцирь
+marking-MothGlasswing = Крылья (Прозрачные)
+marking-MothGlasswing-glasswing1 = Внешняя Сторона
+marking-MothGlasswing-glasswing2 = Внутренняя Сторона
+marking-MothGlasswing-glasswing3 = Полосы
+marking-MothRhinoBeetle = Жучиные Крылья (Носорог)
+marking-MothRhinoBeetle-rhinobeetle1 = Контур
+marking-MothRhinoBeetle-rhinobeetle2 = Блеск
+marking-MothRhinoBeetle-rhinobeetle3 = Крылья
+
+# slimes
+marking-fizz = Искры
+marking-fizz-fizz = Искры
+marking-bubble = Пузыри
+marking-bubble-bubble = Пузыри
+marking-fishbowl = Аквариум
+marking-fishbowl-fishbowl1 = Рыба
+# Frontier: bubbles < Bubbles
+marking-fishbowl-fishbowl2 = Пузыри у Рыб
+marking-FadingStars = Звёздный Свет
+marking-FadingStars-fadingstars1 = Яркий
+marking-FadingStars-fadingstars2 = Средний
+marking-FadingStars-fadingstars3 = Тусклый
+
+# vox
+marking-VoxCocktail = Петушиный Хвост
+marking-VoxCocktail-voxcocktail1 = Перья
+marking-VoxCocktail-voxcocktail2 = Перья
+marking-VoxCocktail-voxcocktail3 = Перья
+marking-VoxCocktail-voxcocktail4 = Хвост
+marking-VoxTailStripes = Полосы Хвоста
+marking-VoxTailStripes-voxtailstripes = Полосы Хвоста
+marking-VoxLArmProsthetic = Протез (Левый)
+marking-VoxLArmProsthetic-voxarmprostheticl = Протез (Левый)
+marking-VoxRArmProsthetic = Протез (Правый)
+marking-VoxRArmProsthetic-voxarmprostheticr = Протез (Правый)
+marking-VoxBeakColor = Разноцветный Клюв
+marking-VoxBeakColor-voxbeakcolor = Разноцветный Клюв
+marking-VoxBeakSplit = Двухцветный Клюв
+marking-VoxBeakSplit-voxbeaksplit1 = Верх
+marking-VoxBeakSplit-voxbeaksplit2 = Низ
+marking-VoxBeakTipped = Конец Клюва
+marking-VoxBeakTipped-voxbeaktipped = Конец Клюва
+marking-VoxChestPlumage = Грудное Оперение
+marking-VoxChestPlumage-voxchestplumage = Грудное Оперение
+marking-VoxFootSpines = Сегменты Ног
+marking-VoxFootSpines-voxfootspines = Сегменты Ног
+marking-VoxFootGradientLFoot = Цельный (Левая Ступня)
+marking-VoxFootGradientLFoot-voxfootgradientl1 = Цельный (Левая Ступня)
+marking-VoxFootGradientRFoot = Цельный (Правая Ступня)
+marking-VoxFootGradientRFoot-voxfootgradientr1 = Цельный (Правая Ступня)
+marking-VoxLegGradientLLeg = Цельный (Левая Нога)
+marking-VoxLegGradientLLeg-voxfootgradientl2 = Цельный (Левая Нога)
+marking-VoxLegGradientRLeg = Цельный (Правая Нога)
+marking-VoxLegGradientRLeg-voxfootgradientr2 = Цельный (Правая Нога)
+marking-VoxHandGradientRHand = Градиент (Правая Кисть)
+marking-VoxHandGradientRHand-voxhandgradientr1 = Низ
+marking-VoxHandGradientRHand-voxhandgradientr2 = Середина
+marking-VoxHandGradientRHand-voxhandgradientr3 = Верх
+marking-VoxHandGradientLHand = Градиент (Левая Кисть)
+marking-VoxHandGradientLHand-voxhandgradientl1 = Низ
+marking-VoxHandGradientLHand-voxhandgradientl2 = Середина
+marking-VoxHandGradientLHand-voxhandgradientl3 = Верх
+marking-VoxHeadGradient = Градиент
+marking-VoxHeadGradient-voxheadgradient1 = Лицо
+marking-VoxHeadGradient-voxheadgradient2 = Середина
+marking-VoxHeadGradient-voxheadgradient3 = Затылок
+marking-VoxTailBell = Колокол
+marking-VoxTailBell-voxtailbell1 = Колокол
+marking-VoxTailBell-voxtailbell2 = Задняя Часть Хвоста
+marking-VoxTailBack = Задняя Часть Хвоста
+marking-VoxBackTail-voxtailcolorable = Задняя Часть Хвоста
+marking-VoxTailLantern = Лампа
+marking-VoxTailLantern-voxtaillantern = Лампа
+marking-VoxTailSingleStripe = Одна Хвостовая Полоса
+marking-VoxTailSingleStripe-voxtailsinglestripe = Одна Хвостовая Полоса
+marking-VoxTailSmallPlume = Маленькое Перо
+marking-VoxTailSmallPlume-voxtailsmallplume = Маленькое Перо
+marking-VoxTailSpines = Позвонки Хвоста
+marking-VoxTailSpines-voxtailspines = Позвонки Хвоста
+marking-VoxArmsStripesLHand = Полосы (Левая Рука)
+marking-VoxArmsStripesLHand-voxarmsstripesl = Полосы (Левая Рука)
+marking-VoxArmsStripesRHand = Полосы (Правая Рука)
+marking-VoxArmsStripesRHand-voxarmsstripesr = Полосы (Правая Рука)
+marking-VoxLegsStripesLLeg = Полосы (Левые)
+marking-VoxLegsStripesLLeg-voxlegsstripesl = Полосы (Левые)
+marking-VoxLegsStripesRLeg = Полосы (Правые)
+marking-VoxLegsStripesRLeg-voxlegsstripesr = Полосы (Правые)
+marking-VoxChains = Цепи
+marking-VoxChains-voxchains = Цепи
+marking-VoxSunAndMoon = Солнце и Луна
+marking-VoxSunAndMoon-voxsunandmoon = Солнце и Луна
+marking-VoxCheeks = Щёки
+marking-VoxCheeks-voxcheeks = Щёки
+marking-VoxBelly = Живот
+marking-VoxBelly-voxbelly = Живот
+marking-VoxTailBalled = Дрозд
+marking-VoxTailBalled-voxtailballed = Дрозд
+marking-VoxTailSplit = Раздвоенный
+marking-VoxTailSplit-voxtailsplit = Раздвоенный
+
+# upstream vox markings dont have localized names. lmfao
+# these are just straight up broken and shouldnt be visible from the markings menu period but ALAS im not skilled enough to remove them so you get this stupid botch job instead
+marking-VoxBeak = Default Beak [DO NOT USE]
+marking-VoxLArmScales = Default Arm [DO NOT USE]
+marking-VoxLHandScales = Default Left Hand [DO NOT USE]
+marking-VoxRArmScales = Default Right Arm [DO NOT USE]
+marking-VoxRHandScales = Default Right Hand [DO NOT USE]
+marking-VoxLFootScales = Default Left Foot [DO NOT USE]
+marking-VoxLLegScales = Default Left Leg [DO NOT USE]
+marking-VoxRFootScales = Default Right Foot [DO NOT USE]
+marking-VoxRLegScales = Default Right Leg [DO NOT USE]

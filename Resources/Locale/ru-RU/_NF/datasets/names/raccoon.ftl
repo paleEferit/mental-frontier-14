@@ -1,0 +1,10 @@
+names-raccoon-dataset-1 = Бандит
+names-raccoon-dataset-2 = Мятежник
+names-raccoon-dataset-3 = Зорро
+names-raccoon-dataset-4 = Дымок
+names-raccoon-dataset-5 = Проныра
+names-raccoon-dataset-6 = Воришка
+names-raccoon-dataset-7 = Дампти
+names-raccoon-dataset-8 = Хулиган
+names-raccoon-dataset-9 = Проблема
+names-raccoon-dataset-10 = Кэрри

@@ -1,0 +1,11 @@
+names-hamster-dataset-1 = Хамела
+names-hamster-dataset-2 = Лежебока
+names-hamster-dataset-3 = Осколок
+names-hamster-dataset-4 = Батон
+names-hamster-dataset-5 = Сошка
+names-hamster-dataset-6 = Моти
+names-hamster-dataset-7 = Гам Ак
+names-hamster-dataset-8 = Хам Соло
+names-hamster-dataset-9 = Пирожок
+names-hamster-dataset-10 = Пушинатор
+names-hamster-dataset-11 = Сойер
