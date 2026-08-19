@@ -137,3 +137,17 @@
     - !type:NoWindowsInTile
   objectType: Structure
   placementMode: SnapgridCenter
+
+- type: construction
+  id: WindowWedge
+  name: construction-recipe-window-wedge
+  graph: WindowWedge
+  startNode: start
+  targetNode: windowWedge
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter

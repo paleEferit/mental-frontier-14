@@ -191,3 +191,51 @@
   - type: Construction
     graph: WindowUpperHalfTiltRight
     node: windowUpperHalfTiltRight
+
+- type: entity
+  parent: Window
+  id: WindowWedge
+  suffix: wedge
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/window_wedge.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: IconSmooth
+    mode: Diagonal
+    base: state
+  - type: Icon
+    sprite: _Mental/Structures/Windows/window_wedge.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "0.5,-0.5"
+            - "-0.5,-0.5"
+            - "0,0"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+    - East
+  - type: DamageVisuals
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_wedge.rsi
+  - type: Construction
+    graph: WindowWedge
+    node: windowWedge
