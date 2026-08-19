@@ -9,7 +9,7 @@
   id: PlatingCornerNE
   parent: PlatingSpace
   name: NE plating
-  baseTurf: LatticeCornerNE
+  baseTurf: LatticeCornerNE # Mental
   sprite: /Textures/_Mono/Tiles/plating/ne.png
   vertices: ["1, 0", "1, 1", "0, 1"]
 
@@ -24,7 +24,7 @@
   id: PlatingCornerNW
   parent: PlatingSpace
   name: NW plating
-  baseTurf: LatticeCornerNW
+  baseTurf: LatticeCornerNW # Mental
   sprite: /Textures/_Mono/Tiles/plating/nw.png
   vertices: ["0, 0", "1, 1", "0, 1"]
 
@@ -39,7 +39,7 @@
   id: PlatingCornerSE
   parent: PlatingSpace
   name: SE plating
-  baseTurf: LatticeCornerSE
+  baseTurf: LatticeCornerSE # Mental
   sprite: /Textures/_Mono/Tiles/plating/se.png
   vertices: ["0, 0", "1, 0", "1, 1"]
 
@@ -54,6 +54,6 @@
   id: PlatingCornerSW
   parent: PlatingSpace
   name: SW plating
-  baseTurf: LatticeCornerSW
+  baseTurf: LatticeCornerSW # Mental
   sprite: /Textures/_Mono/Tiles/plating/sw.png
   vertices: ["0, 0", "1, 0", "0, 1"]
