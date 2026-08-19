@@ -151,3 +151,17 @@
     - !type:NoWindowsInTile
   objectType: Structure
   placementMode: SnapgridCenter
+
+- type: construction
+  id: WindowHalf
+  name: construction-recipe-window-half
+  graph: WindowHalf
+  startNode: start
+  targetNode: windowHalf
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
