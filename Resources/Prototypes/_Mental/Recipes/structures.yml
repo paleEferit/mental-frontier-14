@@ -109,3 +109,31 @@
     - !type:NoWindowsInTile
   objectType: Structure
   placementMode: SnapgridCenter
+
+- type: construction
+  id: WindowLowerHalfTiltRight
+  name: construction-recipe-window-lower-half-tilt-right
+  graph: WindowLowerHalfTiltRight
+  startNode: start
+  targetNode: windowLowerHalfTiltRight
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: WindowUpperHalfTiltRight
+  name: construction-recipe-window-upper-half-tilt-right
+  graph: WindowUpperHalfTiltRight
+  startNode: start
+  targetNode: windowUpperHalfTiltRight
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter

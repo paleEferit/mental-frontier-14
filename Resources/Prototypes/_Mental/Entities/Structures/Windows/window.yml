@@ -9,7 +9,7 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _Mental/Structures/Windows/window_lower_half_tilt_left.rsi # Mental
+    sprite: _Mental/Structures/Windows/window_lower_half_tilt_left.rsi # TODO: fix sprite borders on repeat
     state: state0
   - type: Tag
     tags:
@@ -19,7 +19,7 @@
     mode: Diagonal
     base: state
   - type: Icon
-    sprite: _Mental/Structures/Windows/window_lower_half_tilt_left.rsi # Mental
+    sprite: _Mental/Structures/Windows/window_lower_half_tilt_left.rsi # TODO: fix sprite borders on repeat
     state: state0
   - type: Fixtures
     fixtures:
@@ -58,7 +58,7 @@
   components:
   - type: Sprite
     drawdepth: WallTops
-    sprite: _Mental/Structures/Windows/window_upper_half_tilt_left.rsi # Mental
+    sprite: _Mental/Structures/Windows/window_upper_half_tilt_left.rsi # TODO: fix sprite borders on repeat
     state: state0
   - type: Tag
     tags:
@@ -68,7 +68,7 @@
     mode: Diagonal
     base: state
   - type: Icon
-    sprite: _Mental/Structures/Windows/window_upper_half_tilt_left.rsi # Mental
+    sprite: _Mental/Structures/Windows/window_upper_half_tilt_left.rsi # TODO: fix sprite borders on repeat
     state: state0
   - type: Fixtures
     fixtures:
@@ -94,3 +94,100 @@
   - type: Construction
     graph: WindowUpperHalfTiltLeft
     node: windowUpperHalfTiltLeft
+
+- type: entity
+  parent: Window
+  id: WindowLowerHalfTiltRight
+  suffix: tilted
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/window_lower_half_tilt_right.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: IconSmooth
+    mode: Diagonal
+    base: state
+  - type: Icon
+    sprite: _Mental/Structures/Windows/window_lower_half_tilt_right.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "0.5,-0.5"
+            - "-0.5,-0.5"
+            - "-0.5,0.5"
+            - "0,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+    - East
+  - type: DamageVisuals
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_lower_half_tilt_right.rsi
+  - type: Construction
+    graph: WindowLowerHalfTiltRight
+    node: windowLowerHalfTiltRight
+
+- type: entity
+  parent: Window
+  id: WindowUpperHalfTiltRight
+  suffix: tilted
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/window_upper_half_tilt_right.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: IconSmooth
+    mode: Diagonal
+    base: state
+  - type: Icon
+    sprite: _Mental/Structures/Windows/window_upper_half_tilt_right.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "0,-0.5"
+            - "-0.5,-0.5"
+            - "-0.5,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+    - East
+  - type: DamageVisuals
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_upper_half_tilt_right.rsi
+  - type: Construction
+    graph: WindowUpperHalfTiltRight
+    node: windowUpperHalfTiltRight

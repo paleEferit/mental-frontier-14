@@ -10,6 +10,12 @@
               amount: 2
               doAfter: 2
 
+        - to: windowUpperHalfTiltRight
+          steps:
+            - material: Glass
+              amount: 2
+              doAfter: 3
+
     - node: plasmaWindowUpperHalfTiltRight
       entity: PlasmaWindowUpperHalfTiltRight
       edges:
@@ -28,3 +34,18 @@
               doAfter: 2
             - tool: Anchoring
               doAfter: 3
+
+    - node: windowUpperHalfTiltRight
+      entity: WindowUpperHalfTiltRight
+      edges:
+        - to: start
+          completed:
+            - !type:GivePrototype
+              prototype: SheetGlass1
+              amount: 2
+            - !type:DeleteEntity {}
+          steps:
+            - tool: Screwing
+              doAfter: 1
+            - tool: Anchoring
+              doAfter: 2
