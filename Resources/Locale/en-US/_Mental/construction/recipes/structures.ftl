@@ -10,3 +10,7 @@ construction-recipe-window-lower-half-tilt-right = window (lower half-tilt-right
 construction-recipe-window-upper-half-tilt-right = window (upper half-tilt-right)
 construction-recipe-window-wedge = window (wedge)
 construction-recipe-window-half = window (half)
+
+construction-recipe-plasma-window-half-leaning = plasma window (leaning-half)
+construction-recipe-plasma-window-pentagon = plasma window (pentagon)
+construction-recipe-plasma-window-diagonal-quarter = plasma windows (diagonal-quarter)

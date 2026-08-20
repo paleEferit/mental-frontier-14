@@ -165,3 +165,45 @@
     - !type:NoWindowsInTile
   objectType: Structure
   placementMode: SnapgridCenter
+
+- type: construction
+  id: PlasmaWindowHalfLeaning
+  name: construction-recipe-plasma-window-half-leaning
+  graph: WindowHalfLeaning
+  startNode: start
+  targetNode: plasmaWindowHalfLeaning
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: PlasmaWindowPentagon
+  name: construction-recipe-plasma-window-pentagon
+  graph: WindowPentagon
+  startNode: start
+  targetNode: plasmaWindowPentagon
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: PlasmaWindowDiagonalQuarter
+  name: construction-recipe-plasma-window-diagonal-quarter
+  graph: WindowDiagonalQuarter
+  startNode: start
+  targetNode: plasmaWindowDiagonalQuarter
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
