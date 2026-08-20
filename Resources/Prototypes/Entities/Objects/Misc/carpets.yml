@@ -39,6 +39,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
   - type: Stack
     stackType: FloorCarpetRed

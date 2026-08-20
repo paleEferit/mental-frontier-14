@@ -1,0 +1,83 @@
+- type: tile
+  id: LatticeHalfS
+  parent: Lattice
+  name: S half-lattice
+  sprite: /Textures/_Mental/Tiles/lattice/lattice_half_s.png
+  vertices: ['0, 0', '0, 0.5', '1, 0.5', '1, 0']
+
+- type: tile
+  id: LatticeHalfN
+  parent: Lattice
+  name: N half-lattice
+  sprite: /Textures/_Mental/Tiles/lattice/lattice_half_n.png
+  vertices: ['0, 0.5', '0, 1', '1, 1', '1, 0.5']
+
+- type: tile
+  id: LatticeHalfW
+  parent: Lattice
+  name: W half-lattice
+  sprite: /Textures/_Mental/Tiles/lattice/lattice_half_w.png
+  vertices: ['0, 0', '0, 1', '0.5, 1', '0.5, 0']
+
+- type: tile
+  id: LatticeHalfE
+  parent: Lattice
+  name: E half-lattice
+  sprite: /Textures/_Mental/Tiles/lattice/lattice_half_e.png
+  vertices: ['0.5, 0', '0.5, 1', '1, 1', '1, 0']
+
+- type: tile
+  id: LatticePentagonNE
+  parent: Lattice
+  name: NE pentagon-lattice
+  sprite: /Textures/_Mental/Tiles/lattice/lattice_pentagon_ne.png
+  vertices: ['0, 0', '0, 1', '0.5, 1', '1, 0.5', '1, 0']
+
+- type: tile
+  id: LatticePentagonNW
+  parent: Lattice
+  name: NW pentagon-lattice
+  sprite: /Textures/_Mental/Tiles/lattice/lattice_pentagon_nw.png
+  vertices: ['0, 0', '0, 0.5', '0.5, 1', '1, 1', '1, 0']
+
+- type: tile
+  id: LatticePentagonSE
+  parent: Lattice
+  name: SE pentagon-lattice
+  sprite: /Textures/_Mental/Tiles/lattice/lattice_pentagon_se.png
+  vertices: ['0.5, 0', '0, 0', '0, 1', '1, 1', '1, 0.5']
+
+- type: tile
+  id: LatticePentagonSW
+  parent: Lattice
+  name: SW pentagon-lattice
+  sprite: /Textures/_Mental/Tiles/lattice/lattice_pentagon_sw.png
+  vertices: ['0.5, 0', '0, 0.5', '0, 1', '1, 1', '1, 0']
+
+- type: tile
+  id: LatticeQuarterDiagonalNE
+  parent: Lattice
+  name: NE quarter-diagonal-lattice
+  sprite: /Textures/_Mental/Tiles/lattice/lattice_quarter_diagonal_ne.png
+  vertices: ['0.5, 1', '1, 1', '1, 0.5']
+
+- type: tile
+  id: LatticeQuarterDiagonalNW
+  parent: Lattice
+  name: NW quarter-diagonal-lattice
+  sprite: /Textures/_Mental/Tiles/lattice/lattice_quarter_diagonal_nw.png
+  vertices: ['0, 0.5', '0, 1', '0.5, 1']
+
+- type: tile
+  id: LatticeQuarterDiagonalSE
+  parent: Lattice
+  name: SE quarter-diagonal-lattice
+  sprite: /Textures/_Mental/Tiles/lattice/lattice_quarter_diagonal_se.png
+  vertices: ['0.5, 0', '1, 0', '1, 0.5']
+
+- type: tile
+  id: LatticeQuarterDiagonalSW
+  parent: Lattice
+  name: SW quarter-diagonal-lattice
+  sprite: /Textures/_Mental/Tiles/lattice/lattice_quarter_diagonal_sw.png
+  vertices: ['0.5, 0', '0, 0', '0, 0.5']

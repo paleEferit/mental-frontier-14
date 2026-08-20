@@ -375,6 +375,32 @@
     - LatticeHalfTiltSWEUpper
     - LatticeHalfTiltNWSUpper
     # mono end
+    # mental start
+    - LatticeHalfS
+    - LatticeHalfN
+    - LatticeHalfW
+    - LatticeHalfE
+    - LatticePentagonNE
+    - LatticePentagonNW
+    - LatticePentagonSE
+    - LatticePentagonSW
+    - LatticeQuarterDiagonalNE
+    - LatticeQuarterDiagonalNW
+    - LatticeQuarterDiagonalSE
+    - LatticeQuarterDiagonalSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
+    # mental end
   - type: LimitedCharges
     maxCharges: 30
   - type: Sprite

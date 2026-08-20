@@ -82,6 +82,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorSteelCheckerDark
   - type: Stack
@@ -124,6 +136,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorSteelCheckerLight
   - type: Stack
@@ -168,6 +192,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorDark
   - type: Stack
@@ -213,6 +249,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorDarkDiagonalMini
   - type: Stack
@@ -255,6 +303,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorDarkDiagonal
   - type: Stack
@@ -297,6 +357,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorDarkHerringbone
   - type: Stack
@@ -339,6 +411,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorDarkMini
   - type: Stack
@@ -381,6 +465,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorDarkMono
   - type: Stack
@@ -423,6 +519,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorDarkPavement
   - type: Stack
@@ -465,6 +573,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorDarkPavementVertical
   - type: Stack
@@ -507,6 +627,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorDarkOffset
   - type: Stack
@@ -551,6 +683,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorSteel
   - type: Stack
@@ -596,6 +740,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorSteelOffset
   - type: Stack
@@ -638,6 +794,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorSteelDiagonalMini
   - type: Stack
@@ -680,6 +848,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorSteelDiagonal
   - type: Stack
@@ -722,6 +902,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorSteelHerringbone
   - type: Stack
@@ -764,6 +956,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorSteelMini
   - type: Stack
@@ -806,6 +1010,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorSteelMono
   - type: Stack
@@ -848,6 +1064,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorSteelPavement
   - type: Stack
@@ -890,6 +1118,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorSteelPavementVertical
   - type: Stack
@@ -934,6 +1174,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorWhite
   - type: Stack
@@ -979,6 +1231,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorWhiteOffset
   - type: Stack
@@ -1021,6 +1285,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorWhiteDiagonalMini
   - type: Stack
@@ -1063,6 +1339,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorWhiteDiagonal
   - type: Stack
@@ -1105,6 +1393,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorWhiteHerringbone
   - type: Stack
@@ -1147,6 +1447,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorWhiteMini
   - type: Stack
@@ -1189,6 +1501,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorWhiteMono
   - type: Stack
@@ -1231,6 +1555,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorWhitePavement
   - type: Stack
@@ -1273,6 +1609,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorWhitePavementVertical
   - type: Stack
@@ -1317,6 +1665,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorMetalDiamond
   - type: Stack
@@ -1364,6 +1724,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorWood
   - type: Stack
@@ -1411,6 +1783,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorTechMaint
   - type: Stack
@@ -1473,6 +1857,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorMono
   - type: Stack
@@ -1517,6 +1913,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorLino
   - type: Stack
@@ -1561,6 +1969,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental endBrass
       - FloorBrassFilled
   - type: Stack
@@ -1608,6 +2028,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental endBrass
       - FloorBrassReebe
   - type: Stack
@@ -1655,6 +2087,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorSteelDirty
   - type: Stack
@@ -1699,6 +2143,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorElevatorShaft
   - type: Stack
@@ -1743,6 +2199,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorRockVault
   - type: Stack
@@ -1787,6 +2255,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorBlue
   - type: Stack
@@ -1831,6 +2311,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorSteelLime
   - type: Stack
@@ -1875,6 +2367,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorMining
   - type: Stack
@@ -1919,6 +2423,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorMiningDark
   - type: Stack
@@ -1963,6 +2479,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorMiningLight
   - type: Stack
@@ -2008,6 +2536,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorFreezer
   - type: Stack
@@ -2052,6 +2592,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorShowroom
   - type: Stack
@@ -2096,6 +2648,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorHydro
   - type: Stack
@@ -2140,6 +2704,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorBar
   - type: Stack
@@ -2184,6 +2760,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorClown
   - type: Stack
@@ -2228,6 +2816,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorMime
   - type: Stack
@@ -2272,6 +2872,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorKitchen
   - type: Stack
@@ -2316,6 +2928,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorLaundry
   - type: Stack
@@ -2361,6 +2985,18 @@
     - PlatingCornerNW
     - PlatingCornerSE
     - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
     # Mental end
     - FloorConcrete
   - type: Stack
@@ -2403,6 +3039,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorConcreteMono
   - type: Stack
@@ -2445,6 +3093,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorConcreteSmooth
   - type: Stack
@@ -2503,6 +3163,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorGrayConcreteMono
   - type: Stack
@@ -2545,6 +3217,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorGrayConcreteSmooth
   - type: Stack
@@ -2603,6 +3287,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorOldConcreteMono
   - type: Stack
@@ -2645,6 +3341,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorOldConcreteSmooth
   - type: Stack
@@ -2690,6 +3398,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorArcadeBlue
   - type: Stack
@@ -2734,6 +3454,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorArcadeBlue2
   - type: Stack
@@ -2778,6 +3510,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorArcadeRed
   - type: Stack
@@ -2822,6 +3566,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorEighties
   - type: Stack
@@ -2866,6 +3622,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorCarpetClown
   - type: Stack
@@ -2910,6 +3678,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorCarpetOffice
   - type: Stack
@@ -2954,6 +3734,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorBoxing
   - type: Stack
@@ -2998,6 +3790,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorGym
   - type: Stack
@@ -3043,6 +3847,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorShuttleWhite
   - type: Stack
@@ -3087,6 +3903,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorShuttleBlue
   - type: Stack
@@ -3131,6 +3959,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorShuttleOrange
   - type: Stack
@@ -3175,6 +4015,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorShuttlePurple
   - type: Stack
@@ -3219,6 +4071,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorShuttleRed
   - type: Stack
@@ -3263,6 +4127,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorShuttleGrey
   - type: Stack
@@ -3307,6 +4183,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorShuttleBlack
   - type: Stack
@@ -3352,6 +4240,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorGold
   - type: Stack
@@ -3396,6 +4296,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorSilver
   - type: Stack
@@ -3441,6 +4353,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorGreenCircuit
   - type: Stack
@@ -3485,6 +4409,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorBlueCircuit
   - type: Stack
@@ -3529,6 +4465,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorRedCircuit
   - type: Stack
@@ -3600,6 +4548,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorGrass
   - type: Stack
@@ -3644,6 +4604,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorGrassJungle
   - type: Stack
@@ -3688,6 +4660,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorSnow
   - type: Stack
@@ -3732,6 +4716,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorWoodTile
   - type: Stack
@@ -3795,6 +4791,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorTechMaint2
   - type: Stack
@@ -3839,6 +4847,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorTechMaint3
   - type: Stack
@@ -3903,6 +4923,18 @@
     - PlatingCornerNW
     - PlatingCornerSE
     - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
     # Mental end
     - FloorAstroGrass
   - type: Stack
@@ -3948,7 +4980,19 @@
     - PlatingCornerNW
     - PlatingCornerSE
     - PlatingCornerSW
-    # Mental end
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
+      # Mental end
     - FloorMowedAstroGrass
   - type: Stack
     stackType: FloorTileAstroGrass
@@ -3993,7 +5037,19 @@
     - PlatingCornerNW
     - PlatingCornerSE
     - PlatingCornerSW
-    # Mental end
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
+      # Mental end
     - FloorJungleAstroGrass
   - type: Stack
     stackType: FloorTileAstroGrass
@@ -4038,6 +5094,18 @@
     - PlatingCornerNW
     - PlatingCornerSE
     - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
     # Mental end
     - FloorAstroIce
   - type: Stack
@@ -4083,6 +5151,18 @@
     - PlatingCornerNW
     - PlatingCornerSE
     - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
     # Mental end
     - FloorAstroSnow
   - type: Stack
@@ -4128,6 +5208,18 @@
     - PlatingCornerNW
     - PlatingCornerSE
     - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
     # Mental end
     - FloorAstroAsteroidSand
   - type: Stack
@@ -4173,6 +5265,18 @@
     - PlatingCornerNW
     - PlatingCornerSE
     - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
     # Mental end
     - FloorAstroAsteroidSandBorderless
   - type: Stack
@@ -4217,6 +5321,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorWoodLarge
   - type: Stack
@@ -4267,6 +5383,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorWhiteMarble
   - type: Stack
@@ -4312,6 +5440,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorDarkMarble
   - type: Stack
@@ -4357,6 +5497,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorPlasmaMarble
   - type: Stack
@@ -4406,6 +5558,18 @@
       - PlatingCornerNW
       - PlatingCornerSE
       - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
       # Mental end
       - FloorUraniumMarble
   - type: Stack
@@ -4460,6 +5624,18 @@
     - PlatingCornerNW
     - PlatingCornerSE
     - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
     # Mental end
     - FloorXeno
   - type: Stack
@@ -4504,6 +5680,18 @@
     - PlatingCornerNW
     - PlatingCornerSE
     - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
     # Mental end
     - FloorXenoSteel
   - type: Stack
@@ -4548,6 +5736,18 @@
     - PlatingCornerNW
     - PlatingCornerSE
     - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
     # Mental end
     - FloorXenoSteelCorner
   - type: Stack
@@ -4592,6 +5792,18 @@
     - PlatingCornerNW
     - PlatingCornerSE
     - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
     # Mental end
     - FloorXenoMaint
   - type: Stack
@@ -4634,6 +5846,18 @@
     - PlatingCornerNW
     - PlatingCornerSE
     - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
     # Mental end
     - FloorXenoborg
   - type: Stack
@@ -4676,6 +5900,18 @@
     - PlatingCornerNW
     - PlatingCornerSE
     - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
     # Mental end
     - FloorDarkSquiggly
   - type: Stack

@@ -104,3 +104,35 @@ rcd-component-LatticeHalfTiltNEWUpper = Lattice half tilt NEW upper
 rcd-component-LatticeHalfTiltSENUpper = Lattice half tilt SEN upper
 rcd-component-LatticeHalfTiltSWEUpper = Lattice half tilt SWE upper
 rcd-component-LatticeHalfTiltNWSUpper = Lattice half tilt NWS upper
+
+## Lattice and Plating. Mental
+
+rcd-component-LatticeHalfS = Lattice half S
+rcd-component-LatticeHalfN = Lattice half N
+rcd-component-LatticeHalfW = Lattice half W
+rcd-component-LatticeHalfE = Lattice half E
+
+rcd-component-LatticePentagonNE = Lattice pentagon NE
+rcd-component-LatticePentagonNW = Lattice pentagon NW
+rcd-component-LatticePentagonSE = Lattice pentagon SE
+rcd-component-LatticePentagonSW = Lattice pentagon SW
+
+rcd-component-LatticeQuarterDiagonalNE = Lattice quarter diagonal NE
+rcd-component-LatticeQuarterDiagonalNW = Lattice quarter diagonal NW
+rcd-component-LatticeQuarterDiagonalSE = Lattice quarter diagonal SE
+rcd-component-LatticeQuarterDiagonalSW = Lattice quarter diagonal SW
+
+rcd-component-PlatingHalfS = Plating half S
+rcd-component-PlatingHalfN = Plating half N
+rcd-component-PlatingHalfE = Plating half E
+rcd-component-PlatingHalfW = Plating half W
+
+rcd-component-PlatingPentagonNE = Plating pentagon NE
+rcd-component-PlatingPentagonNW = Plating pentagon NW
+rcd-component-PlatingPentagonSE = Plating pentagon SE
+rcd-component-PlatingPentagonSW = Plating pentagon SW
+
+rcd-component-PlatingQuarterDiagonalNE = Plating quarter diagonal NE
+rcd-component-PlatingQuarterDiagonalNW = Plating quarter diagonal NW
+rcd-component-PlatingQuarterDiagonalSE = Plating quarter diagonal SE
+rcd-component-PlatingQuarterDiagonalSW = Plating quarter diagonal SW

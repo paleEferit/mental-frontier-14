@@ -87,7 +87,19 @@
     - PlatingCornerNW
     - PlatingCornerSE
     - PlatingCornerSW
-      # Mental end
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
+    # Mental end
   - type: SpawnAfterInteract #Nuke after convert to FloorTile
     prototype: CarpetCard
     doAfter: 0.5
