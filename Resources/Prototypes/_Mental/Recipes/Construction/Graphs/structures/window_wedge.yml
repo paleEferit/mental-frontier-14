@@ -16,6 +16,12 @@
               amount: 2
               doAfter: 3
 
+        - to: uraniumWindowWedge
+          steps:
+            - material: UraniumGlass
+              amount: 2
+              doAfter: 2
+
     - node: plasmaWindowWedge
       entity: PlasmaWindowWedge
       edges:
@@ -49,3 +55,22 @@
               doAfter: 1
             - tool: Anchoring
               doAfter: 2
+
+    - node: uraniumWindowWedge
+      entity: UraniumWindowWedge
+      edges:
+        - to: start
+          completed:
+            - !type:GivePrototype
+              prototype: SheetUGlass1
+              amount: 2
+            - !type:DeleteEntity {}
+          steps:
+            - tool: Screwing
+              doAfter: 2
+            - tool: Prying
+              doAfter: 3
+            - tool: Screwing
+              doAfter: 2
+            - tool: Anchoring
+              doAfter: 3

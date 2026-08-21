@@ -249,3 +249,129 @@
     - !type:NoWindowsInTile
   objectType: Structure
   placementMode: SnapgridCenter
+
+- type: construction
+  id: UraniumWindowLowerHalfTiltLeft
+  name: construction-recipe-uranium-window-lower-half-tilt-left
+  graph: WindowLowerHalfTiltLeft
+  startNode: start
+  targetNode: uraniumWindowLowerHalfTiltLeft
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: UraniumWindowUpperHalfTiltLeft
+  name: construction-recipe-uranium-window-upper-half-tilt-left
+  graph: WindowUpperHalfTiltLeft
+  startNode: start
+  targetNode: uraniumWindowUpperHalfTiltLeft
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: UraniumWindowLowerHalfTiltRight
+  name: construction-recipe-uranium-window-lower-half-tilt-right
+  graph: WindowLowerHalfTiltRight
+  startNode: start
+  targetNode: uraniumWindowLowerHalfTiltRight
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: UraniumWindowUpperHalfTiltRight
+  name: construction-recipe-uranium-window-upper-half-tilt-right
+  graph: WindowUpperHalfTiltRight
+  startNode: start
+  targetNode: uraniumWindowUpperHalfTiltRight
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: UraniumWindowWedge
+  name: construction-recipe-uranium-window-wedge
+  graph: WindowWedge
+  startNode: start
+  targetNode: uraniumWindowWedge
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: UraniumWindowHalf
+  name: construction-recipe-uranium-window-half
+  graph: WindowHalf
+  startNode: start
+  targetNode: uraniumWindowHalf
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: UraniumWindowHalfLeaning
+  name: construction-recipe-uranium-window-half-leaning
+  graph: WindowHalfLeaning
+  startNode: start
+  targetNode: uraniumWindowHalfLeaning
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: UraniumWindowPentagon
+  name: construction-recipe-uranium-window-pentagon
+  graph: WindowPentagon
+  startNode: start
+  targetNode: uraniumWindowPentagon
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: UraniumWindowDiagonalQuarter
+  name: construction-recipe-uranium-window-diagonal-quarter
+  graph: WindowDiagonalQuarter
+  startNode: start
+  targetNode: uraniumWindowDiagonalQuarter
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter

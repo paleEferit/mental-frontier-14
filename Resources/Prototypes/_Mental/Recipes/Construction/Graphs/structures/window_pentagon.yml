@@ -15,6 +15,12 @@
             - material: Glass
               amount: 2
               doAfter: 3
+          
+        - to: uraniumWindowPentagon
+          steps:
+            - material: UraniumGlass
+              amount: 2
+              doAfter: 2
 
     - node: plasmaWindowPentagon
       entity: PlasmaWindowPentagon
@@ -49,4 +55,22 @@
               doAfter: 1
             - tool: Anchoring
               doAfter: 2
-
+      
+    - node: uraniumWindowPentagon
+      entity: UraniumWindowPentagon
+      edges:
+        - to: start
+          completed:
+            - !type:GivePrototype
+              prototype: SheetUGlass1
+              amount: 2
+            - !type:DeleteEntity {}
+          steps:
+            - tool: Screwing
+              doAfter: 2
+            - tool: Prying
+              doAfter: 3
+            - tool: Screwing
+              doAfter: 2
+            - tool: Anchoring
+              doAfter: 3

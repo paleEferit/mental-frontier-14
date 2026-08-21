@@ -16,6 +16,12 @@
               amount: 2
               doAfter: 3
 
+        - to: uraniumWindowHalfLeaning
+          steps:
+            - material: UraniumGlass
+              amount: 2
+              doAfter: 2
+
     - node: plasmaWindowHalfLeaning
       entity: PlasmaWindowHalfLeaning
       edges:
@@ -50,3 +56,21 @@
             - tool: Anchoring
               doAfter: 2
 
+    - node: uraniumWindowHalfLeaning
+      entity: UraniumWindowHalfLeaning
+      edges:
+        - to: start
+          completed:
+            - !type:GivePrototype
+              prototype: SheetUGlass1
+              amount: 2
+            - !type:DeleteEntity {}
+          steps:
+            - tool: Screwing
+              doAfter: 2
+            - tool: Prying
+              doAfter: 3
+            - tool: Screwing
+              doAfter: 2
+            - tool: Anchoring
+              doAfter: 3
