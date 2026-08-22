@@ -34,6 +34,12 @@
               amount: 2
               doAfter: 2
 
+        - to: reinforcedUraniumWindowUpperHalfTiltLeft
+          steps:
+            - material: ReinforcedUraniumGlass
+              amount: 2
+              doAfter: 3
+
     - node: plasmaWindowUpperHalfTiltLeft
       entity: PlasmaWindowUpperHalfTiltLeft
       edges:
@@ -132,3 +138,26 @@
               doAfter: 1
             - tool: Anchoring
               doAfter: 2
+
+    - node: reinforcedUraniumWindowUpperHalfTiltLeft
+      entity: ReinforcedUraniumWindowUpperHalfTiltLeft
+      edges:
+        - to: start
+          completed:
+            - !type:GivePrototype
+              prototype: SheetRUGlass1
+              amount: 2
+            - !type:DeleteEntity {}
+          steps:
+            - tool: Welding
+              doAfter: 5
+            - tool: Screwing
+              doAfter: 2
+            - tool: Prying
+              doAfter: 3
+            - tool: Welding
+              doAfter: 5
+            - tool: Screwing
+              doAfter: 2
+            - tool: Anchoring
+              doAfter: 3

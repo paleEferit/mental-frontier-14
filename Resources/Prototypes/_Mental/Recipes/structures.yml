@@ -627,3 +627,129 @@
     - !type:NoWindowsInTile
   objectType: Structure
   placementMode: SnapgridCenter
+
+- type: construction
+  id: ReinforcedUraniumWindowLowerHalfTiltLeft
+  name: construction-recipe-reinforced-uranium-window-lower-half-tilt-left
+  graph: WindowLowerHalfTiltLeft
+  startNode: start
+  targetNode: reinforcedUraniumWindowLowerHalfTiltLeft
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ReinforcedUraniumWindowUpperHalfTiltLeft
+  name: construction-recipe-reinforced-uranium-window-upper-half-tilt-left
+  graph: WindowUpperHalfTiltLeft
+  startNode: start
+  targetNode: reinforcedUraniumWindowUpperHalfTiltLeft
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ReinforcedUraniumWindowLowerHalfTiltRight
+  name: construction-recipe-reinforced-uranium-window-lower-half-tilt-right
+  graph: WindowLowerHalfTiltRight
+  startNode: start
+  targetNode: reinforcedUraniumWindowLowerHalfTiltRight
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ReinforcedUraniumWindowUpperHalfTiltRight
+  name: construction-recipe-reinforced-uranium-window-upper-half-tilt-right
+  graph: WindowUpperHalfTiltRight
+  startNode: start
+  targetNode: reinforcedUraniumWindowUpperHalfTiltRight
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ReinforcedUraniumWindowWedge
+  name: construction-recipe-reinforced-uranium-window-wedge
+  graph: WindowWedge
+  startNode: start
+  targetNode: reinforcedUraniumWindowWedge
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ReinforcedUraniumWindowHalf
+  name: construction-recipe-reinforced-uranium-window-half
+  graph: WindowHalf
+  startNode: start
+  targetNode: reinforcedUraniumWindowHalf
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ReinforcedUraniumWindowHalfLeaning
+  name: construction-recipe-reinforced-uranium-window-half-leaning
+  graph: WindowHalfLeaning
+  startNode: start
+  targetNode: reinforcedUraniumWindowHalfLeaning
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ReinforcedUraniumWindowPentagon
+  name: construction-recipe-reinforced-uranium-window-pentagon
+  graph: WindowPentagon
+  startNode: start
+  targetNode: reinforcedUraniumWindowPentagon
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ReinforcedUraniumWindowDiagonalQuarter
+  name: construction-recipe-reinforced-uranium-window-diagonal-quarter
+  graph: WindowDiagonalQuarter
+  startNode: start
+  targetNode: reinforcedUraniumWindowDiagonalQuarter
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
