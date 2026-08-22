@@ -27,6 +27,12 @@
             - material: ReinforcedPlasmaGlass
               amount: 2
               doAfter: 3
+        
+        - to: reinforcedWindowLowerHalfTiltLeft
+          steps:
+            - material: ReinforcedGlass
+              amount: 2
+              doAfter: 2
 
     - node: plasmaWindowLowerHalfTiltLeft
       entity: PlasmaWindowLowerHalfTiltLeft
@@ -103,3 +109,26 @@
               doAfter: 2
             - tool: Anchoring
               doAfter: 3
+
+    - node: reinforcedWindowLowerHalfTiltLeft
+      entity: ReinforcedWindowLowerHalfTiltLeft
+      edges:
+        - to: start
+          completed:
+            - !type:GivePrototype
+              prototype: SheetRGlass1
+              amount: 2
+            - !type:DeleteEntity {}
+          steps:
+            - tool: Welding
+              doAfter: 5
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+            - tool: Welding
+              doAfter: 5
+            - tool: Screwing
+              doAfter: 1
+            - tool: Anchoring
+              doAfter: 2
