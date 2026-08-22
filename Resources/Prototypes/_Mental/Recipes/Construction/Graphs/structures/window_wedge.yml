@@ -22,6 +22,12 @@
               amount: 2
               doAfter: 2
 
+        - to: reinforcedPlasmaWindowWedge
+          steps:
+            - material: ReinforcedPlasmaGlass
+              amount: 2
+              doAfter: 3
+
     - node: plasmaWindowWedge
       entity: PlasmaWindowWedge
       edges:
@@ -70,6 +76,29 @@
               doAfter: 2
             - tool: Prying
               doAfter: 3
+            - tool: Screwing
+              doAfter: 2
+            - tool: Anchoring
+              doAfter: 3
+
+    - node: reinforcedPlasmaWindowWedge
+      entity: ReinforcedPlasmaWindowWedge
+      edges:
+        - to: start
+          completed:
+            - !type:GivePrototype
+              prototype: SheetRPGlass1
+              amount: 2
+            - !type:DeleteEntity {}
+          steps:
+            - tool: Welding
+              doAfter: 5
+            - tool: Screwing
+              doAfter: 2
+            - tool: Prying
+              doAfter: 3
+            - tool: Welding
+              doAfter: 5
             - tool: Screwing
               doAfter: 2
             - tool: Anchoring

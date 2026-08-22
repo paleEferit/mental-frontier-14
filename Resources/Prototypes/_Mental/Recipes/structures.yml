@@ -375,3 +375,129 @@
     - !type:NoWindowsInTile
   objectType: Structure
   placementMode: SnapgridCenter
+
+- type: construction
+  id: ReinforcedPlasmaWindowLowerHalfTiltLeft
+  name: construction-recipe-reinforced-plasma-window-lower-half-tilt-left
+  graph: WindowLowerHalfTiltLeft
+  startNode: start
+  targetNode: reinforcedPlasmaWindowLowerHalfTiltLeft
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ReinforcedPlasmaWindowUpperHalfTiltLeft
+  name: construction-recipe-reinforced-plasma-window-upper-half-tilt-left
+  graph: WindowUpperHalfTiltLeft
+  startNode: start
+  targetNode: reinforcedPlasmaWindowUpperHalfTiltLeft
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ReinforcedPlasmaWindowLowerHalfTiltRight
+  name: construction-recipe-reinforced-plasma-window-lower-half-tilt-right
+  graph: WindowLowerHalfTiltRight
+  startNode: start
+  targetNode: reinforcedPlasmaWindowLowerHalfTiltRight
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ReinforcedPlasmaWindowUpperHalfTiltRight
+  name: construction-recipe-reinforced-plasma-window-upper-half-tilt-right
+  graph: WindowUpperHalfTiltRight
+  startNode: start
+  targetNode: reinforcedPlasmaWindowUpperHalfTiltRight
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ReinforcedPlasmaWindowWedge
+  name: construction-recipe-reinforced-plasma-window-wedge
+  graph: WindowWedge
+  startNode: start
+  targetNode: reinforcedPlasmaWindowWedge
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ReinforcedPlasmaWindowHalf
+  name: construction-recipe-reinforced-plasma-window-half
+  graph: WindowHalf
+  startNode: start
+  targetNode: reinforcedPlasmaWindowHalf
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ReinforcedPlasmaWindowHalfLeaning
+  name: construction-recipe-reinforced-plasma-window-half-leaning
+  graph: WindowHalfLeaning
+  startNode: start
+  targetNode: reinforcedPlasmaWindowHalfLeaning
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ReinforcedPlasmaWindowPentagon
+  name: construction-recipe-reinforced-plasma-window-pentagon
+  graph: WindowPentagon
+  startNode: start
+  targetNode: reinforcedPlasmaWindowPentagon
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ReinforcedPlasmaWindowDiagonalQuarter
+  name: construction-recipe-reinforced-plasma-window-diagonal-quarter
+  graph: WindowDiagonalQuarter
+  startNode: start
+  targetNode: reinforcedPlasmaWindowDiagonalQuarter
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
