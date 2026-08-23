@@ -1,0 +1,799 @@
+- type: entity
+  id: PlastitaniumWindowLowerHalfTiltLeftBase
+  abstract: true
+  name: plastitanium window
+  parent: PlastitaniumWindowBase
+  suffix: tilted
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/plastitanium_lower_half_tilt_left.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: Icon
+    sprite: _Mental/Structures/Windows/plastitanium_lower_half_tilt_left.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls # Frontier: windows<walls
+    base: state
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "0.5,0.5"
+            - "0.5,-0.5"
+            - "-0.5,-0.5"
+            - "0,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+        density: 4000
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+    - East
+
+- type: entity
+  id: PlastitaniumWindowLowerHalfTiltLeftIndestructible
+  name: plastitanium window
+  parent: PlastitaniumWindowLowerHalfTiltLeftBase
+  suffix: tilted, indestructible
+  # Frontier: colored indestructible windows
+  description: Skub knows this window is too hard to destroy.
+  components:
+  - type: Sprite
+    color: "#cdf3cd"
+  # End Frontier
+  - type: ExaminableDamage
+    messages: null
+
+- type: entity
+  id: PlastitaniumWindowLowerHalfTiltLeft
+  name: plastitanium window
+  parent: PlastitaniumWindowLowerHalfTiltLeftBase
+  suffix: tilted
+  components:
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WindowShatter
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlassReinforced:
+            min: 1
+            max: 2
+          PartRodMetal:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: DamageVisuals
+    thresholds: [5, 10, 20]
+    damageDivisor: 20
+    trackAllDamage: true
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_lower_half_tilt_left.rsi
+  - type: Repairable
+    fuelCost: 15
+    doAfterDelay: 3
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: RGlass
+
+- type: entity
+  id: PlastitaniumWindowUpperHalfTiltLeftBase
+  abstract: true
+  name: plastitanium window
+  parent: PlastitaniumWindowBase
+  suffix: tilted
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/plastitanium_upper_half_tilt_left.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: Icon
+    sprite: _Mental/Structures/Windows/plastitanium_upper_half_tilt_left.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls # Frontier: windows<walls
+    base: state
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "0.5,0.5"
+            - "0.5,-0.5"
+            - "0,-0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+        density: 4000
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - East
+
+- type: entity
+  id: PlastitaniumWindowUpperHalfTiltLeftIndestructible
+  name: plastitanium window
+  parent: PlastitaniumWindowUpperHalfTiltLeftBase
+  suffix: tilted, indestructible
+  # Frontier: colored indestructible windows
+  description: Skub knows this window is too hard to destroy.
+  components:
+  - type: Sprite
+    color: "#cdf3cd"
+  # End Frontier
+  - type: ExaminableDamage
+    messages: null
+
+- type: entity
+  id: PlastitaniumWindowUpperHalfTiltLeft
+  name: plastitanium window
+  parent: PlastitaniumWindowUpperHalfTiltLeftBase
+  suffix: tilted
+  components:
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WindowShatter
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlassReinforced:
+            min: 1
+            max: 2
+          PartRodMetal:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: DamageVisuals
+    thresholds: [5, 10, 20]
+    damageDivisor: 20
+    trackAllDamage: true
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_upper_half_tilt_left.rsi
+  - type: Repairable
+    fuelCost: 15
+    doAfterDelay: 3
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: RGlass
+
+- type: entity
+  id: PlastitaniumWindowLowerHalfTiltRightBase
+  abstract: true
+  name: plastitanium window
+  parent: PlastitaniumWindowBase
+  suffix: tilted
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/plastitanium_lower_half_tilt_right.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: Icon
+    sprite: _Mental/Structures/Windows/plastitanium_lower_half_tilt_right.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls # Frontier: windows<walls
+    base: state
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "0.5,-0.5"
+            - "-0.5,-0.5"
+            - "-0.5,0.5"
+            - "0,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+        density: 4000
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+    - West
+
+- type: entity
+  id: PlastitaniumWindowLowerHalfTiltRightIndestructible
+  name: plastitanium window
+  parent: PlastitaniumWindowLowerHalfTiltRightBase
+  suffix: tilted, indestructible
+  # Frontier: colored indestructible windows
+  description: Skub knows this window is too hard to destroy.
+  components:
+  - type: Sprite
+    color: "#cdf3cd"
+  # End Frontier
+  - type: ExaminableDamage
+    messages: null
+
+- type: entity
+  id: PlastitaniumWindowLowerHalfTiltRight
+  name: plastitanium window
+  parent: PlastitaniumWindowLowerHalfTiltRightBase
+  suffix: tilted
+  components:
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WindowShatter
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlassReinforced:
+            min: 1
+            max: 2
+          PartRodMetal:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: DamageVisuals
+    thresholds: [5, 10, 20]
+    damageDivisor: 20
+    trackAllDamage: true
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_lower_half_tilt_right.rsi
+  - type: Repairable
+    fuelCost: 15
+    doAfterDelay: 3
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: RGlass
+
+- type: entity
+  id: PlastitaniumWindowWedgeBase
+  abstract: true
+  name: plastitanium window
+  parent: PlastitaniumWindowBase
+  suffix: wedge
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/plastitanium_wedge.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: Icon
+    sprite: _Mental/Structures/Windows/plastitanium_wedge.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls # Frontier: windows<walls
+    base: state
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "0.5,-0.5"
+            - "-0.5,-0.5"
+            - "0,0"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+        density: 4000
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+
+- type: entity
+  id: PlastitaniumWindowWedgeIndestructible
+  name: plastitanium window
+  parent: PlastitaniumWindowWedgeBase
+  suffix: tilted, indestructible
+  # Frontier: colored indestructible windows
+  description: Skub knows this window is too hard to destroy.
+  components:
+  - type: Sprite
+    color: "#cdf3cd"
+  # End Frontier
+  - type: ExaminableDamage
+    messages: null
+
+- type: entity
+  id: PlastitaniumWindowWedge
+  name: plastitanium window
+  parent: PlastitaniumWindowWedgeBase
+  suffix: tilted
+  components:
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WindowShatter
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlassReinforced:
+            min: 1
+            max: 2
+          PartRodMetal:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: DamageVisuals
+    thresholds: [5, 10, 20]
+    damageDivisor: 20
+    trackAllDamage: true
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_wedge.rsi
+  - type: Repairable
+    fuelCost: 15
+    doAfterDelay: 3
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: RGlass
+
+- type: entity
+  id: PlastitaniumWindowHalfBase
+  abstract: true
+  name: plastitanium window
+  parent: PlastitaniumWindowBase
+  suffix: half
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/plastitanium_half.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: Icon
+    sprite: _Mental/Structures/Windows/plastitanium_half.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls # Frontier: windows<walls
+    base: state
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "-0.25,-0.5"
+            - "0.25,-0.5"
+            - "0.25,0.5"
+            - "-0.25,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+        density: 4000
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - West
+    - East
+
+- type: entity
+  id: PlastitaniumWindowHalfIndestructible
+  name: plastitanium window
+  parent: PlastitaniumWindowHalfBase
+  suffix: half, indestructible
+  # Frontier: colored indestructible windows
+  description: Skub knows this window is too hard to destroy.
+  components:
+  - type: Sprite
+    color: "#cdf3cd"
+  # End Frontier
+  - type: ExaminableDamage
+    messages: null
+
+- type: entity
+  id: PlastitaniumWindowHalf
+  name: plastitanium window
+  parent: PlastitaniumWindowHalfBase
+  suffix: half
+  components:
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WindowShatter
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlassReinforced:
+            min: 1
+            max: 2
+          PartRodMetal:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: DamageVisuals
+    thresholds: [5, 10, 20]
+    damageDivisor: 20
+    trackAllDamage: true
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_half.rsi
+  - type: Repairable
+    fuelCost: 15
+    doAfterDelay: 3
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: RGlass
+  
+- type: entity
+  id: PlastitaniumWindowHalfLeaningBase
+  abstract: true
+  name: plastitanium window
+  parent: PlastitaniumWindowBase
+  suffix: leaning-half
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/plastitanium_half_leaning.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: Icon
+    sprite: _Mental/Structures/Windows/plastitanium_half_leaning.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls # Frontier: windows<walls
+    base: state
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "-0.5,-0.5"
+            - "-0.5,0"
+            - "0.5,0"
+            - "0.5,-0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+        density: 4000
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+
+- type: entity
+  id: PlastitaniumWindowHalfLeaningIndestructible
+  name: plastitanium window
+  parent: PlastitaniumWindowHalfLeaningBase
+  suffix: leaning-half, indestructible
+  # Frontier: colored indestructible windows
+  description: Skub knows this window is too hard to destroy.
+  components:
+  - type: Sprite
+    color: "#cdf3cd"
+  # End Frontier
+  - type: ExaminableDamage
+    messages: null
+
+- type: entity
+  id: PlastitaniumWindowHalfLeaning
+  name: plastitanium window
+  parent: PlastitaniumWindowHalfLeaningBase
+  suffix: leaning-half
+  components:
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WindowShatter
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlassReinforced:
+            min: 1
+            max: 2
+          PartRodMetal:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: DamageVisuals
+    thresholds: [5, 10, 20]
+    damageDivisor: 20
+    trackAllDamage: true
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_half_leaning.rsi
+  - type: Repairable
+    fuelCost: 15
+    doAfterDelay: 3
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: RGlass
+
+- type: entity
+  id: PlastitaniumWindowPentagonBase
+  abstract: true
+  name: plastitanium window
+  parent: PlastitaniumWindowBase
+  suffix: pentagon
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/plastitanium_pentagon.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: Icon
+    sprite: _Mental/Structures/Windows/plastitanium_pentagon.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls # Frontier: windows<walls
+    base: state
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "-0.5,-0.5"
+            - "-0.5,0"
+            - "0,0.5"
+            - "0.5,0.5"
+            - "0.5,-0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+        density: 4000
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+    - East
+
+- type: entity
+  id: PlastitaniumWindowPentagonIndestructible
+  name: plastitanium window
+  parent: PlastitaniumWindowPentagonBase
+  suffix: pentagon, indestructible
+  # Frontier: colored indestructible windows
+  description: Skub knows this window is too hard to destroy.
+  components:
+  - type: Sprite
+    color: "#cdf3cd"
+  # End Frontier
+  - type: ExaminableDamage
+    messages: null
+
+- type: entity
+  id: PlastitaniumWindowPentagon
+  name: plastitanium window
+  parent: PlastitaniumWindowPentagonBase
+  suffix: pentagon
+  components:
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WindowShatter
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlassReinforced:
+            min: 1
+            max: 2
+          PartRodMetal:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: DamageVisuals
+    thresholds: [5, 10, 20]
+    damageDivisor: 20
+    trackAllDamage: true
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_pentagon.rsi
+  - type: Repairable
+    fuelCost: 15
+    doAfterDelay: 3
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: RGlass
+
+- type: entity
+  id: PlastitaniumWindowDiagonalQuarterBase
+  abstract: true
+  name: plastitanium window
+  parent: PlastitaniumWindowBase
+  suffix: quarter
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/plastitanium_diagonal_quarter.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: Icon
+    sprite: _Mental/Structures/Windows/plastitanium_diagonal_quarter.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls # Frontier: windows<walls
+    base: state
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "0,-0.5"
+            - "0.5,-0.5"
+            - "0.5,0"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+        density: 4000
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+
+- type: entity
+  id: PlastitaniumWindowDiagonalQuarterIndestructible
+  name: plastitanium window
+  parent: PlastitaniumWindowDiagonalQuarterBase
+  suffix: quarter, indestructible
+  # Frontier: colored indestructible windows
+  description: Skub knows this window is too hard to destroy.
+  components:
+  - type: Sprite
+    color: "#cdf3cd"
+  # End Frontier
+  - type: ExaminableDamage
+    messages: null
+
+- type: entity
+  id: PlastitaniumWindowDiagonalQuarter
+  name: plastitanium window
+  parent: PlastitaniumWindowDiagonalQuarterBase
+  suffix: quarter
+  components:
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WindowShatter
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlassReinforced:
+            min: 1
+            max: 2
+          PartRodMetal:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: DamageVisuals
+    thresholds: [5, 10, 20]
+    damageDivisor: 20
+    trackAllDamage: true
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_diagonal_quarter.rsi
+  - type: Repairable
+    fuelCost: 15
+    doAfterDelay: 3
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: RGlass
