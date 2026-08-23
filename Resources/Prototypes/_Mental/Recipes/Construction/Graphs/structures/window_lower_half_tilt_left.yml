@@ -48,6 +48,12 @@
               amount: 2
               doAfter: 4
 
+        - to: clockworkWindowLowerHalfTiltLeft
+          steps:
+            - material: ClockworkGlass
+              amount: 2
+              doAfter: 3
+
     - node: plasmaWindowLowerHalfTiltLeft
       entity: PlasmaWindowLowerHalfTiltLeft
       edges:
@@ -200,3 +206,26 @@
               doAfter: 4
             - tool: Anchoring
               doAfter: 1
+
+    - node: clockworkWindowLowerHalfTiltLeft
+      entity: ClockworkWindowLowerHalfTiltLeft
+      edges:
+        - to: start
+          completed:
+            - !type:GivePrototype
+              prototype: SheetClockworkGlass1
+              amount: 2
+            - !type:DeleteEntity {}
+          steps:
+            - tool: Welding
+              doAfter: 5
+            - tool: Screwing
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2
+            - tool: Welding
+              doAfter: 5
+            - tool: Screwing
+              doAfter: 1
+            - tool: Anchoring
+              doAfter: 2

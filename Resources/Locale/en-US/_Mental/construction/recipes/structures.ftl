@@ -40,6 +40,12 @@ construction-recipe-shuttle-window-lower-half-tilt-right = shuttle window (lower
 construction-recipe-shuttle-window-upper-half-tilt-right = shuttle window (upper half-tilt-right)
 construction-recipe-shuttle-window-wedge = shuttle window (wedge)
 construction-recipe-shuttle-window-half = shuttle window (half)
+construction-recipe-clockwork-window-lower-half-tilt-left = clockwork window (lower half-tilt-left)
+construction-recipe-clockwork-window-upper-half-tilt-left = clockwork window (upper half-tilt-left)
+construction-recipe-clockwork-window-lower-half-tilt-right = clockwork window (lower half-tilt-right)
+construction-recipe-clockwork-window-upper-half-tilt-right = clockwork window (upper half-tilt-right)
+construction-recipe-clockwork-window-wedge = clockwork window (wedge)
+construction-recipe-clockwork-window-half = clockwork window (half)
 
 construction-recipe-plasma-window-half-leaning = plasma window (leaning-half)
 construction-recipe-plasma-window-pentagon = plasma window (pentagon)
@@ -62,5 +68,8 @@ construction-recipe-reinforced-uranium-window-diagonal-quarter = reinforced uran
 construction-recipe-shuttle-window-half-leaning = shuttle window (leaning-half)
 construction-recipe-shuttle-window-pentagon = shuttle window (pentagon)
 construction-recipe-shuttle-window-diagonal-quarter = shuttle window (diagonal-quarter)
+construction-recipe-clockwork-window-half-leaning = clockwork window (leaning-half)
+construction-recipe-clockwork-window-pentagon = clockwork window (pentagon)
+construction-recipe-clockwork-window-diagonal-quarter = clockwork window (diagonal-quarter)
 
 construction-recipe-shuttle-window-diagonal = shuttle window (diagonal)

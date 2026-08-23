@@ -894,3 +894,129 @@
     - !type:NoWindowsInTile
   objectType: Structure
   placementMode: SnapgridCenter
+
+- type: construction
+  id: ClockworkWindowLowerHalfTiltLeft
+  name: construction-recipe-clockwork-window-lower-half-tilt-left
+  graph: WindowLowerHalfTiltLeft
+  startNode: start
+  targetNode: clockworkWindowLowerHalfTiltLeft
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ClockworkWindowUpperHalfTiltLeft
+  name: construction-recipe-clockwork-window-upper-half-tilt-left
+  graph: WindowUpperHalfTiltLeft
+  startNode: start
+  targetNode: clockworkWindowUpperHalfTiltLeft
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ClockworkWindowLowerHalfTiltRight
+  name: construction-recipe-clockwork-window-lower-half-tilt-right
+  graph: WindowLowerHalfTiltRight
+  startNode: start
+  targetNode: clockworkWindowLowerHalfTiltRight
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ClockworkWindowUpperHalfTiltRight
+  name: construction-recipe-clockwork-window-upper-half-tilt-right
+  graph: WindowUpperHalfTiltRight
+  startNode: start
+  targetNode: clockworkWindowUpperHalfTiltRight
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ClockworkWindowWedge
+  name: construction-recipe-clockwork-window-wedge
+  graph: WindowWedge
+  startNode: start
+  targetNode: clockworkWindowWedge
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ClockworkWindowHalf
+  name: construction-recipe-clockwork-window-half
+  graph: WindowHalf
+  startNode: start
+  targetNode: clockworkWindowHalf
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ClockworkWindowHalfLeaning
+  name: construction-recipe-clockwork-window-half-leaning
+  graph: WindowHalfLeaning
+  startNode: start
+  targetNode: clockworkWindowHalfLeaning
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ClockworkWindowPentagon
+  name: construction-recipe-clockwork-window-pentagon
+  graph: WindowPentagon
+  startNode: start
+  targetNode: clockworkWindowPentagon
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ClockworkWindowDiagonalQuarter
+  name: construction-recipe-clockwork-window-diagonal-quarter
+  graph: WindowDiagonalQuarter
+  startNode: start
+  targetNode: clockworkWindowDiagonalQuarter
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
