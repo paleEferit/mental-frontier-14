@@ -34,6 +34,12 @@ construction-recipe-reinforced-uranium-window-lower-half-tilt-right = reinforced
 construction-recipe-reinforced-uranium-window-upper-half-tilt-right = reinforced uranium window (upper half-tilt-right)
 construction-recipe-reinforced-uranium-window-wedge = reinforced uranium window (wedge)
 construction-recipe-reinforced-uranium-window-half = reinforced uranium window (half)
+construction-recipe-shuttle-window-lower-half-tilt-left = shuttle window (lower half-tilt-left)
+construction-recipe-shuttle-window-upper-half-tilt-left = shuttle window (upper half-tilt-left)
+construction-recipe-shuttle-window-lower-half-tilt-right = shuttle window (lower half-tilt-right)
+construction-recipe-shuttle-window-upper-half-tilt-right = shuttle window (upper half-tilt-right)
+construction-recipe-shuttle-window-wedge = shuttle window (wedge)
+construction-recipe-shuttle-window-half = shuttle window (half)
 
 construction-recipe-plasma-window-half-leaning = plasma window (leaning-half)
 construction-recipe-plasma-window-pentagon = plasma window (pentagon)
@@ -53,3 +59,8 @@ construction-recipe-reinforced-window-diagonal-quarter = reinforced window (diag
 construction-recipe-reinforced-uranium-window-half-leaning = reinforced uranium window (leaning-half)
 construction-recipe-reinforced-uranium-window-pentagon = reinforced uranium window (pentagon)
 construction-recipe-reinforced-uranium-window-diagonal-quarter = reinforced uranium window (diagonal-quarter)
+construction-recipe-shuttle-window-half-leaning = shuttle window (leaning-half)
+construction-recipe-shuttle-window-pentagon = shuttle window (pentagon)
+construction-recipe-shuttle-window-diagonal-quarter = shuttle window (diagonal-quarter)
+
+construction-recipe-shuttle-window-diagonal = shuttle window (diagonal)

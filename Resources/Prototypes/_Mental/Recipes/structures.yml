@@ -753,3 +753,144 @@
     - !type:NoWindowsInTile
   objectType: Structure
   placementMode: SnapgridCenter
+
+# Added missing construction graph for diagonal shuttle window here
+- type: construction
+  id: ShuttleWindowDiagonal
+  name: construction-recipe-shuttle-window-diagonal
+  graph: WindowDiagonal
+  startNode: start
+  targetNode: shuttleWindowDiagonal
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ShuttleWindowLowerHalfTiltLeft
+  name: construction-recipe-shuttle-window-lower-half-tilt-left
+  graph: WindowLowerHalfTiltLeft
+  startNode: start
+  targetNode: shuttleWindowLowerHalfTiltLeft
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ShuttleWindowUpperHalfTiltLeft
+  name: construction-recipe-shuttle-window-upper-half-tilt-left
+  graph: WindowUpperHalfTiltLeft
+  startNode: start
+  targetNode: shuttleWindowUpperHalfTiltLeft
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ShuttleWindowLowerHalfTiltRight
+  name: construction-recipe-shuttle-window-lower-half-tilt-right
+  graph: WindowLowerHalfTiltRight
+  startNode: start
+  targetNode: shuttleWindowLowerHalfTiltRight
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ShuttleWindowUpperHalfTiltRight
+  name: construction-recipe-shuttle-window-upper-half-tilt-right
+  graph: WindowUpperHalfTiltRight
+  startNode: start
+  targetNode: shuttleWindowUpperHalfTiltRight
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ShuttleWindowWedge
+  name: construction-recipe-shuttle-window-wedge
+  graph: WindowWedge
+  startNode: start
+  targetNode: shuttleWindowWedge
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ShuttleWindowHalf
+  name: construction-recipe-shuttle-window-half
+  graph: WindowHalf
+  startNode: start
+  targetNode: shuttleWindowHalf
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ShuttleWindowHalfLeaning
+  name: construction-recipe-shuttle-window-half-leaning
+  graph: WindowHalfLeaning
+  startNode: start
+  targetNode: shuttleWindowHalfLeaning
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ShuttleWindowPentagon
+  name: construction-recipe-shuttle-window-pentagon
+  graph: WindowPentagon
+  startNode: start
+  targetNode: shuttleWindowPentagon
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
+
+- type: construction
+  id: ShuttleWindowDiagonalQuarter
+  name: construction-recipe-shuttle-window-diagonal-quarter
+  graph: WindowDiagonalQuarter
+  startNode: start
+  targetNode: shuttleWindowDiagonalQuarter
+  category: construction-category-structures
+  canBuildInImpassable: true
+  conditions:
+    - !type:EmptyOrWindowValidInTile
+    - !type:NoWindowsInTile
+  objectType: Structure
+  placementMode: SnapgridCenter
