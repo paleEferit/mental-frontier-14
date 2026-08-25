@@ -13,6 +13,15 @@
               amount: 2
               doAfter: 1
 
+        - to: clockworkGirderDiagonal
+          completed:
+            - !type:SnapToGrid {} # Frontier: use default ctor
+              # southRotation: true # Frontier
+          steps:
+            - material: Brass
+              amount: 2
+              doAfter: 1
+
     - node: girderDiagonal
       entity: GirderDiagonal
       edges:
@@ -50,6 +59,36 @@
             - material: Steel
               amount: 2
               doAfter: 2
+
+    - node: clockworkGirderDiagonal
+      entity: ClockworkGirderDiagonal
+      edges:
+        - to: start
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetBrass1
+              amount: 2
+            - !type:DeleteEntity {}
+          conditions:
+            - !type:EntityAnchored
+              anchored: false
+          steps:
+            - tool: Screwing
+              doAfter: 2
+
+        - to: clockworkWallDiagonal
+          completed:
+            - !type:SnapToGrid
+              # southRotation: true
+          conditions:
+            - !type:EntityAnchored {}
+          steps:
+            - material: MetalRod
+              amount: 2
+              doAfter: 2
+            - material: Brass
+              amount: 2
+              doAfter: 1
 
     - node: reinforcedGirderDiagonal
       entity: ReinforcedGirderDiagonal
@@ -214,4 +253,22 @@
                   data: 0
             - tool: Cutting
               doAfter: 4
-    
+
+    - node: clockworkWallDiagonal
+      entity: WallClockworkDiagonal
+      edges:
+        - to: clockworkGirderDiagonal
+          completed:
+            - !type:GivePrototype
+              prototype: PartRodMetal1
+              amount: 2
+            - !type:GivePrototype
+              prototype: SheetBrass1
+              amount: 2
+          steps:
+            - tool: Welding
+              doAfter: 10
+            - tool: Cutting
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2

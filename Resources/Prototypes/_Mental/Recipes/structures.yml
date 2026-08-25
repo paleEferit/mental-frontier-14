@@ -1048,6 +1048,19 @@
     - !type:TileNotBlocked
 
 - type: construction
+  id: ClockworkGirderDiagonal
+  name: construction-recipe-clockwork-girder-diagonal
+  graph: GirderDiagonal
+  startNode: start
+  targetNode: clockworkGirderDiagonal
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
   id: WallSolidDiagonal
   name: construction-recipe-wall-solid-diagonal
   graph: GirderDiagonal
@@ -1087,3 +1100,15 @@
   conditions:
     - !type:TileNotBlocked
 
+- type: construction
+  id: WallClockworkDiagonal
+  name: construction-recipe-wall-clockwork-diagonal
+  graph: GirderDiagonal
+  startNode: start
+  targetNode: clockworkWallDiagonal
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked

@@ -12,6 +12,9 @@
         },
         {
             "name":"reinforced_wall_girder_diagonal"
+        },
+        {
+            "name": "gear_wall_girder_diagonal"
         }
     ]
 }

@@ -76,6 +76,8 @@ construction-recipe-shuttle-window-diagonal = shuttle window (diagonal)
 
 construction-recipe-girder-diagonal = girder (diagonal)
 construction-recipe-reinforced-girder-diagonal = reinforced girder (diagonal)
+construction-recipe-clockwork-girder-diagonal = clockwork girder (diagonal)
 construction-recipe-wall-solid-diagonal = solid wall (diagonal)
 construction-recipe-wall-reinforced-diagonal = reinforced wall (diagonal)
 construction-recipe-wall-shuttle-diagonal = shuttle wall (diagonal)
+construction-recipe-wall-clockwork-diagonal = clockwork wall (diagonal)

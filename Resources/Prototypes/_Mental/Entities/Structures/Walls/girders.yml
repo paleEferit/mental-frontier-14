@@ -107,3 +107,44 @@
                 collection: MetalBreak
     - type: StaticPrice
       price: 70 # Frontier: 130<70
+
+- type: entity
+  id: ClockworkGirderDiagonal
+  parent: GirderDiagonal
+  name: clockwork girder diagonal
+  description: A large structural assembly made out of brass.
+  components:
+    - type: Sprite
+      sprite: _Mental/Structures/Walls/girder_diagonal.rsi
+      state: gear_wall_girder_diagonal
+    - type: Rotatable
+    - type: Construction
+      graph: GirderDiagonal
+      node: clockworkGirderDiagonal
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 200
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalBreak
+        - trigger:
+            !type:DamageTrigger
+            damage: 50
+          behaviors:
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                SheetBrass1:
+                  min: 0 # Frontier: 1<0
+                  max: 1
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalBreak
+    - type: StaticPrice
+      price: 70 # Frontier: 130<70
