@@ -81,3 +81,5 @@ construction-recipe-wall-solid-diagonal = solid wall (diagonal)
 construction-recipe-wall-reinforced-diagonal = reinforced wall (diagonal)
 construction-recipe-wall-shuttle-diagonal = shuttle wall (diagonal)
 construction-recipe-wall-clockwork-diagonal = clockwork wall (diagonal)
+construction-recipe-wall-shuttle-interior = interior shuttle wall
+construction-recipe-wall-shuttle-interior-diagonal = interior shuttle wall (diagonal)

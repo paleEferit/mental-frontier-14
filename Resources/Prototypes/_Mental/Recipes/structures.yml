@@ -1112,3 +1112,29 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
+
+- type: construction
+  id: WallShuttleInterior
+  name: construction-recipe-wall-shuttle-interior
+  graph: Girder
+  startNode: start
+  targetNode: shuttleInteriorWall
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallShuttleInteriorDiagonal
+  name: construction-recipe-wall-shuttle-interior-diagonal
+  graph: GirderDiagonal
+  startNode: start
+  targetNode: shuttleInteriorWallDiagonal
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
