@@ -928,15 +928,16 @@
         damage: 300
       behaviors:
       - !type:ChangeConstructionNodeBehavior
-        node: girder
+        node: girderDiagonal
       - !type:PlaySoundBehavior
         sound:
           collection: MetalSlam
       - !type:DoActsBehavior
         acts: ["Destruction"]
   - type: Construction
-    graph: Girder
-    node: diagonalshuttleWall
+  # Mental - moved to another build graph
+    graph: GirderDiagonal
+    node: diagonalShuttleWall
   - type: RadiationBlocker
     resistance: 5
   - type: StaticPrice

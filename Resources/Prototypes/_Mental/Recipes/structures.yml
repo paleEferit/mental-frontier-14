@@ -1072,3 +1072,18 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
+
+- type: construction
+  id: DiagonalShuttleWall
+  name: construction-recipe-wall-shuttle-diagonal
+  graph: GirderDiagonal
+  startNode: start
+  targetNode: diagonalShuttleWall
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canRotate: true
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+

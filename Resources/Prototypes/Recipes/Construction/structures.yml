@@ -167,19 +167,20 @@
   conditions:
     - !type:TileNotBlocked
 
-- type: construction
-  id: DiagonalShuttleWall
-  name: construction-recipe-diagonal-shuttle-wall
-  graph: Girder
-  startNode: start
-  targetNode: diagonalshuttleWall
-  category: construction-category-structures
-  objectType: Structure
-  placementMode: SnapgridCenter
-  canRotate: true
-  canBuildInImpassable: false
-  conditions:
-    - !type:TileNotBlocked
+# Mental: moving shuttle wall diagonal construction graph elsewhere
+# - type: construction
+#  id: DiagonalShuttleWall
+#  name: construction-recipe-diagonal-shuttle-wall
+#  graph: Girder
+#  startNode: start
+#  targetNode: diagonalshuttleWall
+#  category: construction-category-structures
+#  objectType: Structure
+#  placementMode: SnapgridCenter
+#  canRotate: true
+#  canBuildInImpassable: false
+#  conditions:
+#    - !type:TileNotBlocked
 
 - type: construction
   id: ClownWall
