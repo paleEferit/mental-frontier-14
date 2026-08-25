@@ -737,6 +737,10 @@
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallicStrong
+  # Mental: adding option to construct
+  - type: Construction
+    graph: GirderDiagonal
+    node: wallReinforcedDiagonal
   - type: Destructible
     thresholds:
     - trigger:
@@ -753,7 +757,7 @@
         damage: 300
       behaviors:
       - !type:ChangeConstructionNodeBehavior
-        node: girder
+        node: girderDiagonal
       - !type:PlaySoundBehavior
         sound:
           collection: MetalSlam
@@ -1072,6 +1076,14 @@
   - type: Icon
     sprite: _NF/Structures/Walls/solid_diagonal.rsi # Frontier: use _NF variant
     state: state0
+  # Mental: make diagonal wall removable by RCD
+  - type: RCDDeconstructable
+    cost: 6
+    delay: 8
+  # Mental: adding option to construct
+  - type: Construction
+    graph: GirderDiagonal
+    node: wallSolidDiagonal
   - type: Destructible
     thresholds:
     - trigger:
@@ -1088,7 +1100,7 @@
         damage: 200
       behaviors:
       - !type:ChangeConstructionNodeBehavior
-        node: girder
+        node: girderDiagonal
       - !type:PlaySoundBehavior
         sound:
           collection: MetalSlam

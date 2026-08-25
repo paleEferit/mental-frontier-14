@@ -1020,3 +1020,55 @@
     - !type:NoWindowsInTile
   objectType: Structure
   placementMode: SnapgridCenter
+
+- type: construction
+  id: GirderDiagonal
+  name: construction-recipe-girder-diagonal
+  graph: GirderDiagonal
+  startNode: start
+  targetNode: girderDiagonal
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: ReinforcedGirderDiagonal
+  name: construction-recipe-reinforced-girder-diagonal
+  graph: GirderDiagonal
+  startNode: start
+  targetNode: reinforcedGirderDiagonal
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallSolidDiagonal
+  name: construction-recipe-wall-solid-diagonal
+  graph: GirderDiagonal
+  startNode: start
+  targetNode: wallSolidDiagonal
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallReinforcedDiagonal
+  name: construction-recipe-wall-reinforced-diagonal
+  graph: GirderDiagonal
+  startNode: start
+  targetNode: wallReinforcedDiagonal
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
