@@ -101,3 +101,7 @@ construction-recipe-clockwork-girder-upper-half-tilt-right = clockwork girder (u
 construction-recipe-girder-wedge = girder (wedge)
 construction-recipe-reinforced-girder-wedge = reinforced girder (wedge)
 construction-recipe-clockwork-girder-wedge = clockwork girder (wedge)
+
+construction-recipe-girder-half = girder (half)
+construction-recipe-reinforced-girder-half = reinforced girder (half)
+construction-recipe-clockwork-girder-half = clockwork girder (half)
