@@ -105,3 +105,7 @@ construction-recipe-clockwork-girder-wedge = clockwork girder (wedge)
 construction-recipe-girder-half = girder (half)
 construction-recipe-reinforced-girder-half = reinforced girder (half)
 construction-recipe-clockwork-girder-half = clockwork girder (half)
+
+construction-recipe-girder-half-leaning = girder (half-leaning)
+construction-recipe-reinforced-girder-half-leaning = reinforced girder (half-leaning)
+construction-recipe-clockwork-girder-half-leaning = clockwork girder (half-leaning)

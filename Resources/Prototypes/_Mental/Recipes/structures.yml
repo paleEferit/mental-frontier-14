@@ -1372,3 +1372,42 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
+
+- type: construction
+  id: GirderHalfLeaning
+  name: construction-recipe-girder-half-leaning
+  graph: GirderHalfLeaning
+  startNode: start
+  targetNode: girderHalfLeaning
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: ReinforcedGirderHalfLeaning
+  name: construction-recipe-reinforced-girder-half-leaning
+  graph: GirderHalfLeaning
+  startNode: start
+  targetNode: reinforcedGirderHalfLeaning
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: ClockworkGirderHalfLeaning
+  name: construction-recipe-clockwork-girder-half-leaning
+  graph: GirderHalfLeaning
+  startNode: start
+  targetNode: clockworkGirderHalfLeaning
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
