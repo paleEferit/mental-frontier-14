@@ -83,3 +83,7 @@ construction-recipe-wall-shuttle-diagonal = shuttle wall (diagonal)
 construction-recipe-wall-clockwork-diagonal = clockwork wall (diagonal)
 construction-recipe-wall-shuttle-interior = interior shuttle wall
 construction-recipe-wall-shuttle-interior-diagonal = interior shuttle wall (diagonal)
+
+construction-recipe-girder-lower-half-tilt-left = girder (lower half-tilt-left)
+construction-recipe-reinforced-girder-lower-half-tilt-left = reinforced girder (lower half-tilt-left)
+construction-recipe-clockwork-girder-lower-half-tilt-left = clockwork girder (lower half-tilt-left)

@@ -1138,3 +1138,42 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
+
+- type: construction
+  id: GirderLowerHalfTiltLeft
+  name: construction-recipe-girder-lower-half-tilt-left
+  graph: GirderLowerHalfTiltLeft
+  startNode: start
+  targetNode: girderLowerHalfTiltLeft
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: ReinforcedGirderLowerHalfTiltLeft
+  name: construction-recipe-reinforced-girder-lower-half-tilt-left
+  graph: GirderLowerHalfTiltLeft
+  startNode: start
+  targetNode: reinforcedGirderLowerHalfTiltLeft
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: ClockworkGirderLowerHalfTiltLeft
+  name: construction-recipe-clockwork-girder-lower-half-tilt-left
+  graph: GirderLowerHalfTiltLeft
+  startNode: start
+  targetNode: clockworkGirderLowerHalfTiltLeft
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
