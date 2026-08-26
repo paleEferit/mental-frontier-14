@@ -1,7 +1,7 @@
 - type: entity
-  id: GirderLowerHalfTiltLeft
+  id: GirderLowerHalfTiltRight
   parent: BaseStructureDynamic
-  name: girder lower half tilt left
+  name: girder lower half tilt right
   description: A large structural assembly made out of metal; It requires a layer of metal before it can be considered a wall.
   components:
   - type: Transform
@@ -27,11 +27,11 @@
   - type: InteractionOutline
   - type: Rotatable
   - type: Construction
-    graph: GirderLowerHalfTiltLeft
-    node: girderLowerHalfTiltLeft
+    graph: GirderLowerHalfTiltRight
+    node: girderLowerHalfTiltRight
   - type: Sprite
-    sprite: _Mental/Structures/Walls/girder_lower_half_tilt_left.rsi
-    state: wall_girder_lower_half_tilt_left
+    sprite: _Mental/Structures/Walls/girder_lower_half_tilt_right.rsi
+    state: wall_girder_lower_half_tilt_right
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: StructuralMetallic
@@ -66,18 +66,18 @@
     fx: EffectRCDDeconstruct4 # Frontier
 
 - type: entity
-  id: ReinforcedGirderLowerHalfTiltLeft
-  parent: GirderLowerHalfTiltLeft
-  name: reinforced girder lower half tilt left
+  id: ReinforcedGirderLowerHalfTiltRight
+  parent: GirderLowerHalfTiltRight
+  name: reinforced girder lower half tilt right
   description: A large structural assembly made out of metal and plasteel; It requires a layer of plasteel before it can be considered a reinforced wall.
   components:
     - type: Sprite
-      sprite: _Mental/Structures/Walls/girder_lower_half_tilt_left.rsi
-      state: reinforced_wall_girder_lower_half_tilt_left
+      sprite: _Mental/Structures/Walls/girder_lower_half_tilt_right.rsi
+      state: reinforced_wall_girder_lower_half_tilt_right
     - type: Rotatable
     - type: Construction
-      graph: GirderLowerHalfTiltLeft
-      node: reinforcedGirderLowerHalfTiltLeft
+      graph: GirderLowerHalfTiltRight
+      node: reinforcedGirderLowerHalfTiltRight
     - type: Destructible
       thresholds:
         - trigger:
@@ -110,18 +110,18 @@
       price: 70 # Frontier: 130<70
 
 - type: entity
-  id: ClockworkGirderLowerHalfTiltLeft
-  parent: GirderLowerHalfTiltLeft
-  name: clockwork girder lower half tilt left
+  id: ClockworkGirderLowerHalfTiltRight
+  parent: GirderLowerHalfTiltRight
+  name: clockwork girder lower half tilt right
   description: A large structural assembly made out of brass.
   components:
     - type: Sprite
-      sprite: _Mental/Structures/Walls/girder_lower_half_tilt_left.rsi
-      state: gear_wall_girder_lower_half_tilt_left
+      sprite: _Mental/Structures/Walls/girder_lower_half_tilt_right.rsi
+      state: gear_wall_girder_lower_half_tilt_right
     - type: Rotatable
     - type: Construction
-      graph: GirderLowerHalfTiltLeft
-      node: clockworkGirderLowerHalfTiltLeft
+      graph: GirderLowerHalfTiltRight
+      node: clockworkGirderLowerHalfTiltRight
     - type: Destructible
       thresholds:
         - trigger:
