@@ -8,13 +8,13 @@
     "copyright": "Girders sprited by paleEferit (Github)",
     "states": [
         {
-            "name": "wall_girder_quarter_diagonal"
+            "name": "wall_girder_diagonal_quarter"
         },
         {
-            "name": "reinforced_wall_girder_quarter_diagonal"
+            "name": "reinforced_wall_girder_diagonal_quarter"
         },
         {
-            "name": "gear_wall_girder_quarter_diagonal"
+            "name": "gear_wall_girder_diagonal_quarter"
         }
     ]
 }

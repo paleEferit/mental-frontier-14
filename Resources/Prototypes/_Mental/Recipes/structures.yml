@@ -1411,3 +1411,81 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
+
+- type: construction
+  id: GirderPentagon
+  name: construction-recipe-girder-pentagon
+  graph: GirderPentagon
+  startNode: start
+  targetNode: girderPentagon
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: ReinforcedGirderPentagon
+  name: construction-recipe-reinforced-girder-pentagon
+  graph: GirderPentagon
+  startNode: start
+  targetNode: reinforcedGirderPentagon
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: ClockworkGirderPentagon
+  name: construction-recipe-clockwork-girder-pentagon
+  graph: GirderPentagon
+  startNode: start
+  targetNode: clockworkGirderPentagon
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: GirderDiagonalQuarter
+  name: construction-recipe-girder-diagonal-quarter
+  graph: GirderDiagonalQuarter
+  startNode: start
+  targetNode: girderDiagonalQuarter
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: ReinforcedGirderDiagonalQuarter
+  name: construction-recipe-reinforced-girder-diagonal-quarter
+  graph: GirderDiagonalQuarter
+  startNode: start
+  targetNode: reinforcedGirderDiagonalQuarter
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: ClockworkGirderDiagonalQuarter
+  name: construction-recipe-clockwork-girder-diagonal-quarter
+  graph: GirderDiagonalQuarter
+  startNode: start
+  targetNode: clockworkGirderDiagonalQuarter
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked

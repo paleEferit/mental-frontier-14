@@ -109,3 +109,11 @@ construction-recipe-clockwork-girder-half = clockwork girder (half)
 construction-recipe-girder-half-leaning = girder (half-leaning)
 construction-recipe-reinforced-girder-half-leaning = reinforced girder (half-leaning)
 construction-recipe-clockwork-girder-half-leaning = clockwork girder (half-leaning)
+
+construction-recipe-girder-pentagon = girder (pentagon)
+construction-recipe-reinforced-girder-pentagon = reinforced girder (pentagon)
+construction-recipe-clockwork-girder-pentagong = clockwork girder (pentagon)
+
+construction-recipe-girder-diagonal-quarter = girder (diagonal-quarter)
+construction-recipe-reinforced-girder-diagonal-quarter = reinforced girder (diagonal-quarter)
+construction-recipe-clockwork-girder-diagonal-quarter = clockwork girder (diagonal-quarter)
