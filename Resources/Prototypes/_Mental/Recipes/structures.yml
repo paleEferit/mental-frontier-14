@@ -1216,3 +1216,81 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
+
+- type: construction
+  id: GirderUpperHalfTiltLeft
+  name: construction-recipe-girder-upper-half-tilt-left
+  graph: GirderUpperHalfTiltLeft
+  startNode: start
+  targetNode: girderUpperHalfTiltLeft
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: ReinforcedGirderUpperHalfTiltLeft
+  name: construction-recipe-reinforced-girder-upper-half-tilt-left
+  graph: GirderUpperHalfTiltLeft
+  startNode: start
+  targetNode: reinforcedGirderUpperHalfTiltLeft
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: ClockworkGirderUpperHalfTiltLeft
+  name: construction-recipe-clockwork-girder-upper-half-tilt-left
+  graph: GirderUpperHalfTiltLeft
+  startNode: start
+  targetNode: clockworkGirdeUpperHalfTiltLeft
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: GirderUpperHalfTiltRight
+  name: construction-recipe-girder-upper-half-tilt-right
+  graph: GirderUpperHalfTiltRight
+  startNode: start
+  targetNode: girderUpperHalfTiltRight
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: ReinforcedGirderUpperHalfTiltRight
+  name: construction-recipe-reinforced-girder-upper-half-tilt-right
+  graph: GirderUpperHalfTiltRight
+  startNode: start
+  targetNode: reinforcedGirderUpperHalfTiltRight
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: ClockworkGirderUpperHalfTiltRight
+  name: construction-recipe-clockwork-girder-upper-half-tilt-right
+  graph: GirderUpperHalfTiltRight
+  startNode: start
+  targetNode: clockworkGirderUpperHalfTiltRight
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked

@@ -90,3 +90,10 @@ construction-recipe-clockwork-girder-lower-half-tilt-left = clockwork girder (lo
 construction-recipe-girder-lower-half-tilt-right = girder (lower half-tilt-right)
 construction-recipe-reinforced-girder-lower-half-tilt-right = reinforced girder (lower half-tilt-right)
 construction-recipe-clockwork-girder-lower-half-tilt-right = clockwork girder (lower half-tilt-right)
+
+construction-recipe-girder-upper-half-tilt-left = girder (upper half-tilt-left)
+construction-recipe-reinforced-girder-upper-half-tilt-left = reinforced girder (upper half-tilt-left)
+construction-recipe-clockwork-girder-upper-half-tilt-left = clockwork girder (upper half-tilt-left)
+construction-recipe-girder-upper-half-tilt-right = girder (upper half-tilt-right)
+construction-recipe-reinforced-girder-upper-half-tilt-right = reinforced girder (upper half-tilt-right)
+construction-recipe-clockwork-girder-upper-half-tilt-right = clockwork girder (upper half-tilt-right)
