@@ -1248,7 +1248,7 @@
   name: construction-recipe-clockwork-girder-upper-half-tilt-left
   graph: GirderUpperHalfTiltLeft
   startNode: start
-  targetNode: clockworkGirdeUpperHalfTiltLeft
+  targetNode: clockworkGirderUpperHalfTiltLeft
   category: construction-category-structures
   objectType: Structure
   placementMode: SnapgridCenter
@@ -1288,6 +1288,45 @@
   graph: GirderUpperHalfTiltRight
   startNode: start
   targetNode: clockworkGirderUpperHalfTiltRight
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: GirderWedge
+  name: construction-recipe-girder-wedge
+  graph: GirderWedge
+  startNode: start
+  targetNode: girderWedge
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: ReinforcedGirderWedge
+  name: construction-recipe-reinforced-girder-wedge
+  graph: GirderWedge
+  startNode: start
+  targetNode: reinforcedGirderWedge
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: ClockworkGirderWedge
+  name: construction-recipe-clockwork-girder-wedge
+  graph: GirderWedge
+  startNode: start
+  targetNode: clockworkGirderWedge
   category: construction-category-structures
   objectType: Structure
   placementMode: SnapgridCenter
