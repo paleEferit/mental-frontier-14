@@ -300,6 +300,105 @@
     damageModifierSet: RGlass
 
 - type: entity
+  id: PlastitaniumWindowUpperHalfTiltRightBase
+  abstract: true
+  name: plastitanium window
+  parent: PlastitaniumWindowBase
+  suffix: tilted
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/plastitanium_upper_half_tilt_right.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: Icon
+    sprite: _Mental/Structures/Windows/plastitanium_upper_half_tilt_right.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls # Frontier: windows<walls
+    base: state
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "0,-0.5"
+            - "-0.5,-0.5"
+            - "-0.5,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+        density: 4000
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - East
+
+- type: entity
+  id: PlastitaniumWindowUpperHalfTiltRightIndestructible
+  name: plastitanium window
+  parent: PlastitaniumWindowUpperHalfTiltRightBase
+  suffix: tilted, indestructible
+  # Frontier: colored indestructible windows
+  description: Skub knows this window is too hard to destroy.
+  components:
+  - type: Sprite
+    color: "#cdf3cd"
+  # End Frontier
+  - type: ExaminableDamage
+    messages: null
+
+- type: entity
+  id: PlastitaniumWindowUpperHalfTiltRight
+  name: plastitanium window
+  parent: PlastitaniumWindowUpperHalfTiltRightBase
+  suffix: tilted
+  components:
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 500
+      behaviors:
+      - !type:PlaySoundBehavior
+        sound:
+          collection: WindowShatter
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          ShardGlassReinforced:
+            min: 1
+            max: 2
+          PartRodMetal:
+            min: 1
+            max: 2
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+  - type: DamageVisuals
+    thresholds: [5, 10, 20]
+    damageDivisor: 20
+    trackAllDamage: true
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_upper_half_tilt_right.rsi
+  - type: Repairable
+    fuelCost: 15
+    doAfterDelay: 3
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: RGlass
+
+- type: entity
   id: PlastitaniumWindowWedgeBase
   abstract: true
   name: plastitanium window

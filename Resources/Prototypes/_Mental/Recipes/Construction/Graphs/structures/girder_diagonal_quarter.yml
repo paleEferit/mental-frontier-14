@@ -49,6 +49,17 @@
               amount: 2
               doAfter: 1
 
+        - to: wallSolidDiagonalQuarter
+          completed:
+            - !type:SnapToGrid
+              # southRotation: true
+          conditions:
+            - !type:EntityAnchored {}
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 2
+              
     - node: clockworkGirderDiagonalQuarter
       entity: ClockworkGirderDiagonalQuarter
       edges:
@@ -80,3 +91,15 @@
           steps:
             - tool: Cutting
               doAfter: 2
+
+    - node: wallSolidDiagonalQuarter
+      entity: WallSolidDiagonalQuarter
+      edges:
+        - to: girderDiagonalQuarter
+          completed:
+            - !type:GivePrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Welding
+              doAfter: 10

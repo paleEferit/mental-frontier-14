@@ -1,0 +1,76 @@
+- type: entity
+  abstract: true
+  parent: BaseStructureWall
+  id: WallHalfLeaningBase
+  suffix: leaning-half
+  components:
+  - type: Tag
+    tags:
+    - Wall
+    - Diagonal
+  - type: IconSmooth
+    mode: Diagonal
+    key: walls
+    base: state
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape: !type:PolygonShape
+          vertices:
+          - "-0.5,-0.5"
+          - "-0.5,0"
+          - "0.5,0"
+          - "0.5,-0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - WallLayer
+  - type: Occluder
+    boundingBox: -0.5, -0.5, 0.5, 0
+
+- type: entity
+  parent: WallHalfLeaningBase
+  id: WallSolidHalfLeaning
+  name: solid wall
+  components:
+  - type: Sprite
+    drawdepth: Walls
+    sprite: _Mental/Structures/Walls/solid_wall_half_leaning.rsi # Frontier: use _NF variant
+    state: state0
+  - type: Icon
+    sprite: _Mental/Structures/Walls/solid_wall_half_leaning.rsi # Frontier: use _NF variant
+    state: state0
+  # Mental: make diagonal wall removable by RCD
+  - type: RCDDeconstructable
+    cost: 6
+    delay: 8
+  # Mental: adding option to construct
+  - type: Construction
+    graph: GirderHalfLeaning
+    node: wallSolidHalfLeaning
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 400
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalSlam
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors:
+      - !type:ChangeConstructionNodeBehavior
+        node: girderHalfLeaning
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
+      - !type:DoActsBehavior
+        acts: ["Destruction"]

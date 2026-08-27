@@ -49,6 +49,17 @@
               amount: 2
               doAfter: 1
 
+        - to: wallSolidUpperHalfTiltRight
+          completed:
+            - !type:SnapToGrid
+              # southRotation: true
+          conditions:
+            - !type:EntityAnchored {}
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 2
+
     - node: clockworkGirderUpperHalfTiltRight
       entity: ClockworkGirderUpperHalfTiltRight
       edges:
@@ -80,3 +91,15 @@
           steps:
             - tool: Cutting
               doAfter: 2
+
+    - node: wallSolidUpperHalfTiltRight
+      entity: WallSolidUpperHalfTiltRight
+      edges:
+        - to: girderUpperHalfTiltRight
+          completed:
+            - !type:GivePrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Welding
+              doAfter: 10

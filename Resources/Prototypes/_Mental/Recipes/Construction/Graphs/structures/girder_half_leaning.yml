@@ -49,6 +49,17 @@
               amount: 2
               doAfter: 1
 
+        - to: wallSolidHalfLeaning
+          completed:
+            - !type:SnapToGrid
+              # southRotation: true
+          conditions:
+            - !type:EntityAnchored {}
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 2
+
     - node: clockworkGirderHalfLeaning
       entity: ClockworkGirderHalfLeaning
       edges:
@@ -80,3 +91,15 @@
           steps:
             - tool: Cutting
               doAfter: 2
+
+    - node: wallSolidHalfLeaning
+      entity: WallSolidHalfLeaning
+      edges:
+        - to: girderHalfLeaning
+          completed:
+            - !type:GivePrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Welding
+              doAfter: 10

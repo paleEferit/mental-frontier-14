@@ -1489,3 +1489,120 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
+
+- type: construction
+  id: WallSolidLowerHalfTiltLeft
+  name: construction-recipe-wall-solid-lower-half-tilt-left
+  graph: GirderLowerHalfTiltLeft
+  startNode: start
+  targetNode: wallSolidLowerHalfTiltLeft
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallSolidUpperHalfTiltLeft
+  name: construction-recipe-wall-solid-upper-half-tilt-left
+  graph: GirderUpperHalfTiltLeft
+  startNode: start
+  targetNode: wallSolidUpperHalfTiltLeft
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallSolidLowerHalfTiltRight
+  name: construction-recipe-wall-solid-lower-half-tilt-right
+  graph: GirderLowerHalfTiltRight
+  startNode: start
+  targetNode: wallSolidLowerHalfTiltRight
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallSolidUpperHalfTiltRight
+  name: construction-recipe-wall-solid-upper-half-tilt-right
+  graph: GirderUpperHalfTiltRight
+  startNode: start
+  targetNode: wallSolidUpperHalfTiltRight
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallSolidWedge
+  name: construction-recipe-wall-solid-wedge
+  graph: GirderWedge
+  startNode: start
+  targetNode: wallSolidWedge
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallSolidHalf
+  name: construction-recipe-wall-solid-half
+  graph: GirderHalf
+  startNode: start
+  targetNode: wallSolidHalf
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallSolidHalfLeaning
+  name: construction-recipe-wall-solid-half-leaning
+  graph: GirderHalfLeaning
+  startNode: start
+  targetNode: wallSolidHalfLeaning
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallSolidPentagon
+  name: construction-recipe-wall-solid-pentagon
+  graph: GirderPentagon
+  startNode: start
+  targetNode: wallSolidPentagon
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallSolidDiagonalQuarter
+  name: construction-recipe-wall-solid-diagonal-quarter
+  graph: GirderDiagonalQuarter
+  startNode: start
+  targetNode: wallSolidDiagonalQuarter
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked

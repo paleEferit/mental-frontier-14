@@ -48,6 +48,17 @@
             - material: Plasteel
               amount: 2
               doAfter: 1
+        
+        - to: wallSolidHalf
+          completed:
+            - !type:SnapToGrid
+              # southRotation: true
+          conditions:
+            - !type:EntityAnchored {}
+          steps:
+            - material: Steel
+              amount: 2
+              doAfter: 2
 
     - node: clockworkGirderHalf
       entity: ClockworkGirderHalf
@@ -80,3 +91,15 @@
           steps:
             - tool: Cutting
               doAfter: 2
+      
+    - node: wallSolidHalf
+      entity: WallSolidHalf
+      edges:
+        - to: girderHalf
+          completed:
+            - !type:GivePrototype
+              prototype: SheetSteel1
+              amount: 2
+          steps:
+            - tool: Welding
+              doAfter: 10
