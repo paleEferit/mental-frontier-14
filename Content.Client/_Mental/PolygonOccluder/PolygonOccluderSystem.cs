@@ -1,10 +1,6 @@
-using Robust.Client.GameObjects;
-using Robust.Shared.GameObjects;
-using Robust.Shared.Maths;
-using System.Collections.Generic;
-using System.Numerics;
-using Content.Client.Physics;
 using Content.Shared._Mental.Occlusion;
+using Robust.Client.GameObjects;
+using System.Numerics;
 
 namespace Content.Client._Mental.Occlusion;
 
@@ -12,7 +8,8 @@ public sealed class PolygonOccluderSystem : EntitySystem
 {
     [Dependency] private readonly TransformSystem _transform = default!;
 
-    public override void Initialize() {
+    public override void Initialize()
+    {
         base.Initialize();
     }
 

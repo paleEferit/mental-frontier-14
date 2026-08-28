@@ -1,0 +1,4 @@
+void fragment() {
+    // using white with 100% alpha for subtraction
+    COLOR = vec4(1.0, 1.0, 1.0, 1.0);
+}
