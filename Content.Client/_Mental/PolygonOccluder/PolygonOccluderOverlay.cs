@@ -69,13 +69,13 @@ public sealed class PolygonShadowOverlay : Overlay
 
         // Getting screen bounds in world coordinates
         var worldBounds = args.WorldBounds;
-        var polygons = _occluderSystem.GetWorldPolygonsInBounds(worldBounds);
+        var polygons = _occluderSystem.GetWorldPolygonsInBounds(worldBounds, playerWorldPos);
 
         var handle = args.WorldHandle;
         handle.UseShader(null);
 
         // Shadow color with transpacrency
-        var shadowColor = Color.Black.WithAlpha(1.0f);
+        var shadowColor = Color.Red.WithAlpha(1.0f);
         // Empty color to override the zone
         var emptyColor = Color.White.WithAlpha(1.0f);
         // Length of shadow ray (should go outside screen)
