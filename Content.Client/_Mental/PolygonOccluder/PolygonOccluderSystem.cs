@@ -16,9 +16,9 @@ public sealed class PolygonOccluderSystem : EntitySystem
     /// <summary>
     /// Getting all polygons (in world coords) that are in presented bounding box (AABB)
     /// </summary>
-    public List<List<Vector2>> GetWorldPolygonsInBounds(Box2Rotated worldBounds, Vector2 watcherPos)
+    public List<Vector2[]> GetWorldPolygonsInBounds(Box2Rotated worldBounds, Vector2 watcherPos)
     {
-        var result = new List<List<Vector2>>();
+        var result = new List<Vector2[]>();
         var distances = new List<float>();
         var query = EntityQueryEnumerator<PolygonOccluderComponent, TransformComponent>();
 
@@ -38,14 +38,13 @@ public sealed class PolygonOccluderSystem : EntitySystem
             }
 
             // Trasforming local coords to world coords for polygon
-            var worldPoints = new List<Vector2>(occluder.LocalVertices.Count);
+            var worldPoints = new Vector2[occluder.LocalVertices.Count];
             var (worldPos, worldRot) = _transform.GetWorldPositionRotation(xform);
 
-            foreach (var localVertex in occluder.LocalVertices)
+            for (int i = 0; i < occluder.LocalVertices.Count; i++)
             {
-                // rotating vertices
-                var rotated = worldRot.RotateVec(localVertex);
-                worldPoints.Add(worldPos + rotated);
+                var rotated = worldRot.RotateVec(occluder.LocalVertices[i]);
+                worldPoints[i] = worldPos + rotated;
             }
 
             var elementCount = distances.Count;

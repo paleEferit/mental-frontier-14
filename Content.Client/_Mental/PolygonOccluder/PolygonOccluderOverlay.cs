@@ -1,3 +1,4 @@
+using Content.Shared.Ghost;
 using Robust.Client.GameObjects;
 using Robust.Client.Graphics;
 using Robust.Client.Player;
@@ -65,7 +66,7 @@ public sealed class PolygonShadowOverlay : Overlay
 
     protected override void Draw(in OverlayDrawArgs args)
     {
-        // Нам нужна позиция игрока, от которого строятся тени
+        // Need player position to draw shadows
         var localPlayer = _playerManager.LocalEntity;
         if (ScreenTexture == null)
         {
@@ -82,6 +83,12 @@ public sealed class PolygonShadowOverlay : Overlay
         }
 
         if (localPlayer == null)
+        {
+            return;
+        }
+
+        // Not drawing it for ghosts
+        if (_entManager.HasComponent<GhostComponent>(localPlayer.Value))
         {
             return;
         }
@@ -103,6 +110,11 @@ public sealed class PolygonShadowOverlay : Overlay
         var worldBounds = args.WorldBounds;
         var polygons = _occluderSystem.GetWorldPolygonsInBounds(worldBounds, playerWorldPos);
 
+        if (polygons.Count == 0)
+        {
+            return;
+        }
+
         var handle = args.WorldHandle;
         handle.UseShader(null);
 
@@ -111,11 +123,11 @@ public sealed class PolygonShadowOverlay : Overlay
         {
             foreach (var polygon in polygons)
             {
-                for (int i = 0; i < polygon.Count; i++)
+                for (int i = 0; i < polygon.Length; i++)
                 {
                     // Getting current polygon edge
                     Vector2 p1 = polygon[i];
-                    Vector2 p2 = polygon[(i + 1) % polygon.Count];
+                    Vector2 p2 = polygon[(i + 1) % polygon.Length];
 
                     // Check if edge is facing the player.If it is, it should drop shadow.
                     Vector2 edge = p2 - p1;
@@ -143,7 +155,7 @@ public sealed class PolygonShadowOverlay : Overlay
                         handle.DrawPrimitives(DrawPrimitiveTopology.TriangleList, this.ConvertFromWorldToLocal(verticesBase, viewport), ShadowColor);
                     }
                 }
-                handle.DrawPrimitives(DrawPrimitiveTopology.TriangleFan, this.ConvertFromWorldToLocal(polygon.ToArray(), viewport), EmptyColor);
+                handle.DrawPrimitives(DrawPrimitiveTopology.TriangleFan, this.ConvertFromWorldToLocal(polygon, viewport), EmptyColor);
             }
         },
            Color.Transparent);
