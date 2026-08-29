@@ -1,0 +1,18 @@
+
+uniform sampler2D maskTexture;
+uniform sampler2D SCREEN_TEXTURE;
+
+void fragment() {
+    // getting current mask pixel color
+    highp  vec4 maskColor = zTextureSpec(maskTexture, UV);
+    highp vec4 color = zTextureSpec(SCREEN_TEXTURE, UV);
+
+    // Draw black shadow if mask is present
+    if (maskColor.r < 0.5) {
+        COLOR = vec4(0.0, 0.0, 0.0, 1.0); 
+    // Debug: draw blue if mask is present
+    } else {
+        // Drawing base texture pixel if no overlay present
+        COLOR = color;
+    }
+}

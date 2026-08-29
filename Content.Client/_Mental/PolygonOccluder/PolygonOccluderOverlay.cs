@@ -12,17 +12,37 @@ public sealed class PolygonShadowOverlay : Overlay
     [Dependency] private readonly IEntityManager _entManager = default!;
     [Dependency] private readonly IPlayerManager _playerManager = default!;
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
-    private static readonly ProtoId<ShaderPrototype> Shader = "EraserShader";
-    private ShaderInstance? _eraserShader = null;
+    [Dependency] private readonly IClyde _clyde = default!;
+    private static readonly ProtoId<ShaderPrototype> Shader = "MaskCutShader";
+    private ShaderInstance? _maskCutShader = null;
     private PolygonOccluderSystem? _occluderSystem = null;
+    private IRenderTexture? _shadowBuffer;
+    // Shadow color with transpacrency
+    private static readonly Color ShadowColor = Color.Black.WithAlpha(1.0f);
+    // Empty color to override the zone
+    private static readonly Color EmptyColor = Color.White.WithAlpha(1.0f);
+    // Length of shadow ray (should go outside screen)
+    private static readonly float ShadowLength = 30f;
 
     // Defining the layer of shadow drawing. 
     // WorldSpace should work.
     public override OverlaySpace Space => OverlaySpace.WorldSpace;
+    // Will need screen texture for shader
+    public override bool RequestScreenTexture => true;
 
     public PolygonShadowOverlay()
     {
         IoCManager.InjectDependencies(this);
+    }
+
+    private Vector2[] ConvertFromWorldToLocal(Vector2[] input, IClydeViewport viewport)
+    {
+        Vector2[] result = new Vector2[input.Length];
+        for (int i = 0; i < input.Length; i++)
+        {
+            result[i] = viewport.WorldToLocal(input[i]);
+        }
+        return result;
     }
 
     protected override bool BeforeDraw(in OverlayDrawArgs args)
@@ -31,28 +51,32 @@ public sealed class PolygonShadowOverlay : Overlay
         {
             return false;
         }
-        if (_eraserShader is null)
+        if (_maskCutShader is null)
         {
             ShaderPrototype? shaderProto = null;
             if (!_prototypeManager.TryIndex<ShaderPrototype>(Shader, out shaderProto))
             {
                 return false;
             }
-            _eraserShader = shaderProto.InstanceUnique();
+            _maskCutShader = shaderProto.InstanceUnique();
         }
-        return _occluderSystem is not null && _eraserShader is not null;
+        return _occluderSystem is not null && _maskCutShader is not null;
     }
 
     protected override void Draw(in OverlayDrawArgs args)
     {
         // Нам нужна позиция игрока, от которого строятся тени
         var localPlayer = _playerManager.LocalEntity;
+        if (ScreenTexture == null)
+        {
+            return;
+        }
         if (_occluderSystem is null)
         {
             return;
         }
 
-        if (_eraserShader is null)
+        if (_maskCutShader is null)
         {
             return;
         }
@@ -60,6 +84,14 @@ public sealed class PolygonShadowOverlay : Overlay
         if (localPlayer == null)
         {
             return;
+        }
+
+        var viewport = args.Viewport;
+        var viewportSize = args.Viewport.Size;
+        if (_shadowBuffer?.Texture.Size != viewportSize)
+        {
+            _shadowBuffer?.Dispose();
+            _shadowBuffer = _clyde.CreateRenderTarget(viewportSize, new RenderTargetFormatParameters(RenderTargetColorFormat.Rgba8Srgb), name: "polygon-occluder-shadow-buffer");
         }
 
         var xformQuery = _entManager.GetEntityQuery<TransformComponent>();
@@ -74,51 +106,54 @@ public sealed class PolygonShadowOverlay : Overlay
         var handle = args.WorldHandle;
         handle.UseShader(null);
 
-        // Shadow color with transpacrency
-        var shadowColor = Color.Red.WithAlpha(1.0f);
-        // Empty color to override the zone
-        var emptyColor = Color.White.WithAlpha(1.0f);
-        // Length of shadow ray (should go outside screen)
-        float shadowLength = 30f;
-
-        foreach (var polygon in polygons)
+        // Drawing a shadow layer to buffer
+        handle.RenderInRenderTarget(_shadowBuffer!, () =>
         {
-            for (int i = 0; i < polygon.Count; i++)
+            foreach (var polygon in polygons)
             {
-                // Getting current polygon edge
-                Vector2 p1 = polygon[i];
-                Vector2 p2 = polygon[(i + 1) % polygon.Count];
-
-                // Check if edge is facing the player.If it is, it should drop shadow.
-                Vector2 edge = p2 - p1;
-                Vector2 normal = new Vector2(-edge.Y, edge.X).Normalized(); // Edge normal
-                Vector2 toPlayer = (p1 - playerWorldPos).Normalized();
-
-                // If normal looks away from the player, edge should drop shadow
-                if (Vector2.Dot(normal, toPlayer) < 0)
+                for (int i = 0; i < polygon.Count; i++)
                 {
-                    // Calculation shadow directions from edge vertices
-                    Vector2 dir1 = (p1 - playerWorldPos).Normalized() * shadowLength;
-                    Vector2 dir2 = (p2 - playerWorldPos).Normalized() * shadowLength;
+                    // Getting current polygon edge
+                    Vector2 p1 = polygon[i];
+                    Vector2 p2 = polygon[(i + 1) % polygon.Count];
 
-                    Vector2 p1Shadow = p1 + dir1;
-                    Vector2 p2Shadow = p2 + dir2;
+                    // Check if edge is facing the player.If it is, it should drop shadow.
+                    Vector2 edge = p2 - p1;
+                    Vector2 normal = new Vector2(-edge.Y, edge.X).Normalized(); // Edge normal
+                    Vector2 toPlayer = (p1 - playerWorldPos).Normalized();
 
-                    // Making a shadow volume
-                    var verticesBase = new[]
+                    // If normal looks away from the player, edge should drop shadow
+                    if (Vector2.Dot(normal, toPlayer) < 0)
                     {
-                        p1, p2, p2Shadow,
-                        p1, p2Shadow, p1Shadow
-                    };
+                        // Calculation shadow directions from edge vertices
+                        Vector2 dir1 = (p1 - playerWorldPos).Normalized() * ShadowLength;
+                        Vector2 dir2 = (p2 - playerWorldPos).Normalized() * ShadowLength;
 
-                    // Drawing shadow polygon
-                    handle.DrawPrimitives(DrawPrimitiveTopology.TriangleList, verticesBase, shadowColor);
+                        Vector2 p1Shadow = p1 + dir1;
+                        Vector2 p2Shadow = p2 + dir2;
+
+                        // Making a shadow volume
+                        var verticesBase = new[]
+                        {
+                            p1, p2, p2Shadow,
+                            p1, p2Shadow, p1Shadow
+                        };
+
+                        // Drawing shadow polygon
+                        handle.DrawPrimitives(DrawPrimitiveTopology.TriangleList, this.ConvertFromWorldToLocal(verticesBase, viewport), ShadowColor);
+                    }
                 }
+                handle.DrawPrimitives(DrawPrimitiveTopology.TriangleFan, this.ConvertFromWorldToLocal(polygon.ToArray(), viewport), EmptyColor);
             }
-            // Drawing empty pixels to override object zone
-            handle.UseShader(_eraserShader);
-            handle.DrawPrimitives(DrawPrimitiveTopology.TriangleFan, polygon, emptyColor);
-            handle.UseShader(null);
-        }
+        },
+           Color.Transparent);
+        // Updating shader params
+        _maskCutShader.SetParameter("SCREEN_TEXTURE", ScreenTexture);
+        _maskCutShader.SetParameter("maskTexture", _shadowBuffer!.Texture);
+
+        // Drawing to trigger shader
+        handle.UseShader(_maskCutShader);
+        handle.DrawRect(args.WorldBounds, Color.White);
+        handle.UseShader(null);
     }
 }

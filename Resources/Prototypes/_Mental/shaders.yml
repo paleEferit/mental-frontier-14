@@ -1,7 +1,5 @@
 - type: shader
-  id: EraserShader
-  kind: canvas
-  blend_mode: subtract
-  light_mode: unshaded  
-  path: /Textures/_Mental/Shaders/eraser.swsl
+  id: MaskCutShader
+  kind: source
+  path: /Textures/_Mental/Shaders/mask_cut.swsl
   
