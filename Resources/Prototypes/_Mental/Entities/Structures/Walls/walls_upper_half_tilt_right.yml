@@ -29,6 +29,11 @@
         - FullTileMask
         layer:
         - WallLayer
+  - type: PolygonOccluder
+    vertices:
+    - "0,-0.5"
+    - "-0.5,-0.5"
+    - "-0.5,0.5"
 
 - type: entity
   parent: WallUpperHalfTiltRightBase
