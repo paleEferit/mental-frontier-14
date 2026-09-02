@@ -1,31 +1,20 @@
 using Content.Shared._Mental.DirectionalTile;
-using Content.Shared.Construction.Conditions;
-using Content.Shared.Decals;
-using Robust.Shared.GameObjects;
-using Robust.Shared.Log;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
 using Robust.Shared.Physics.Components;
 using Robust.Shared.Physics.Systems;
-using Robust.Shared.Prototypes;
-using Robust.Shared.Utility;
-using System;
 using System.Linq;
-using System.Numerics;
-using System.Reflection.Metadata;
 
 namespace Content.Server._Mental.DirectionalTile;
 public sealed class GridTopologySystem : EntitySystem
 {
     [Dependency] private readonly SharedMapSystem _mapSystem = default!;
     [Dependency] private readonly ITileDefinitionManager _tileDefManager = default!;
-    [Dependency] private readonly ILogManager _logManager = default!;
     [Dependency] private readonly SharedTransformSystem _transformSystem = default!;
     [Dependency] private readonly SharedPhysicsSystem _physics = default!;
     [Dependency] private readonly IMapManager _mapManager = default!;
     [Dependency] private readonly EntityLookupSystem _lookup = default!;
     private readonly Dictionary<string, DirectionFlag> _tilesWithDirections = new();
-    private ISawmill _sawmill = default!;
     /// <summary>
     /// Recursion detection to avoid splitting while handling an existing split
     /// </summary>
@@ -39,7 +28,6 @@ public sealed class GridTopologySystem : EntitySystem
     public override void Initialize()
     {
         base.Initialize();
-        _sawmill = _logManager.GetSawmill("GridTopologySystem");
         _bodyQuery = GetEntityQuery<PhysicsComponent>();
         _xformQuery = GetEntityQuery<TransformComponent>();
         _gridQuery = GetEntityQuery<MapGridComponent>();
@@ -118,7 +106,6 @@ public sealed class GridTopologySystem : EntitySystem
         SubscribeLocalEvent<GridInitializeEvent>(OnGridInitialized);
     }
 
-    // Replicating existing solution to avoid pulling it all into shared system
     private DirectionFlag GetDirectionFlag(Vector2i startingPoint, Vector2i externalPoint)
     {
         if (startingPoint == externalPoint)
@@ -139,14 +126,11 @@ public sealed class GridTopologySystem : EntitySystem
             var indices = chagne.GridIndices;
             var newTileType = chagne.NewTile;
             var oldTileType = chagne.OldTile;
-            // 2. Validate the entity exists and has a map grid component
             if (!TryComp<MapGridComponent>(gridUid, out var grid))
             {
                 continue;
             }
 
-            // 3. Implement your Topology Logic here
-            // Example: Do nothing if the tile type didn't actually change
             if (newTileType.TypeId == oldTileType.TypeId)
             {
                 continue;
@@ -158,7 +142,6 @@ public sealed class GridTopologySystem : EntitySystem
 
     private void ProcessGridTopology(EntityUid uid)
     {
-        _sawmill.Debug("Process Grid Topology called for id {0}", uid);
         EnsureComp<GridConnectivityComponent>(uid);
         if (TryComp<GridConnectivityComponent>(uid, out var gridConnectivity))
         {
@@ -180,7 +163,6 @@ public sealed class GridTopologySystem : EntitySystem
                     }
                     counter++;
                 }
-                _sawmill.Debug("Found and processed {0} tileRefs for grid id {1}", counter, uid);
             }
         }
     }
@@ -192,18 +174,15 @@ public sealed class GridTopologySystem : EntitySystem
 
     private void UpdateGridTopology(EntityUid gridUid, MapGridComponent grid, Vector2i indices, Tile newTile, Tile oldTile)
     {
-        _sawmill.Debug("UpdateGridTopology called for id {0} at position ({1}; {2}), replacing {3} with {4}", gridUid, indices.X, indices.Y, _tileDefManager[oldTile.TypeId].ID, _tileDefManager[newTile.TypeId].ID);
         if (TryComp<GridConnectivityComponent>(gridUid, out var gridConnectivity))
         {
             if (gridConnectivity.DirectionalTiles.ContainsKey(indices))
             {
-                _sawmill.Debug("old tile on map {0} at position ({1}; {2}) was directional, cleaning it up", gridUid, indices.X, indices.Y);
                 gridConnectivity.DirectionalTiles.Remove(indices);
             }
 
             if (_tilesWithDirections.TryGetValue(_tileDefManager[newTile.TypeId].ID, out var blockedTileDirections))
             {
-                _sawmill.Debug("new tile on map {0} at position ({1}; {2}) is directional {3}, adding it", gridUid, indices.X, indices.Y, blockedTileDirections);
                 gridConnectivity.DirectionalTiles.Add(indices, blockedTileDirections);
             }
 
@@ -220,21 +199,18 @@ public sealed class GridTopologySystem : EntitySystem
         GridConnectivityComponent connectivity,
         Vector2i pos)
     {
-        _sawmill.Debug("Calling CheckSplits for gird {0} at ({1}; {2})", gridUid, pos.X, pos.Y);
         if (_isSplitting || !SplitAllowed ||
                !grid.CanSplit)
         {
-            _sawmill.Debug("splid check denied. _isSplitting: {0}; SplitAllowed: {1}; can grid split {2}", _isSplitting, SplitAllowed, grid.CanSplit);
             return;
         }
-        _sawmill.Debug("proceeding with split check");
         _isSplitting = true;
         Span<Direction> directions = stackalloc Direction[]
         {
             Direction.North, Direction.South, Direction.East, Direction.West
         };
 
-        // 1. Gather valid adjacent neighbor tiles
+        // Gather valid adjacent neighbor tiles
         var neighborSeeds = new List<Vector2i>();
         foreach (var dir in directions)
         {
@@ -249,7 +225,6 @@ public sealed class GridTopologySystem : EntitySystem
             }
         }
         neighborSeeds.Add(pos);
-        _sawmill.Debug("neighbor seeds found: {0}", neighborSeeds.Count);
         // Early exit
         if (neighborSeeds.Count < 2)
         {
@@ -257,9 +232,8 @@ public sealed class GridTopologySystem : EntitySystem
             return;
         }
 
-        // 2. Perform graph traversal (Flood Fill) considering custom directional rules
+        // Perform graph traversal (Flood Fill) considering custom directional rules, would really like to use nodes here, but no access
         var subgraphs = FindDisconnectedSubgraphs(gridUid, grid, connectivity, neighborSeeds);
-        _sawmill.Debug("subgrapghs found: {0}", subgraphs.Count);
 
         // If all seeds belong to a single connected subgraph, no split occurred
         if (subgraphs.Count <= 1)
@@ -268,7 +242,7 @@ public sealed class GridTopologySystem : EntitySystem
             return;
         }
 
-        // 3. Grid Partitioning:
+        // Grid Partitioning:
         // Keep the largest partition on the existing grid to minimize entity movement overhead
         subgraphs.Sort((a, b) => b.Count.CompareTo(a.Count));
 
@@ -276,9 +250,7 @@ public sealed class GridTopologySystem : EntitySystem
 
         for (var i = 1; i < subgraphs.Count; i++)
         {
-            _sawmill.Debug("calling split for grid: {0} of size {1}", gridUid, subgraphs[i].Count);
             var newGridUid = ExecuteGridSplit(gridUid, grid, subgraphs[i]);
-            _sawmill.Debug("split finished, got new grid {0} from grid {1}", newGridUid, gridUid);
             newGrids[i - 1] = newGridUid;
             var splitEvent = new PostGridSplitEvent(gridUid, newGridUid);
             RaiseLocalEvent(gridUid, ref splitEvent, true);
@@ -294,7 +266,6 @@ public sealed class GridTopologySystem : EntitySystem
         GridConnectivityComponent connectivity,
         List<Vector2i> seedNodes)
     {
-        _sawmill.Debug("called FindDisconnectedSubgraphs for grid: {0} and node count of {1}", gridUid, seedNodes.Count);
         var subgraphs = new List<HashSet<Vector2i>>();
         var unvisitedSeeds = new HashSet<Vector2i>(seedNodes);
         var globalVisited = new HashSet<Vector2i>();
@@ -366,14 +337,10 @@ public sealed class GridTopologySystem : EntitySystem
         _transformSystem.Unanchor(uid);
         _mapSystem.RemoveFromSnapGridCell(oldGridUid, oldGrid, oldTilePos, uid);
         _transformSystem.SetParent(uid, newGridUid);
-        //_mapSystem.AddToSnapGridCell(newGridUid, newGrid, tilePos, uid);
-        //var oldPos = xform.LocalPosition;
-        //var oldMap = xform.MapUid;
         _transformSystem.SetLocalPosition(uid, tilePos + newGrid.TileSizeHalfVector);
         _transformSystem.SetLocalRotation(uid, oldRot + rotation);
         Entity<TransformComponent> entityToAnchor = (uid, xform);
         Entity<MapGridComponent> mapForAnchoring = (newGridUid, newGrid);
-        //_transformSystem.AnchorEntity(uid);
         var result = _transformSystem.AnchorEntity(entityToAnchor, mapForAnchoring, tilePos);
 
         var meta = MetaData(uid);
@@ -387,7 +354,6 @@ public sealed class GridTopologySystem : EntitySystem
     /// </summary>
     private EntityUid ExecuteGridSplit(EntityUid sourceGridUid, MapGridComponent sourceGrid, HashSet<Vector2i> tilesToMove)
     {
-        _sawmill.Debug("Calling ExecuteGridSplit for {0} with tiles to move count {1}", sourceGridUid, tilesToMove.Count);
         var xform = Transform(sourceGridUid);
 
         // Create new grid at the exact transform of the parent grid
@@ -427,41 +393,27 @@ public sealed class GridTopologySystem : EntitySystem
             Entity<MapGridComponent> sourceGridEntity = (sourceGridUid, sourceGrid);
 
             var snapgrid = _mapSystem.GetAnchoredEntities(sourceGridEntity, tilePos);
-            //var snapgrid = node.Group.Chunk.GetSnapGrid((ushort)tile.X, (ushort)tile.Y);
             var snapgridCount = snapgrid == null ? 0 : snapgrid.Count();
             if (snapgrid != null && snapgridCount != 0)
             {
-                _sawmill.Debug("got anchored entities to move: {0}", snapgridCount);
                 for (var j = snapgridCount - 1; j >= 0; j--)
                 {
                     var ent = snapgrid.ElementAt(j);
                     if (Exists(ent))
                     {
                         var entXform = _xformQuery.GetComponent(ent);
-                        _sawmill.Debug("reanchoring entity {0} from gird {1} to grid {2}", ent, sourceGridUid, newGridUid);
                         var reacbchoringResult = ReAnchor(ent, entXform,
                             sourceGrid, newGridComp,
                             tilePos, tilePos,
                             sourceGridUid, newGridUid,
                             Angle.Zero);
-                        _sawmill.Debug("reanchoring result entity {0} from gird {1} to grid {2} is {3}. Entity anchored is {4}", ent, sourceGridUid, newGridUid, reacbchoringResult, xform.Anchored);
-                        //DebugTools.Assert(xform.Anchored);
-                    }
-                    else
-                    {
-                        _sawmill.Debug("tried reanchoring entity {0} from gird {1} to grid {2} while it DOES NOT EXIST", ent, sourceGridUid, newGridUid);
                     }
                 }
-            }
-            else
-            {
-                _sawmill.Debug("got no anchored entities to move");
             }
 
             var bounds = _lookup.GetLocalBounds(tilePos, sourceGrid.TileSize);
             _entSet.Clear();
             _lookup.GetLocalEntitiesIntersecting(sourceGridUid, tilePos, _entSet, 0f, LookupFlags.All | ~LookupFlags.Uncontained | LookupFlags.Approximate);
-            _sawmill.Debug("got intersection entitites to move: {0}", _entSet.Count);
             foreach (var ent in _entSet)
             {
                 // Consider centre of entity position maybe?
@@ -472,7 +424,6 @@ public sealed class GridTopologySystem : EntitySystem
                 {
                     continue;
                 }
-                _sawmill.Debug("moving entity {0} to new grid {1}", ent, newGridUid);
                 _transformSystem.SetParent(ent, entXform, newGridUid, _xformQuery, newGridXform);
             }
         }
@@ -504,13 +455,11 @@ public sealed class GridTopologySystem : EntitySystem
         Vector2i tileFromPos,
         Vector2i tileToPos)
     {
-        _sawmill.Debug("called IsConnectionBlocked for ({0}; {1}) to ({2}; {3})", tileFromPos.X, tileFromPos.Y, tileToPos.X, tileToPos.Y);
         if (comp.DirectionalTiles.TryGetValue(tileFromPos, out var fromFlags))
         {
             var dir = GetDirectionFlag(tileFromPos, tileToPos);
             if (fromFlags.HasFlag(dir))
             {
-                _sawmill.Debug("IsConnectionBlocked returns true (1)");
                 return true;
             }
         }
@@ -520,12 +469,10 @@ public sealed class GridTopologySystem : EntitySystem
             var dir = GetDirectionFlag(tileToPos, tileFromPos);
             if (toFlags.HasFlag(dir))
             {
-                _sawmill.Debug("IsConnectionBlocked returns true (2)");
                 return true;
             }
         }
 
-        _sawmill.Debug("IsConnectionBlocked returns false");
         return false;
     }
 }
