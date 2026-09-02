@@ -44,10 +44,10 @@
   components:
   - type: Sprite
     drawdepth: Walls
-    sprite: _Mental/Structures/Walls/solid_wall_lower_half_tilt_left.rsi # Frontier: use _NF variant
+    sprite: _Mental/Structures/Walls/solid_wall_lower_half_tilt_left.rsi
     state: state0
   - type: Icon
-    sprite: _Mental/Structures/Walls/solid_wall_lower_half_tilt_left.rsi # Frontier: use _NF variant
+    sprite: _Mental/Structures/Walls/solid_wall_lower_half_tilt_left.rsi
     state: state0
   # Mental: make diagonal wall removable by RCD
   - type: RCDDeconstructable
@@ -79,3 +79,50 @@
           collection: MetalSlam
       - !type:DoActsBehavior
         acts: ["Destruction"]
+
+- type: entity
+  parent: WallLowerHalfTiltLeftBase
+  id: WallReinforcedLowerHalfTiltLeft
+  name: reinforced wall
+  components:
+  - type: Sprite
+    drawdepth: Walls
+    sprite: _Mental/Structures/Walls/reinforced_wall_lower_half_tilt_left.rsi
+    state: state0
+  - type: IconSmooth
+    mode: DiagonalNF
+    key: walls
+    base: state
+  - type: Icon
+    sprite: _Mental/Structures/Walls/reinforced_wall_lower_half_tilt_left.rsi
+    state: state0
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
+  - type: Construction
+    graph: GirderLowerHalfTiltLeft
+    node: wallReinforcedLowerHalfTiltLeft
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 600
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalSlam
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:ChangeConstructionNodeBehavior
+        node: girderLowerHalfTiltLeft
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: RadiationBlocker
+    resistance: 5

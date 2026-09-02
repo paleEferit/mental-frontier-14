@@ -77,3 +77,50 @@
           collection: MetalSlam
       - !type:DoActsBehavior
         acts: ["Destruction"]
+
+- type: entity
+  parent: WallUpperHalfTiltLeftBase
+  id: WallReinforcedUpperHalfTiltLeft
+  name: reinforced wall
+  components:
+  - type: Sprite
+    drawdepth: Walls
+    sprite: _Mental/Structures/Walls/reinforced_wall_upper_half_tilt_left.rsi
+    state: state0
+  - type: IconSmooth
+    mode: DiagonalNF
+    key: walls
+    base: state
+  - type: Icon
+    sprite: _Mental/Structures/Walls/reinforced_wall_upper_half_tilt_left.rsi
+    state: state0
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
+  - type: Construction
+    graph: GirderUpperHalfTiltLeft
+    node: wallReinforcedUpperHalfTiltLeft
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 600
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalSlam
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:ChangeConstructionNodeBehavior
+        node: girderUpperHalfTiltLeft
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: RadiationBlocker
+    resistance: 5

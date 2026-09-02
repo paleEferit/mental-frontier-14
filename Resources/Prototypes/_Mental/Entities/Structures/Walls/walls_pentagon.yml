@@ -81,3 +81,50 @@
           collection: MetalSlam
       - !type:DoActsBehavior
         acts: ["Destruction"]
+
+- type: entity
+  parent: WallPentagonBase
+  id: WallReinforcedPentagon
+  name: reinforced wall
+  components:
+  - type: Sprite
+    drawdepth: Walls
+    sprite: _Mental/Structures/Walls/reinforced_wall_pentagon.rsi
+    state: state0
+  - type: IconSmooth
+    mode: DiagonalNF
+    key: walls
+    base: state
+  - type: Icon
+    sprite: _Mental/Structures/Walls/reinforced_wall_pentagon.rsi
+    state: state0
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
+  - type: Construction
+    graph: GirderPentagon
+    node: wallReinforcedPentagon
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 600
+      behaviors:
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalSlam
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:ChangeConstructionNodeBehavior
+        node: girderPentagon
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: RadiationBlocker
+    resistance: 5
