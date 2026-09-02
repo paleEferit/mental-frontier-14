@@ -1,6 +1,7 @@
 using Content.Shared._Mental.DirectionalTile;
 using Content.Shared.Construction.Conditions;
 using Content.Shared.Decals;
+using Robust.Shared.GameObjects;
 using Robust.Shared.Log;
 using Robust.Shared.Map;
 using Robust.Shared.Map.Components;
@@ -277,10 +278,13 @@ public sealed class GridTopologySystem : EntitySystem
         {
             _sawmill.Debug("calling split for grid: {0} of size {1}", gridUid, subgraphs[i].Count);
             var newGridUid = ExecuteGridSplit(gridUid, grid, subgraphs[i]);
+            _sawmill.Debug("split finished, got new grid {0} from grid {1}", newGridUid, gridUid);
             newGrids[i - 1] = newGridUid;
             var splitEvent = new PostGridSplitEvent(gridUid, newGridUid);
             RaiseLocalEvent(gridUid, ref splitEvent, true);
         }
+        var ev = new GridSplitEvent(newGrids, gridUid);
+        RaiseLocalEvent(gridUid, ref ev, true);
         _isSplitting = false;
     }
 
@@ -347,7 +351,7 @@ public sealed class GridTopologySystem : EntitySystem
     }
 
     // Sadly can't use one in the engine, so made this
-    private void ReAnchor(
+    private bool ReAnchor(
         EntityUid uid,
         TransformComponent xform,
         MapGridComponent oldGrid,
@@ -358,20 +362,24 @@ public sealed class GridTopologySystem : EntitySystem
         EntityUid newGridUid,
         Angle rotation)
     {
-        _mapSystem.RemoveFromSnapGridCell(oldGridUid, oldGrid, oldTilePos, uid);
-        _mapSystem.AddToSnapGridCell(newGridUid, newGrid, tilePos, uid);
-        _transformSystem.Unanchor(uid);
-        _transformSystem.SetParent(uid, newGridUid);
-        var oldPos = xform.LocalPosition;
         var oldRot = xform.LocalRotation;
-        var oldMap = xform.MapUid;
+        _transformSystem.Unanchor(uid);
+        _mapSystem.RemoveFromSnapGridCell(oldGridUid, oldGrid, oldTilePos, uid);
+        _transformSystem.SetParent(uid, newGridUid);
+        //_mapSystem.AddToSnapGridCell(newGridUid, newGrid, tilePos, uid);
+        //var oldPos = xform.LocalPosition;
+        //var oldMap = xform.MapUid;
         _transformSystem.SetLocalPosition(uid, tilePos + newGrid.TileSizeHalfVector);
         _transformSystem.SetLocalRotation(uid, oldRot + rotation);
-        _transformSystem.AnchorEntity(uid);
+        Entity<TransformComponent> entityToAnchor = (uid, xform);
+        Entity<MapGridComponent> mapForAnchoring = (newGridUid, newGrid);
+        //_transformSystem.AnchorEntity(uid);
+        var result = _transformSystem.AnchorEntity(entityToAnchor, mapForAnchoring, tilePos);
 
         var meta = MetaData(uid);
 
         Dirty(uid, xform, meta);
+        return result;
     }
 
     /// <summary>
@@ -420,26 +428,40 @@ public sealed class GridTopologySystem : EntitySystem
 
             var snapgrid = _mapSystem.GetAnchoredEntities(sourceGridEntity, tilePos);
             //var snapgrid = node.Group.Chunk.GetSnapGrid((ushort)tile.X, (ushort)tile.Y);
-            var snapgridCount = snapgrid.Count();
+            var snapgridCount = snapgrid == null ? 0 : snapgrid.Count();
             if (snapgrid != null && snapgridCount != 0)
             {
-
+                _sawmill.Debug("got anchored entities to move: {0}", snapgridCount);
                 for (var j = snapgridCount - 1; j >= 0; j--)
                 {
                     var ent = snapgrid.ElementAt(j);
-                    var entXform = _xformQuery.GetComponent(ent);
-                    ReAnchor(ent, entXform,
-                        sourceGrid, newGridComp,
-                        tilePos, tilePos,
-                        sourceGridUid, newGridUid,
-                        Angle.Zero);
-                    DebugTools.Assert(xform.Anchored);
+                    if (Exists(ent))
+                    {
+                        var entXform = _xformQuery.GetComponent(ent);
+                        _sawmill.Debug("reanchoring entity {0} from gird {1} to grid {2}", ent, sourceGridUid, newGridUid);
+                        var reacbchoringResult = ReAnchor(ent, entXform,
+                            sourceGrid, newGridComp,
+                            tilePos, tilePos,
+                            sourceGridUid, newGridUid,
+                            Angle.Zero);
+                        _sawmill.Debug("reanchoring result entity {0} from gird {1} to grid {2} is {3}. Entity anchored is {4}", ent, sourceGridUid, newGridUid, reacbchoringResult, xform.Anchored);
+                        //DebugTools.Assert(xform.Anchored);
+                    }
+                    else
+                    {
+                        _sawmill.Debug("tried reanchoring entity {0} from gird {1} to grid {2} while it DOES NOT EXIST", ent, sourceGridUid, newGridUid);
+                    }
                 }
+            }
+            else
+            {
+                _sawmill.Debug("got no anchored entities to move");
             }
 
             var bounds = _lookup.GetLocalBounds(tilePos, sourceGrid.TileSize);
             _entSet.Clear();
             _lookup.GetLocalEntitiesIntersecting(sourceGridUid, tilePos, _entSet, 0f, LookupFlags.All | ~LookupFlags.Uncontained | LookupFlags.Approximate);
+            _sawmill.Debug("got intersection entitites to move: {0}", _entSet.Count);
             foreach (var ent in _entSet)
             {
                 // Consider centre of entity position maybe?
@@ -450,7 +472,7 @@ public sealed class GridTopologySystem : EntitySystem
                 {
                     continue;
                 }
-
+                _sawmill.Debug("moving entity {0} to new grid {1}", ent, newGridUid);
                 _transformSystem.SetParent(ent, entXform, newGridUid, _xformQuery, newGridXform);
             }
         }
