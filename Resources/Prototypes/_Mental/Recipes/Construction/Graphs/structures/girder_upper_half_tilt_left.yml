@@ -92,6 +92,20 @@
             - tool: Screwing
               doAfter: 2
 
+        - to: clockworkWallUpperHalfTiltLeft
+          completed:
+            - !type:SnapToGrid
+              # southRotation: true
+          conditions:
+            - !type:EntityAnchored {}
+          steps:
+            - material: MetalRod
+              amount: 2
+              doAfter: 2
+            - material: Brass
+              amount: 2
+              doAfter: 1
+
     - node: reinforcedGirderUpperHalfTiltLeft
       entity: ReinforcedGirderUpperHalfTiltLeft
       edges:
@@ -272,3 +286,22 @@
               doAfter: 10
             - tool: Screwing
               doAfter: 1
+
+    - node: clockworkWallUpperHalfTiltLeft
+      entity: WallClockworkUpperHalfTiltLeft
+      edges:
+        - to: clockworkGirderUpperHalfTiltLeft
+          completed:
+            - !type:GivePrototype
+              prototype: PartRodMetal1
+              amount: 2
+            - !type:GivePrototype
+              prototype: SheetBrass1
+              amount: 2
+          steps:
+            - tool: Welding
+              doAfter: 10
+            - tool: Cutting
+              doAfter: 1
+            - tool: Prying
+              doAfter: 2

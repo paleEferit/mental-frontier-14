@@ -1957,3 +1957,120 @@
   canBuildInImpassable: false
   conditions:
     - !type:TileNotBlocked
+
+- type: construction
+  id: WallClockworkLowerHalfTiltLeft
+  name: construction-recipe-wall-clockwork-lower-half-tilt-left
+  graph: GirderLowerHalfTiltLeft
+  startNode: start
+  targetNode: clockworkWallLowerHalfTiltLeft
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallClockworkUpperHalfTiltLeft
+  name: construction-recipe-wall-clockwork-upper-half-tilt-left
+  graph: GirderUpperHalfTiltLeft
+  startNode: start
+  targetNode: clockworkWallUpperHalfTiltLeft
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallClockworkLowerHalfTiltRight
+  name: construction-recipe-wall-clockwork-lower-half-tilt-right
+  graph: GirderLowerHalfTiltRight
+  startNode: start
+  targetNode: clockworkWallLowerHalfTiltRight
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallClockworkUpperHalfTiltRight
+  name: construction-recipe-wall-clockwork-upper-half-tilt-right
+  graph: GirderUpperHalfTiltRight
+  startNode: start
+  targetNode: clockworkWallUpperHalfTiltRight
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallClockworkWedge
+  name: construction-recipe-wall-clockwork-wedge
+  graph: GirderWedge
+  startNode: start
+  targetNode: clockworkWallWedge
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallClockworkHalf
+  name: construction-recipe-wall-clockwork-half
+  graph: GirderHalf
+  startNode: start
+  targetNode: clockworkWallHalf
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallClockworkHalfLeaning
+  name: construction-recipe-wall-clockwork-half-leaning
+  graph: GirderHalfLeaning
+  startNode: start
+  targetNode: clockworkWallHalfLeaning
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallClockworkPentagon
+  name: construction-recipe-wall-clockwork-pentagon
+  graph: GirderPentagon
+  startNode: start
+  targetNode: clockworkWallPentagon
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallClockworkDiagonalQuarter
+  name: construction-recipe-wall-clockwork-diagonal-quarter
+  graph: GirderDiagonalQuarter
+  startNode: start
+  targetNode: clockworkWallDiagonalQuarter
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
