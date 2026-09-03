@@ -1841,3 +1841,119 @@
   conditions:
     - !type:TileNotBlocked
 
+- type: construction
+  id: WallShuttleInteriorLowerHalfTiltLeft
+  name: construction-recipe-wall-shuttle-interior-lower-half-tilt-left
+  graph: GirderLowerHalfTiltLeft
+  startNode: start
+  targetNode: wallShuttleInteriorLowerHalfTiltLeft
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallShuttleInteriorUpperHalfTiltLeft
+  name: construction-recipe-wall-shuttle-interior-upper-half-tilt-left
+  graph: GirderUpperHalfTiltLeft
+  startNode: start
+  targetNode: wallShuttleInteriorUpperHalfTiltLeft
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallShuttleInteriorLowerHalfTiltRight
+  name: construction-recipe-wall-shuttle-interior-lower-half-tilt-right
+  graph: GirderLowerHalfTiltRight
+  startNode: start
+  targetNode: wallShuttleInteriorLowerHalfTiltRight
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallShuttleInteriorUpperHalfTiltRight
+  name: construction-recipe-wall-shuttle-interior-upper-half-tilt-right
+  graph: GirderUpperHalfTiltRight
+  startNode: start
+  targetNode: wallShuttleInteriorUpperHalfTiltRight
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallShuttleInteriorWedge
+  name: construction-recipe-wall-shuttle-interior-wedge
+  graph: GirderWedge
+  startNode: start
+  targetNode: wallShuttleInteriorWedge
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallShuttleInteriorHalf
+  name: construction-recipe-wall-shuttle-interior-half
+  graph: GirderHalf
+  startNode: start
+  targetNode: wallShuttleInteriorHalf
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallShuttleInteriorPentagon
+  name: construction-recipe-wall-shuttle-interior-pentagon
+  graph: GirderPentagon
+  startNode: start
+  targetNode: wallShuttleInteriorPentagon
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallShuttleInteriorHalfLeaning
+  name: construction-recipe-wall-shuttle-interior-half-leaning
+  graph: GirderHalfLeaning
+  startNode: start
+  targetNode: wallShuttleInteriorHalfLeaning
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked
+
+- type: construction
+  id: WallShuttleInteriorDiagonalQuarter
+  name: construction-recipe-wall-shuttle-interior-diagonal-quarter
+  graph: GirderDiagonalQuarter
+  startNode: start
+  targetNode: wallShuttleInteriorDiagonalQuarter
+  category: construction-category-structures
+  objectType: Structure
+  placementMode: SnapgridCenter
+  canBuildInImpassable: false
+  conditions:
+    - !type:TileNotBlocked

@@ -60,6 +60,22 @@
               amount: 2
               doAfter: 2
 
+        - to: wallShuttleInteriorWedge
+          completed:
+            - !type:SnapToGrid
+              # southRotation: true
+          conditions:
+            - !type:EntityAnchored { }
+          steps:
+            - material: MetalRod
+              amount: 2
+              doAfter: 1
+            - tool: Screwing
+              doAfter: 1
+            - material: Steel
+              amount: 2
+              doAfter: 1
+
     - node: clockworkGirderWedge
       entity: ClockworkGirderWedge
       edges:
@@ -239,3 +255,20 @@
                   data: 0
             - tool: Cutting
               doAfter: 4
+
+    - node: wallShuttleInteriorWedge
+      entity: WallShuttleInteriorWedge
+      edges:
+        - to: girderWedge
+          completed:
+            - !type:SpawnPrototype
+              prototype: SheetSteel1
+              amount: 2
+            - !type:SpawnPrototype
+              prototype: PartRodMetal1
+              amount: 2
+          steps:
+            - tool: Welding
+              doAfter: 10
+            - tool: Screwing
+              doAfter: 1

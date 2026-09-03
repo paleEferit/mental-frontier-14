@@ -189,3 +189,43 @@
     cost: 6 #Frontier
     delay: 8 #Frontier
     fx: EffectRCDDeconstruct8 #Frontier
+
+- type: entity
+  parent: WallHalfLeaningBase
+  id: WallShuttleInteriorHalfLeaning
+  name: shuttle wall
+  suffix: interior, tilted
+  components:
+  - type: Sprite
+    drawdepth: Walls
+    sprite: _Mental/Structures/Walls/shuttle_interior_half_leaning.rsi
+    state: state0
+  - type: IconSmooth
+    mode: DiagonalNF # Frontier: Diagonal<DiagonalNF
+    key: walls
+    base: state
+  - type: Icon
+    sprite: _Mental/Structures/Walls/shuttle_interior_half_leaning.rsi
+    state: state0
+  - type: Construction
+    graph: GirderHalfLeaning
+    node: wallShuttleInteriorHalfLeaning
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:ChangeConstructionNodeBehavior
+        node: girderHalfLeaning
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: RCDDeconstructable # Frontier
+    cost: 6 # Frontier
+    delay: 8 # Frontier
+    fx: EffectRCDDeconstruct8 # Frontier
+  - type: StaticPrice # Frontier 75
+    price: 75 # Frontier 75

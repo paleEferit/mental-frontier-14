@@ -191,3 +191,43 @@
     cost: 6 #Frontier
     delay: 8 #Frontier
     fx: EffectRCDDeconstruct8 #Frontier
+
+- type: entity
+  parent: WallUpperHalfTiltRightBase
+  id: WallShuttleInteriorUpperHalfTiltRight
+  name: shuttle wall
+  suffix: interior, tilted
+  components:
+  - type: Sprite
+    drawdepth: Walls
+    sprite: _Mental/Structures/Walls/shuttle_interior_upper_half_tilt_right.rsi
+    state: state0
+  - type: IconSmooth
+    mode: DiagonalNF # Frontier: Diagonal<DiagonalNF
+    key: walls
+    base: state
+  - type: Icon
+    sprite: _Mental/Structures/Walls/shuttle_interior_upper_half_tilt_right.rsi
+    state: state0
+  - type: Construction
+    graph: GirderUpperHalfTiltRight
+    node: wallShuttleInteriorUpperHalfTiltRight
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 300
+      behaviors:
+      - !type:ChangeConstructionNodeBehavior
+        node: girderUpperHalfTiltRight
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalSlam
+      - !type:DoActsBehavior
+        acts: ["Destruction"]
+  - type: RCDDeconstructable # Frontier
+    cost: 6 # Frontier
+    delay: 8 # Frontier
+    fx: EffectRCDDeconstruct8 # Frontier
+  - type: StaticPrice # Frontier 75
+    price: 75 # Frontier 75
