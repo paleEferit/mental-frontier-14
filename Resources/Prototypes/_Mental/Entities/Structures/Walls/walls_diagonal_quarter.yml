@@ -265,3 +265,54 @@
     fx: EffectRCDDeconstruct8 # Frontier
   - type: StaticPrice # Frontier 75
     price: 75 # Frontier 75
+
+- type: entity
+  parent: WallDiagonalQuarterBase
+  id: WallPlastitaniumDiagonalQuarterBase
+  abstract: true
+  name: plastitanium wall
+  description: Skub knows this wall is too hard to destroy. # Frontier
+  components:
+  - type: Sprite
+    drawdepth: Walls
+    sprite: _Mental/Structures/Walls/plastitanium_wall_diagonal_quarter.rsi
+    color: "#cdf3cd" # Frontier
+    state: state0
+  - type: Icon
+    sprite: _Mental/Structures/Walls/plastitanium_wall_diagonal_quarter.rsi
+    state: state0
+
+- type: entity
+  parent: WallPlastitaniumDiagonalQuarterBase
+  id: WallPlastitaniumDiagonalQuarterIndestructible
+  suffix: quarter, indestructible
+  components:
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallicStrong
+  - type: RadiationBlocker
+    resistance: 5
+
+- type: entity
+  parent: WallPlastitaniumDiagonalQuarterBase
+  id: WallPlastitaniumDiagonalQuarter
+  suffix: quarter
+  components:
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 1000
+      behaviors:
+        - !type:SpawnEntitiesBehavior
+          spawn:
+            GirderDiagonalQuarter:
+              min: 1
+              max: 1
+        - !type:DoActsBehavior
+          acts: [ "Destruction" ]
+        - !type:PlaySoundBehavior
+          sound:
+            collection: MetalSlam
+  - type: RCDDeconstructable # Frontier
+    deconstructable: false # Frontier
