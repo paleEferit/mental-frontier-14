@@ -191,7 +191,7 @@
   parent: WallDiagonalQuarterBase
   id: WallShuttleInteriorDiagonalQuarter
   name: shuttle wall
-  suffix: interior, tilted
+  suffix: interior, quarter
   components:
   - type: Sprite
     drawdepth: Walls
@@ -304,11 +304,6 @@
         !type:DamageTrigger
         damage: 1000
       behaviors:
-        - !type:SpawnEntitiesBehavior
-          spawn:
-            GirderDiagonalQuarter:
-              min: 1
-              max: 1
         - !type:DoActsBehavior
           acts: [ "Destruction" ]
         - !type:PlaySoundBehavior

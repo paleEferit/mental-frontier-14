@@ -443,7 +443,7 @@
   id: PlastitaniumWindowWedgeIndestructible
   name: plastitanium window
   parent: PlastitaniumWindowWedgeBase
-  suffix: tilted, indestructible
+  suffix: wedge, indestructible
   # Frontier: colored indestructible windows
   description: Skub knows this window is too hard to destroy.
   components:
@@ -457,7 +457,7 @@
   id: PlastitaniumWindowWedge
   name: plastitanium window
   parent: PlastitaniumWindowWedgeBase
-  suffix: tilted
+  suffix: wedge
   components:
   - type: Destructible
     thresholds:

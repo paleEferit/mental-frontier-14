@@ -194,7 +194,7 @@
   parent: WallHalfLeaningBase
   id: WallShuttleInteriorHalfLeaning
   name: shuttle wall
-  suffix: interior, tilted
+  suffix: interior, leaning-half
   components:
   - type: Sprite
     drawdepth: Walls
@@ -307,11 +307,6 @@
         !type:DamageTrigger
         damage: 1000
       behaviors:
-        - !type:SpawnEntitiesBehavior
-          spawn:
-            GirderHalfLeaning:
-              min: 1
-              max: 1
         - !type:DoActsBehavior
           acts: [ "Destruction" ]
         - !type:PlaySoundBehavior
