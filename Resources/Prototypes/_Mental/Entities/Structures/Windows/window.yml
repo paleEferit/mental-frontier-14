@@ -1,0 +1,430 @@
+- type: entity
+  parent: Window
+  id: WindowLowerHalfTiltLeft
+  suffix: tilted
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/window_lower_half_tilt_left.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: IconSmooth
+    mode: Diagonal
+    base: state
+  - type: Icon
+    sprite: _Mental/Structures/Windows/window_lower_half_tilt_left.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "0.5,0.5"
+            - "0.5,-0.5"
+            - "-0.5,-0.5"
+            - "0,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+    - East
+  - type: DamageVisuals
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_lower_half_tilt_left.rsi
+  - type: Construction
+    graph: WindowLowerHalfTiltLeft
+    node: windowLowerHalfTiltLeft
+
+- type: entity
+  parent: Window
+  id: WindowUpperHalfTiltLeft
+  suffix: tilted
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/window_upper_half_tilt_left.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: IconSmooth
+    mode: Diagonal
+    base: state
+  - type: Icon
+    sprite: _Mental/Structures/Windows/window_upper_half_tilt_left.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "0.5,0.5"
+            - "0.5,-0.5"
+            - "0,-0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - East
+  - type: DamageVisuals
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_upper_half_tilt_left.rsi
+  - type: Construction
+    graph: WindowUpperHalfTiltLeft
+    node: windowUpperHalfTiltLeft
+
+- type: entity
+  parent: Window
+  id: WindowLowerHalfTiltRight
+  suffix: tilted
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/window_lower_half_tilt_right.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: IconSmooth
+    mode: Diagonal
+    base: state
+  - type: Icon
+    sprite: _Mental/Structures/Windows/window_lower_half_tilt_right.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "0.5,-0.5"
+            - "-0.5,-0.5"
+            - "-0.5,0.5"
+            - "0,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+    - West
+  - type: DamageVisuals
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_lower_half_tilt_right.rsi
+  - type: Construction
+    graph: WindowLowerHalfTiltRight
+    node: windowLowerHalfTiltRight
+
+- type: entity
+  parent: Window
+  id: WindowUpperHalfTiltRight
+  suffix: tilted
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/window_upper_half_tilt_right.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: IconSmooth
+    mode: Diagonal
+    base: state
+  - type: Icon
+    sprite: _Mental/Structures/Windows/window_upper_half_tilt_right.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "0,-0.5"
+            - "-0.5,-0.5"
+            - "-0.5,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - West
+  - type: DamageVisuals
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_upper_half_tilt_right.rsi
+  - type: Construction
+    graph: WindowUpperHalfTiltRight
+    node: windowUpperHalfTiltRight
+
+- type: entity
+  parent: Window
+  id: WindowWedge
+  suffix: wedge
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/window_wedge.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: IconSmooth
+    mode: Diagonal
+    base: state
+  - type: Icon
+    sprite: _Mental/Structures/Windows/window_wedge.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "0.5,-0.5"
+            - "-0.5,-0.5"
+            - "0,0"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+  - type: DamageVisuals
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_wedge.rsi
+  - type: Construction
+    graph: WindowWedge
+    node: windowWedge
+
+- type: entity
+  parent: Window
+  id: WindowHalf
+  suffix: half
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/window_half.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: IconSmooth
+    mode: Diagonal
+    base: state
+  - type: Icon
+    sprite: _Mental/Structures/Windows/window_half.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "-0.25,-0.5"
+            - "0.25,-0.5"
+            - "0.25,0.5"
+            - "-0.25,0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - West
+    - East
+  - type: DamageVisuals
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_half.rsi
+  - type: Construction
+    graph: WindowHalf
+    node: windowHalf
+
+- type: entity
+  parent: Window
+  id: WindowHalfLeaning
+  suffix: leaning-half
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/window_half_leaning.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: IconSmooth
+    mode: Diagonal
+    base: state
+  - type: Icon
+    sprite: _Mental/Structures/Windows/window_half_leaning.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "-0.5,-0.5"
+            - "-0.5,0"
+            - "0.5,0"
+            - "0.5,-0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+  - type: DamageVisuals
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_half_leaning.rsi
+  - type: Construction
+    graph: WindowHalfLeaning
+    node: windowHalfLeaning
+
+- type: entity
+  parent: Window
+  id: WindowPentagon
+  suffix: pentagon
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/window_pentagon.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: IconSmooth
+    mode: Diagonal
+    base: state
+  - type: Icon
+    sprite: _Mental/Structures/Windows/window_pentagon.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "-0.5,-0.5"
+            - "-0.5,0"
+            - "0,0.5"
+            - "0.5,0.5"
+            - "0.5,-0.5"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+    airBlockedDirection:
+    - South
+    - East
+  - type: DamageVisuals
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_pentagon.rsi
+  - type: Construction
+    graph: WindowPentagon
+    node: windowPentagon
+
+- type: entity
+  parent: Window
+  id: WindowDiagonalQuarter
+  suffix: quarter
+  placement:
+    mode: SnapgridCenter
+    snap:
+    - Window
+  components:
+  - type: Sprite
+    drawdepth: WallTops
+    sprite: _Mental/Structures/Windows/window_diagonal_quarter.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Tag
+    tags:
+    - Diagonal
+    - Window
+  - type: IconSmooth
+    mode: Diagonal
+    base: state
+  - type: Icon
+    sprite: _Mental/Structures/Windows/window_diagonal_quarter.rsi # TODO: fix sprite borders on repeat
+    state: state0
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "0,-0.5"
+            - "0.5,-0.5"
+            - "0.5,0"
+        mask:
+        - FullTileMask
+        layer:
+        - GlassLayer
+  - type: Airtight
+    noAirWhenFullyAirBlocked: false
+  - type: DamageVisuals
+    damageOverlay:
+      sprite: _Mental/Structures/Windows/cracks_diagonal_quarter.rsi
+  - type: Construction
+    graph: WindowDiagonalQuarter
+    node: windowDiagonalQuarter

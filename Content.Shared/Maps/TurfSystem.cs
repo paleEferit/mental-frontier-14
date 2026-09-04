@@ -14,6 +14,7 @@ namespace Content.Shared.Maps;
 /// </summary>
 public sealed class TurfSystem : EntitySystem
 {
+    private readonly string[] _platingTypes = ["Plating", "PlatingSpace"]; // Mental
     [Dependency] private readonly IMapManager _mapManager = default!;
     [Dependency] private readonly EntityLookupSystem _entityLookup = default!;
     [Dependency] private readonly SharedTransformSystem _transform = default!;
@@ -142,6 +143,39 @@ public sealed class TurfSystem : EntitySystem
     public bool IsSpace(TileRef tile)
     {
         return IsSpace(tile.Tile);
+    }
+
+    // Mental
+    /// <summary>
+    /// Returns whether a tile is considered to be plating.
+    /// </summary>
+    /// <param name="tile">The tile in question.</param>
+    /// <returns>True if the tile is considered to be plating, false otherwise.</returns>
+    public bool IsPlating(Tile tile)
+    {
+        var parents = GetContentTileDefinition(tile).Parents;
+        if (parents != null)
+        {
+            foreach (var item in parents)
+            {
+                if (_platingTypes.Contains(item))
+                {
+                    return true;
+                }
+            }
+        }
+        return false;
+    }
+
+    // Mental
+    /// <summary>
+    /// Returns whether a tile is considered to be plating.
+    /// </summary>
+    /// <param name="tile">The tile in question.</param>
+    /// <returns>True if the tile is considered to be plating, false otherwise.</returns>
+    public bool IsPlating(TileRef tile)
+    {
+        return IsPlating(tile.Tile);
     }
 
     /// <summary>

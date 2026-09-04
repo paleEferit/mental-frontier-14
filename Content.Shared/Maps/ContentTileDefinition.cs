@@ -9,6 +9,7 @@ using Robust.Shared.Serialization;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype;
 using Robust.Shared.Serialization.TypeSerializers.Implementations.Custom.Prototype.Array;
 using Robust.Shared.Utility;
+using System.Numerics; // Mono
 
 namespace Content.Shared.Maps
 {
@@ -123,6 +124,14 @@ namespace Content.Shared.Maps
         /// Is this tile immune to RCD deconstruct.
         /// </summary>
         [DataField("indestructible")] public bool Indestructible = false;
+
+        // <Mono>
+        /// <summary>
+        /// Vertices for drawing purposes. Has to be a convex shape.
+        /// </summary>
+        [DataField("vertices")]
+        public List<Vector2> Vertices = new() { Vector2.Zero, new Vector2(0, 1), new Vector2(1, 1), new Vector2(1, 0) };
+        // </Mono>
 
         public void AssignTileId(ushort id)
         {

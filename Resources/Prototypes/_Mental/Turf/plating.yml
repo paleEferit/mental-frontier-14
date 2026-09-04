@@ -1,0 +1,95 @@
+- type: tile
+  id: PlatingHalfS
+  parent: PlatingSpace
+  name: S half-plating
+  baseTurf: LatticeHalfS
+  sprite: /Textures/_Mental/Tiles/plating/plating_half_s.png
+  vertices: ['0, 0', '0, 0.5', '1, 0.5', '1, 0']
+
+- type: tile
+  id: PlatingHalfN
+  parent: PlatingSpace
+  name: N half-plating
+  baseTurf: LatticeHalfN
+  sprite: /Textures/_Mental/Tiles/plating/plating_half_n.png
+  vertices: ['0, 0.5', '0, 1', '1, 1', '1, 0.5']
+
+- type: tile
+  id: PlatingHalfW
+  parent: PlatingSpace
+  name: W half-plating
+  baseTurf: LatticeHalfW
+  sprite: /Textures/_Mental/Tiles/plating/plating_half_w.png
+  vertices: ['0, 0', '0, 1', '0.5, 1', '0.5, 0']
+
+- type: tile
+  id: PlatingHalfE
+  parent: PlatingSpace
+  name: E half-plating
+  baseTurf: LatticeHalfE
+  sprite: /Textures/_Mental/Tiles/plating/plating_half_e.png
+  vertices: ['0.5, 0', '0.5, 1', '1, 1', '1, 0']
+
+- type: tile
+  id: PlatingPentagonNE
+  parent: PlatingSpace
+  name: NE pentagon-plating
+  baseTurf: LatticePentagonNE
+  sprite: /Textures/_Mental/Tiles/plating/plating_pentagon_ne.png
+  vertices: ['0, 0', '0, 1', '0.5, 1', '1, 0.5', '1, 0']
+
+- type: tile
+  id: PlatingPentagonNW
+  parent: PlatingSpace
+  name: NW pentagon-plating
+  baseTurf: LatticePentagonNW
+  sprite: /Textures/_Mental/Tiles/plating/plating_pentagon_nw.png
+  vertices: ['0, 0', '0, 0.5', '0.5, 1', '1, 1', '1, 0']
+
+- type: tile
+  id: PlatingPentagonSE
+  parent: PlatingSpace
+  name: SE pentagon-plating
+  baseTurf: LatticePentagonSE
+  sprite: /Textures/_Mental/Tiles/plating/plating_pentagon_se.png
+  vertices: ['0.5, 0', '0, 0', '0, 1', '1, 1', '1, 0.5']
+
+- type: tile
+  id: PlatingPentagonSW
+  parent: PlatingSpace
+  name: SW pentagon-plating
+  baseTurf: LatticePentagonSW
+  sprite: /Textures/_Mental/Tiles/plating/plating_pentagon_sw.png
+  vertices: ['0.5, 0', '0, 0.5', '0, 1', '1, 1', '1, 0']
+
+- type: tile
+  id: PlatingQuarterDiagonalNE
+  parent: PlatingSpace
+  name: NE quarter-diagonal-plating
+  baseTurf: LatticeQuarterDiagonalNE
+  sprite: /Textures/_Mental/Tiles/plating/plating_quarter_diagonal_ne.png
+  vertices: ['0.5, 1', '1, 1', '1, 0.5']
+
+- type: tile
+  id: PlatingQuarterDiagonalNW
+  parent: PlatingSpace
+  name: NW quarter-diagonal-plating
+  baseTurf: LatticeQuarterDiagonalNW
+  sprite: /Textures/_Mental/Tiles/plating/plating_quarter_diagonal_nw.png
+  vertices: ['0, 0.5', '0, 1', '0.5, 1']
+
+- type: tile
+  id: PlatingQuarterDiagonalSE
+  parent: PlatingSpace
+  name: SE quarter-diagonal-plating
+  baseTurf: LatticeQuarterDiagonalSE
+  sprite: /Textures/_Mental/Tiles/plating/plating_quarter_diagonal_se.png
+  vertices: ['0.5, 0', '1, 0', '1, 0.5']
+
+- type: tile
+  id: PlatingQuarterDiagonalSW
+  parent: PlatingSpace
+  name: SW quarter-diagonal-plating
+  baseTurf: LatticeQuarterDiagonalSW
+  sprite: /Textures/_Mental/Tiles/plating/plating_quarter_diagonal_sw.png
+  vertices: ['0.5, 0', '0, 0', '0, 0.5']

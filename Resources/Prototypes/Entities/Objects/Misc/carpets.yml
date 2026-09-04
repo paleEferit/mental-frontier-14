@@ -12,6 +12,46 @@
   - type: FloorTile
     outputs:
       - Plating
+       # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
   - type: Stack
     stackType: FloorCarpetRed
   - type: SpawnAfterInteract #Nuke after convert to FloorTile

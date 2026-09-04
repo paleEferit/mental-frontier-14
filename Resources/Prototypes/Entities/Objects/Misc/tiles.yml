@@ -55,6 +55,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorSteelCheckerDark
   - type: Stack
     stackType: FloorTileSteelCheckerDark
@@ -69,6 +109,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorSteelCheckerLight
   - type: Stack
     stackType: FloorTileSteelCheckerLight
@@ -85,6 +165,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorDark
   - type: Stack
     stackType: FloorTileDark
@@ -102,6 +222,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorDarkDiagonalMini
   - type: Stack
     stackType: FloorTileDarkDiagonalMini
@@ -116,6 +276,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorDarkDiagonal
   - type: Stack
     stackType: FloorTileDarkDiagonal
@@ -130,6 +330,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorDarkHerringbone
   - type: Stack
     stackType: FloorTileDarkHerringbone
@@ -144,6 +384,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorDarkMini
   - type: Stack
     stackType: FloorTileDarkMini
@@ -158,6 +438,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorDarkMono
   - type: Stack
     stackType: FloorTileDarkMono
@@ -172,6 +492,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorDarkPavement
   - type: Stack
     stackType: FloorTileDarkPavement
@@ -186,6 +546,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorDarkPavementVertical
   - type: Stack
     stackType: FloorTileDarkPavementVertical
@@ -200,6 +600,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorDarkOffset
   - type: Stack
     stackType: FloorTileDarkOffset
@@ -216,6 +656,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorSteel
   - type: Stack
     stackType: FloorTileSteel
@@ -233,6 +713,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorSteelOffset
   - type: Stack
     stackType: FloorTileSteelOffset
@@ -247,6 +767,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorSteelDiagonalMini
   - type: Stack
     stackType: FloorTileSteelDiagonalMini
@@ -261,6 +821,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorSteelDiagonal
   - type: Stack
     stackType: FloorTileSteelDiagonal
@@ -275,6 +875,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorSteelHerringbone
   - type: Stack
     stackType: FloorTileSteelHerringbone
@@ -289,6 +929,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorSteelMini
   - type: Stack
     stackType: FloorTileSteelMini
@@ -303,6 +983,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorSteelMono
   - type: Stack
     stackType: FloorTileSteelMono
@@ -317,6 +1037,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorSteelPavement
   - type: Stack
     stackType: FloorTileSteelPavement
@@ -331,6 +1091,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorSteelPavementVertical
   - type: Stack
     stackType: FloorTileSteelPavementVertical
@@ -347,6 +1147,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorWhite
   - type: Stack
     stackType: FloorTileWhite
@@ -364,6 +1204,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorWhiteOffset
   - type: Stack
     stackType: FloorTileWhiteOffset
@@ -378,6 +1258,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorWhiteDiagonalMini
   - type: Stack
     stackType: FloorTileWhiteDiagonalMini
@@ -392,6 +1312,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorWhiteDiagonal
   - type: Stack
     stackType: FloorTileWhiteDiagonal
@@ -406,6 +1366,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorWhiteHerringbone
   - type: Stack
     stackType: FloorTileWhiteHerringbone
@@ -420,6 +1420,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorWhiteMini
   - type: Stack
     stackType: FloorTileWhiteMini
@@ -434,6 +1474,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorWhiteMono
   - type: Stack
     stackType: FloorTileWhiteMono
@@ -448,6 +1528,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorWhitePavement
   - type: Stack
     stackType: FloorTileWhitePavement
@@ -462,6 +1582,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorWhitePavementVertical
   - type: Stack
     stackType: FloorTileWhitePavementVertical
@@ -478,6 +1638,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorMetalDiamond
   - type: Stack
     stackType: FloorTileMetalDiamond
@@ -497,6 +1697,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorWood
   - type: Stack
     stackType: FloorTileWood
@@ -516,6 +1756,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorTechMaint
   - type: Stack
     stackType: FloorTileTechmaint
@@ -550,6 +1830,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorMono
   - type: Stack
     stackType: FloorTileMono
@@ -566,6 +1886,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorLino
   - type: Stack
     stackType: FloorTileLino
@@ -581,7 +1941,47 @@
     heldPrefix: brass
   - type: FloorTile
     outputs:
-      - PlatingBrass
+      - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental endBrass
       - FloorBrassFilled
   - type: Stack
     stackType: FloorTileBrassFilled
@@ -600,7 +2000,47 @@
     heldPrefix: brass
   - type: FloorTile
     outputs:
-      - PlatingBrass
+      - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental endBrass
       - FloorBrassReebe
   - type: Stack
     stackType: FloorTileBrassReebe
@@ -620,6 +2060,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorSteelDirty
   - type: Stack
     stackType: FloorTileDirty
@@ -636,6 +2116,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorElevatorShaft
   - type: Stack
     stackType: FloorTileElevatorShaft
@@ -652,6 +2172,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorRockVault
   - type: Stack
     stackType: FloorTileRockVault
@@ -668,6 +2228,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorBlue
   - type: Stack
     stackType: FloorTileBlue
@@ -684,6 +2284,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorSteelLime
   - type: Stack
     stackType: FloorTileLime
@@ -700,6 +2340,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorMining
   - type: Stack
     stackType: FloorTileMining
@@ -716,6 +2396,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorMiningDark
   - type: Stack
     stackType: FloorTileMiningDark
@@ -732,6 +2452,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorMiningLight
   - type: Stack
     stackType: FloorTileMiningLight
@@ -749,6 +2509,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorFreezer
   - type: Stack
     stackType: FloorTileFreezer
@@ -765,6 +2565,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorShowroom
   - type: Stack
     stackType: FloorTileShowroom
@@ -781,6 +2621,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorHydro
   - type: Stack
     stackType: FloorTileHydro
@@ -797,6 +2677,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorBar
   - type: Stack
     stackType: FloorTileBar
@@ -813,6 +2733,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorClown
   - type: Stack
     stackType: FloorTileClown
@@ -829,6 +2789,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorMime
   - type: Stack
     stackType: FloorTileMime
@@ -845,6 +2845,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorKitchen
   - type: Stack
     stackType: FloorTileKitchen
@@ -861,6 +2901,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorLaundry
   - type: Stack
     stackType: FloorTileLaundry
@@ -878,6 +2958,46 @@
   - type: FloorTile
     outputs:
     - Plating
+    # Mental start
+    - PlatingHalfH
+    - PlatingHalfTiltNESLower
+    - PlatingHalfTiltNESUpper
+    - PlatingHalfTiltNEWLower
+    - PlatingHalfTiltNEWUpper
+    - PlatingHalfTiltNWELower
+    - PlatingHalfTiltNWEUpper
+    - PlatingHalfTiltNWSLower
+    - PlatingHalfTiltNWSUpper
+    - PlatingHalfTiltSENLower
+    - PlatingHalfTiltSENUpper
+    - PlatingHalfTiltSEWLower
+    - PlatingHalfTiltSEWUpper
+    - PlatingHalfTiltSWELower
+    - PlatingHalfTiltSWEUpper
+    - PlatingHalfTiltSWNLower
+    - PlatingHalfTiltSWNUpper
+    - PlatingHalfV
+    - PlatingWedgeE
+    - PlatingWedgeW
+    - PlatingWedgeN
+    - PlatingWedgeS
+    - PlatingCornerNE
+    - PlatingCornerNW
+    - PlatingCornerSE
+    - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
+    # Mental end
     - FloorConcrete
   - type: Stack
     stackType: FloorTileConcrete
@@ -892,6 +3012,46 @@
   - type: FloorTile
     outputs:
       - Plating
+      # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorConcreteMono
   - type: Stack
     stackType: FloorTileConcreteMono
@@ -906,6 +3066,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorConcreteSmooth
   - type: Stack
     stackType: FloorTileConcreteSmooth
@@ -936,6 +3136,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorGrayConcreteMono
   - type: Stack
     stackType: FloorTileGrayConcreteMono
@@ -950,6 +3190,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorGrayConcreteSmooth
   - type: Stack
     stackType: FloorTileGrayConcreteSmooth
@@ -980,6 +3260,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorOldConcreteMono
   - type: Stack
     stackType: FloorTileOldConcreteMono
@@ -994,6 +3314,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorOldConcreteSmooth
   - type: Stack
     stackType: FloorTileOldConcreteSmooth
@@ -1011,6 +3371,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorArcadeBlue
   - type: Stack
     stackType: FloorTileStackArcadeBlue
@@ -1027,6 +3427,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorArcadeBlue2
   - type: Stack
     stackType: FloorTileStackArcadeBlue2
@@ -1043,6 +3483,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorArcadeRed
   - type: Stack
     stackType: FloorTileStackArcadeRed
@@ -1059,6 +3539,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorEighties
   - type: Stack
     stackType: FloorTileStackEighties
@@ -1075,6 +3595,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorCarpetClown
   - type: Stack
     stackType: FloorTileStackCarpetClown
@@ -1091,6 +3651,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorCarpetOffice
   - type: Stack
     stackType: FloorTileStackCarpetOffice
@@ -1107,6 +3707,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorBoxing
   - type: Stack
     stackType: FloorTileStackBoxing
@@ -1123,6 +3763,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorGym
   - type: Stack
     stackType: FloorTileStackGym
@@ -1140,6 +3820,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorShuttleWhite
   - type: Stack
     stackType: FloorTileStackShuttleWhite
@@ -1156,6 +3876,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorShuttleBlue
   - type: Stack
     stackType: FloorTileStackShuttleBlue
@@ -1172,6 +3932,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorShuttleOrange
   - type: Stack
     stackType: FloorTileStackShuttleOrange
@@ -1188,6 +3988,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorShuttlePurple
   - type: Stack
     stackType: FloorTileStackShuttlePurple
@@ -1204,6 +4044,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorShuttleRed
   - type: Stack
     stackType: FloorTileStackShuttleRed
@@ -1220,6 +4100,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorShuttleGrey
   - type: Stack
     stackType: FloorTileStackShuttleGrey
@@ -1236,6 +4156,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorShuttleBlack
   - type: Stack
     stackType: FloorTileStackShuttleBlack
@@ -1253,6 +4213,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorGold
   - type: Stack
     stackType: FloorTileGold
@@ -1269,6 +4269,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorSilver
   - type: Stack
     stackType: FloorTileSilver
@@ -1286,6 +4326,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorGreenCircuit
   - type: Stack
     stackType: FloorTileGCircuit
@@ -1302,6 +4382,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorBlueCircuit
   - type: Stack
     stackType: FloorTileBCircuit
@@ -1318,6 +4438,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorRedCircuit
   - type: Stack
     stackType: FloorTileRCircuit
@@ -1361,6 +4521,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorGrass
   - type: Stack
     stackType: FloorTileGrass
@@ -1377,6 +4577,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorGrassJungle
   - type: Stack
     stackType: FloorTileGrassJungle
@@ -1393,6 +4633,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorSnow
   - type: Stack
     stackType: FloorTileSnow
@@ -1409,6 +4689,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorWoodTile
   - type: Stack
     stackType: FloorTileWoodPattern
@@ -1444,6 +4764,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorTechMaint2
   - type: Stack
     stackType: FloorTileSteelMaint
@@ -1460,6 +4820,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorTechMaint3
   - type: Stack
     stackType: FloorTileGratingMaint
@@ -1496,6 +4896,46 @@
   - type: FloorTile
     outputs:
     - Plating
+     # Mental start
+    - PlatingHalfH
+    - PlatingHalfTiltNESLower
+    - PlatingHalfTiltNESUpper
+    - PlatingHalfTiltNEWLower
+    - PlatingHalfTiltNEWUpper
+    - PlatingHalfTiltNWELower
+    - PlatingHalfTiltNWEUpper
+    - PlatingHalfTiltNWSLower
+    - PlatingHalfTiltNWSUpper
+    - PlatingHalfTiltSENLower
+    - PlatingHalfTiltSENUpper
+    - PlatingHalfTiltSEWLower
+    - PlatingHalfTiltSEWUpper
+    - PlatingHalfTiltSWELower
+    - PlatingHalfTiltSWEUpper
+    - PlatingHalfTiltSWNLower
+    - PlatingHalfTiltSWNUpper
+    - PlatingHalfV
+    - PlatingWedgeE
+    - PlatingWedgeW
+    - PlatingWedgeN
+    - PlatingWedgeS
+    - PlatingCornerNE
+    - PlatingCornerNW
+    - PlatingCornerSE
+    - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
+    # Mental end
     - FloorAstroGrass
   - type: Stack
     stackType: FloorTileAstroGrass
@@ -1513,6 +4953,46 @@
   - type: FloorTile
     outputs:
     - Plating
+     # Mental start
+    - PlatingHalfH
+    - PlatingHalfTiltNESLower
+    - PlatingHalfTiltNESUpper
+    - PlatingHalfTiltNEWLower
+    - PlatingHalfTiltNEWUpper
+    - PlatingHalfTiltNWELower
+    - PlatingHalfTiltNWEUpper
+    - PlatingHalfTiltNWSLower
+    - PlatingHalfTiltNWSUpper
+    - PlatingHalfTiltSENLower
+    - PlatingHalfTiltSENUpper
+    - PlatingHalfTiltSEWLower
+    - PlatingHalfTiltSEWUpper
+    - PlatingHalfTiltSWELower
+    - PlatingHalfTiltSWEUpper
+    - PlatingHalfTiltSWNLower
+    - PlatingHalfTiltSWNUpper
+    - PlatingHalfV
+    - PlatingWedgeE
+    - PlatingWedgeW
+    - PlatingWedgeN
+    - PlatingWedgeS
+    - PlatingCornerNE
+    - PlatingCornerNW
+    - PlatingCornerSE
+    - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
+      # Mental end
     - FloorMowedAstroGrass
   - type: Stack
     stackType: FloorTileAstroGrass
@@ -1530,6 +5010,46 @@
   - type: FloorTile
     outputs:
     - Plating
+     # Mental start
+    - PlatingHalfH
+    - PlatingHalfTiltNESLower
+    - PlatingHalfTiltNESUpper
+    - PlatingHalfTiltNEWLower
+    - PlatingHalfTiltNEWUpper
+    - PlatingHalfTiltNWELower
+    - PlatingHalfTiltNWEUpper
+    - PlatingHalfTiltNWSLower
+    - PlatingHalfTiltNWSUpper
+    - PlatingHalfTiltSENLower
+    - PlatingHalfTiltSENUpper
+    - PlatingHalfTiltSEWLower
+    - PlatingHalfTiltSEWUpper
+    - PlatingHalfTiltSWELower
+    - PlatingHalfTiltSWEUpper
+    - PlatingHalfTiltSWNLower
+    - PlatingHalfTiltSWNUpper
+    - PlatingHalfV
+    - PlatingWedgeE
+    - PlatingWedgeW
+    - PlatingWedgeN
+    - PlatingWedgeS
+    - PlatingCornerNE
+    - PlatingCornerNW
+    - PlatingCornerSE
+    - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
+      # Mental end
     - FloorJungleAstroGrass
   - type: Stack
     stackType: FloorTileAstroGrass
@@ -1547,6 +5067,46 @@
   - type: FloorTile
     outputs:
     - Plating
+     # Mental start
+    - PlatingHalfH
+    - PlatingHalfTiltNESLower
+    - PlatingHalfTiltNESUpper
+    - PlatingHalfTiltNEWLower
+    - PlatingHalfTiltNEWUpper
+    - PlatingHalfTiltNWELower
+    - PlatingHalfTiltNWEUpper
+    - PlatingHalfTiltNWSLower
+    - PlatingHalfTiltNWSUpper
+    - PlatingHalfTiltSENLower
+    - PlatingHalfTiltSENUpper
+    - PlatingHalfTiltSEWLower
+    - PlatingHalfTiltSEWUpper
+    - PlatingHalfTiltSWELower
+    - PlatingHalfTiltSWEUpper
+    - PlatingHalfTiltSWNLower
+    - PlatingHalfTiltSWNUpper
+    - PlatingHalfV
+    - PlatingWedgeE
+    - PlatingWedgeW
+    - PlatingWedgeN
+    - PlatingWedgeS
+    - PlatingCornerNE
+    - PlatingCornerNW
+    - PlatingCornerSE
+    - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
+    # Mental end
     - FloorAstroIce
   - type: Stack
     stackType: FloorTileAstroIce
@@ -1564,6 +5124,46 @@
   - type: FloorTile
     outputs:
     - Plating
+     # Mental start
+    - PlatingHalfH
+    - PlatingHalfTiltNESLower
+    - PlatingHalfTiltNESUpper
+    - PlatingHalfTiltNEWLower
+    - PlatingHalfTiltNEWUpper
+    - PlatingHalfTiltNWELower
+    - PlatingHalfTiltNWEUpper
+    - PlatingHalfTiltNWSLower
+    - PlatingHalfTiltNWSUpper
+    - PlatingHalfTiltSENLower
+    - PlatingHalfTiltSENUpper
+    - PlatingHalfTiltSEWLower
+    - PlatingHalfTiltSEWUpper
+    - PlatingHalfTiltSWELower
+    - PlatingHalfTiltSWEUpper
+    - PlatingHalfTiltSWNLower
+    - PlatingHalfTiltSWNUpper
+    - PlatingHalfV
+    - PlatingWedgeE
+    - PlatingWedgeW
+    - PlatingWedgeN
+    - PlatingWedgeS
+    - PlatingCornerNE
+    - PlatingCornerNW
+    - PlatingCornerSE
+    - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
+    # Mental end
     - FloorAstroSnow
   - type: Stack
     stackType: FloorTileAstroSnow
@@ -1581,6 +5181,46 @@
   - type: FloorTile
     outputs:
     - Plating
+     # Mental start
+    - PlatingHalfH
+    - PlatingHalfTiltNESLower
+    - PlatingHalfTiltNESUpper
+    - PlatingHalfTiltNEWLower
+    - PlatingHalfTiltNEWUpper
+    - PlatingHalfTiltNWELower
+    - PlatingHalfTiltNWEUpper
+    - PlatingHalfTiltNWSLower
+    - PlatingHalfTiltNWSUpper
+    - PlatingHalfTiltSENLower
+    - PlatingHalfTiltSENUpper
+    - PlatingHalfTiltSEWLower
+    - PlatingHalfTiltSEWUpper
+    - PlatingHalfTiltSWELower
+    - PlatingHalfTiltSWEUpper
+    - PlatingHalfTiltSWNLower
+    - PlatingHalfTiltSWNUpper
+    - PlatingHalfV
+    - PlatingWedgeE
+    - PlatingWedgeW
+    - PlatingWedgeN
+    - PlatingWedgeS
+    - PlatingCornerNE
+    - PlatingCornerNW
+    - PlatingCornerSE
+    - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
+    # Mental end
     - FloorAstroAsteroidSand
   - type: Stack
     stackType: FloorTileAstroAsteroidSand
@@ -1598,6 +5238,46 @@
   - type: FloorTile
     outputs:
     - Plating
+     # Mental start
+    - PlatingHalfH
+    - PlatingHalfTiltNESLower
+    - PlatingHalfTiltNESUpper
+    - PlatingHalfTiltNEWLower
+    - PlatingHalfTiltNEWUpper
+    - PlatingHalfTiltNWELower
+    - PlatingHalfTiltNWEUpper
+    - PlatingHalfTiltNWSLower
+    - PlatingHalfTiltNWSUpper
+    - PlatingHalfTiltSENLower
+    - PlatingHalfTiltSENUpper
+    - PlatingHalfTiltSEWLower
+    - PlatingHalfTiltSEWUpper
+    - PlatingHalfTiltSWELower
+    - PlatingHalfTiltSWEUpper
+    - PlatingHalfTiltSWNLower
+    - PlatingHalfTiltSWNUpper
+    - PlatingHalfV
+    - PlatingWedgeE
+    - PlatingWedgeW
+    - PlatingWedgeN
+    - PlatingWedgeS
+    - PlatingCornerNE
+    - PlatingCornerNW
+    - PlatingCornerSE
+    - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
+    # Mental end
     - FloorAstroAsteroidSandBorderless
   - type: Stack
     stackType: FloorTileAstroAsteroidSand
@@ -1614,6 +5294,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorWoodLarge
   - type: Stack
     stackType: FloorTileWoodLarge
@@ -1636,6 +5356,46 @@
   - type: FloorTile
     outputs:
       - Plating
+      # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorWhiteMarble
   - type: Stack
     stackType: FloorTileWhiteMarble
@@ -1653,6 +5413,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorDarkMarble
   - type: Stack
     stackType: FloorTileDarkMarble
@@ -1670,6 +5470,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorPlasmaMarble
   - type: Stack
     stackType: FloorTilePlasmaMarble
@@ -1691,6 +5531,46 @@
   - type: FloorTile
     outputs:
       - Plating
+        # Mental start
+      - PlatingHalfH
+      - PlatingHalfTiltNESLower
+      - PlatingHalfTiltNESUpper
+      - PlatingHalfTiltNEWLower
+      - PlatingHalfTiltNEWUpper
+      - PlatingHalfTiltNWELower
+      - PlatingHalfTiltNWEUpper
+      - PlatingHalfTiltNWSLower
+      - PlatingHalfTiltNWSUpper
+      - PlatingHalfTiltSENLower
+      - PlatingHalfTiltSENUpper
+      - PlatingHalfTiltSEWLower
+      - PlatingHalfTiltSEWUpper
+      - PlatingHalfTiltSWELower
+      - PlatingHalfTiltSWEUpper
+      - PlatingHalfTiltSWNLower
+      - PlatingHalfTiltSWNUpper
+      - PlatingHalfV
+      - PlatingWedgeE
+      - PlatingWedgeW
+      - PlatingWedgeN
+      - PlatingWedgeS
+      - PlatingCornerNE
+      - PlatingCornerNW
+      - PlatingCornerSE
+      - PlatingCornerSW
+      - PlatingHalfS
+      - PlatingHalfN
+      - PlatingHalfW
+      - PlatingHalfE
+      - PlatingPentagonNE
+      - PlatingPentagonNW
+      - PlatingPentagonSE
+      - PlatingPentagonSW
+      - PlatingQuarterDiagonalNE
+      - PlatingQuarterDiagonalNW
+      - PlatingQuarterDiagonalSE
+      - PlatingQuarterDiagonalSW
+      # Mental end
       - FloorUraniumMarble
   - type: Stack
     stackType: FloorTileUraniumMarble
@@ -1717,6 +5597,46 @@
   - type: FloorTile
     outputs:
     - Plating
+     # Mental start
+    - PlatingHalfH
+    - PlatingHalfTiltNESLower
+    - PlatingHalfTiltNESUpper
+    - PlatingHalfTiltNEWLower
+    - PlatingHalfTiltNEWUpper
+    - PlatingHalfTiltNWELower
+    - PlatingHalfTiltNWEUpper
+    - PlatingHalfTiltNWSLower
+    - PlatingHalfTiltNWSUpper
+    - PlatingHalfTiltSENLower
+    - PlatingHalfTiltSENUpper
+    - PlatingHalfTiltSEWLower
+    - PlatingHalfTiltSEWUpper
+    - PlatingHalfTiltSWELower
+    - PlatingHalfTiltSWEUpper
+    - PlatingHalfTiltSWNLower
+    - PlatingHalfTiltSWNUpper
+    - PlatingHalfV
+    - PlatingWedgeE
+    - PlatingWedgeW
+    - PlatingWedgeN
+    - PlatingWedgeS
+    - PlatingCornerNE
+    - PlatingCornerNW
+    - PlatingCornerSE
+    - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
+    # Mental end
     - FloorXeno
   - type: Stack
     stackType: FloorTileXeno
@@ -1733,6 +5653,46 @@
   - type: FloorTile
     outputs:
     - Plating
+     # Mental start
+    - PlatingHalfH
+    - PlatingHalfTiltNESLower
+    - PlatingHalfTiltNESUpper
+    - PlatingHalfTiltNEWLower
+    - PlatingHalfTiltNEWUpper
+    - PlatingHalfTiltNWELower
+    - PlatingHalfTiltNWEUpper
+    - PlatingHalfTiltNWSLower
+    - PlatingHalfTiltNWSUpper
+    - PlatingHalfTiltSENLower
+    - PlatingHalfTiltSENUpper
+    - PlatingHalfTiltSEWLower
+    - PlatingHalfTiltSEWUpper
+    - PlatingHalfTiltSWELower
+    - PlatingHalfTiltSWEUpper
+    - PlatingHalfTiltSWNLower
+    - PlatingHalfTiltSWNUpper
+    - PlatingHalfV
+    - PlatingWedgeE
+    - PlatingWedgeW
+    - PlatingWedgeN
+    - PlatingWedgeS
+    - PlatingCornerNE
+    - PlatingCornerNW
+    - PlatingCornerSE
+    - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
+    # Mental end
     - FloorXenoSteel
   - type: Stack
     stackType: FloorTileXenoSteel
@@ -1749,6 +5709,46 @@
   - type: FloorTile
     outputs:
     - Plating
+     # Mental start
+    - PlatingHalfH
+    - PlatingHalfTiltNESLower
+    - PlatingHalfTiltNESUpper
+    - PlatingHalfTiltNEWLower
+    - PlatingHalfTiltNEWUpper
+    - PlatingHalfTiltNWELower
+    - PlatingHalfTiltNWEUpper
+    - PlatingHalfTiltNWSLower
+    - PlatingHalfTiltNWSUpper
+    - PlatingHalfTiltSENLower
+    - PlatingHalfTiltSENUpper
+    - PlatingHalfTiltSEWLower
+    - PlatingHalfTiltSEWUpper
+    - PlatingHalfTiltSWELower
+    - PlatingHalfTiltSWEUpper
+    - PlatingHalfTiltSWNLower
+    - PlatingHalfTiltSWNUpper
+    - PlatingHalfV
+    - PlatingWedgeE
+    - PlatingWedgeW
+    - PlatingWedgeN
+    - PlatingWedgeS
+    - PlatingCornerNE
+    - PlatingCornerNW
+    - PlatingCornerSE
+    - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
+    # Mental end
     - FloorXenoSteelCorner
   - type: Stack
     stackType: FloorTileXenoSteelCorner
@@ -1765,6 +5765,46 @@
   - type: FloorTile
     outputs:
     - Plating
+     # Mental start
+    - PlatingHalfH
+    - PlatingHalfTiltNESLower
+    - PlatingHalfTiltNESUpper
+    - PlatingHalfTiltNEWLower
+    - PlatingHalfTiltNEWUpper
+    - PlatingHalfTiltNWELower
+    - PlatingHalfTiltNWEUpper
+    - PlatingHalfTiltNWSLower
+    - PlatingHalfTiltNWSUpper
+    - PlatingHalfTiltSENLower
+    - PlatingHalfTiltSENUpper
+    - PlatingHalfTiltSEWLower
+    - PlatingHalfTiltSEWUpper
+    - PlatingHalfTiltSWELower
+    - PlatingHalfTiltSWEUpper
+    - PlatingHalfTiltSWNLower
+    - PlatingHalfTiltSWNUpper
+    - PlatingHalfV
+    - PlatingWedgeE
+    - PlatingWedgeW
+    - PlatingWedgeN
+    - PlatingWedgeS
+    - PlatingCornerNE
+    - PlatingCornerNW
+    - PlatingCornerSE
+    - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
+    # Mental end
     - FloorXenoMaint
   - type: Stack
     stackType: FloorTileXenoMaint
@@ -1779,6 +5819,46 @@
   - type: FloorTile
     outputs:
     - Plating
+     # Mental start
+    - PlatingHalfH
+    - PlatingHalfTiltNESLower
+    - PlatingHalfTiltNESUpper
+    - PlatingHalfTiltNEWLower
+    - PlatingHalfTiltNEWUpper
+    - PlatingHalfTiltNWELower
+    - PlatingHalfTiltNWEUpper
+    - PlatingHalfTiltNWSLower
+    - PlatingHalfTiltNWSUpper
+    - PlatingHalfTiltSENLower
+    - PlatingHalfTiltSENUpper
+    - PlatingHalfTiltSEWLower
+    - PlatingHalfTiltSEWUpper
+    - PlatingHalfTiltSWELower
+    - PlatingHalfTiltSWEUpper
+    - PlatingHalfTiltSWNLower
+    - PlatingHalfTiltSWNUpper
+    - PlatingHalfV
+    - PlatingWedgeE
+    - PlatingWedgeW
+    - PlatingWedgeN
+    - PlatingWedgeS
+    - PlatingCornerNE
+    - PlatingCornerNW
+    - PlatingCornerSE
+    - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
+    # Mental end
     - FloorXenoborg
   - type: Stack
     stackType: FloorTileXenoborg
@@ -1793,6 +5873,46 @@
   - type: FloorTile
     outputs:
     - Plating
+     # Mental start
+    - PlatingHalfH
+    - PlatingHalfTiltNESLower
+    - PlatingHalfTiltNESUpper
+    - PlatingHalfTiltNEWLower
+    - PlatingHalfTiltNEWUpper
+    - PlatingHalfTiltNWELower
+    - PlatingHalfTiltNWEUpper
+    - PlatingHalfTiltNWSLower
+    - PlatingHalfTiltNWSUpper
+    - PlatingHalfTiltSENLower
+    - PlatingHalfTiltSENUpper
+    - PlatingHalfTiltSEWLower
+    - PlatingHalfTiltSEWUpper
+    - PlatingHalfTiltSWELower
+    - PlatingHalfTiltSWEUpper
+    - PlatingHalfTiltSWNLower
+    - PlatingHalfTiltSWNUpper
+    - PlatingHalfV
+    - PlatingWedgeE
+    - PlatingWedgeW
+    - PlatingWedgeN
+    - PlatingWedgeS
+    - PlatingCornerNE
+    - PlatingCornerNW
+    - PlatingCornerSE
+    - PlatingCornerSW
+    - PlatingHalfS
+    - PlatingHalfN
+    - PlatingHalfW
+    - PlatingHalfE
+    - PlatingPentagonNE
+    - PlatingPentagonNW
+    - PlatingPentagonSE
+    - PlatingPentagonSW
+    - PlatingQuarterDiagonalNE
+    - PlatingQuarterDiagonalNW
+    - PlatingQuarterDiagonalSE
+    - PlatingQuarterDiagonalSW
+    # Mental end
     - FloorDarkSquiggly
   - type: Stack
     stackType: FloorTileDarkSquiggly

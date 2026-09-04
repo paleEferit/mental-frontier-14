@@ -1,0 +1,5 @@
+- type: shader
+  id: MaskCutShader
+  kind: source
+  path: /Textures/_Mental/Shaders/mask_cut.swsl
+  

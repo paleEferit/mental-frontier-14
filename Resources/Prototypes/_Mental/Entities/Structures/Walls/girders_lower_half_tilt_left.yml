@@ -1,0 +1,151 @@
+- type: entity
+  id: GirderLowerHalfTiltLeft
+  parent: BaseStructureDynamic
+  name: girder lower half tilt left
+  description: A large structural assembly made out of metal; It requires a layer of metal before it can be considered a wall.
+  components:
+  - type: Transform
+    anchored: true
+    noRot: false
+  - type: Physics
+    bodyType: Static
+  - type: Fixtures
+    fixtures:
+      fix1:
+        shape:
+          !type:PolygonShape
+            vertices:
+            - "0.45,0.45"
+            - "0.45,-0.45"
+            - "-0.45,-0.45"
+            - "0,0.45"
+        density: 60
+        mask:
+        - TableMask # Frontier - Stop AI Abuse - MachineMask<TableMask
+        layer:
+        - TableLayer # Frontier - Stop AI Abuse - GlassAirlockLayer<TableLayer
+  - type: InteractionOutline
+  - type: Rotatable
+  - type: Construction
+    graph: GirderLowerHalfTiltLeft
+    node: girderLowerHalfTiltLeft
+  - type: Sprite
+    sprite: _Mental/Structures/Walls/girder_lower_half_tilt_left.rsi
+    state: wall_girder_lower_half_tilt_left
+  - type: Damageable
+    damageContainer: StructuralInorganic
+    damageModifierSet: StructuralMetallic
+  - type: Destructible
+    thresholds:
+    - trigger:
+        !type:DamageTrigger
+        damage: 200
+      behaviors: #excess damage, don't spawn entities.
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+    - trigger:
+        !type:DamageTrigger
+        damage: 50
+      behaviors:
+      - !type:SpawnEntitiesBehavior
+        spawn:
+          SheetSteel1:
+            min: 1
+            max: 1
+      - !type:DoActsBehavior
+        acts: [ "Destruction" ]
+      - !type:PlaySoundBehavior
+        sound:
+          collection: MetalBreak
+  - type: StaticPrice
+    price: 15 # Frontier: 30<15
+  - type: Climbable # Frontier - Stop AI Abuse
+  - type: RCDDeconstructable # Frontier
+    cost: 4 # Frontier
+    delay: 4 # Frontier
+    fx: EffectRCDDeconstruct4 # Frontier
+
+- type: entity
+  id: ReinforcedGirderLowerHalfTiltLeft
+  parent: GirderLowerHalfTiltLeft
+  name: reinforced girder lower half tilt left
+  description: A large structural assembly made out of metal and plasteel; It requires a layer of plasteel before it can be considered a reinforced wall.
+  components:
+    - type: Sprite
+      sprite: _Mental/Structures/Walls/girder_lower_half_tilt_left.rsi
+      state: reinforced_wall_girder_lower_half_tilt_left
+    - type: Rotatable
+    - type: Construction
+      graph: GirderLowerHalfTiltLeft
+      node: reinforcedGirderLowerHalfTiltLeft
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 200
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalBreak
+        - trigger:
+            !type:DamageTrigger
+            damage: 50
+          behaviors:
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                SheetSteel1:
+                  min: 0 # Frontier: 1<0
+                  max: 1
+                SheetPlasteel1:
+                  min: 0 # Frontier: 1<0
+                  max: 1
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalBreak
+    - type: StaticPrice
+      price: 70 # Frontier: 130<70
+
+- type: entity
+  id: ClockworkGirderLowerHalfTiltLeft
+  parent: GirderLowerHalfTiltLeft
+  name: clockwork girder lower half tilt left
+  description: A large structural assembly made out of brass.
+  components:
+    - type: Sprite
+      sprite: _Mental/Structures/Walls/girder_lower_half_tilt_left.rsi
+      state: gear_wall_girder_lower_half_tilt_left
+    - type: Rotatable
+    - type: Construction
+      graph: GirderLowerHalfTiltLeft
+      node: clockworkGirderLowerHalfTiltLeft
+    - type: Destructible
+      thresholds:
+        - trigger:
+            !type:DamageTrigger
+            damage: 200
+          behaviors:
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalBreak
+        - trigger:
+            !type:DamageTrigger
+            damage: 50
+          behaviors:
+            - !type:SpawnEntitiesBehavior
+              spawn:
+                SheetBrass1:
+                  min: 0 # Frontier: 1<0
+                  max: 1
+            - !type:DoActsBehavior
+              acts: [ "Destruction" ]
+            - !type:PlaySoundBehavior
+              sound:
+                collection: MetalBreak
+    - type: StaticPrice
+      price: 70 # Frontier: 130<70

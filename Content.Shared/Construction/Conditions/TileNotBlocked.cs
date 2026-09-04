@@ -11,6 +11,7 @@ public sealed partial class TileNotBlocked : IConstructionCondition
 {
     [DataField("filterMobs")] private bool _filterMobs = false;
     [DataField("failIfSpace")] private bool _failIfSpace = true;
+    [DataField("allowPlatingSpace")] private bool _allowPlatingSpace = true; // Mental
     [DataField("failIfNotSturdy")] private bool _failIfNotSturdy = true;
 
     public bool Condition(EntityUid user, EntityCoordinates location, Direction direction)
@@ -25,7 +26,10 @@ public sealed partial class TileNotBlocked : IConstructionCondition
 
         if (turfSystem.IsSpace(tileRef.Value) && _failIfSpace)
         {
-            return false;
+            if (!_allowPlatingSpace || !turfSystem.IsPlating(tileRef.Value))
+            {
+                return false;
+            }
         }
 
         if (!turfSystem.GetContentTileDefinition(tileRef.Value).Sturdy && _failIfNotSturdy)
