@@ -128,6 +128,8 @@
         acts: ["Destruction"]
   - type: RadiationBlocker
     resistance: 5
+  - type: StaticPrice
+    price: 120 # Frontier: 150<115
 
 - type: entity
   parent: WallPentagonBase
@@ -192,7 +194,7 @@
   - type: RadiationBlocker
     resistance: 5
   - type: StaticPrice
-    price: 100 # Frontier: 200<100 - makes some shuttles way more expensive otherwise
+    price: 120 # Frontier: 200<100 - makes some shuttles way more expensive otherwise
   - type: RCDDeconstructable #Frontier
     cost: 6 #Frontier
     delay: 8 #Frontier
